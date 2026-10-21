@@ -7,6 +7,8 @@ let learned = new Set();
 try { const saved = JSON.parse(localStorage.getItem('xiaoxue-shici-read-v1') || '[]'); if (Array.isArray(saved)) learned = new Set(saved.filter(id => POEMS.some(p=>p.id===id))); } catch {}
 let grade = Math.min(6, Math.max(1, Number((location.hash.match(/^#grade-([1-6])$/)||[])[1])||1));
 let term = 'all', query = '', onlyLearned = false, current = null, reciting = false, readerList = [], visibleList = [];
+let view = 'grid', flashId = null, flashIndex = 0, flashRevealed = false;
+try { if(localStorage.getItem('xiaoxue-shici-view-v1')==='flashcards') view='flashcards'; } catch {}
 const esc = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const shortTitle = p => p.title.replace(/（(?!节选)[^）]*）/g,'');
 const gradeName = g => names[g-1]+'年级';
@@ -35,6 +37,41 @@ function render(){
  $('poem-grid').innerHTML=filtered.map((p,i)=>`<article class="poem-card ${learned.has(p.id)?'is-read':''}" data-poem="${p.id}"><div class="card-top"><span>${String(i+1).padStart(2,'0')} / ${p.modern?'现代诗词补充':'古诗词'}</span><span class="term-tag">${gradeName(p.grade)} · ${p.term}册</span></div><h3 class="${shortTitle(p).length>8?'long-title':''}"><button class="title-open" data-open="${p.id}">${esc(shortTitle(p))}</button></h3><p class="author">${p.dynasty==='作者待考'?'作者待考':esc(p.dynasty)+' · '+esc(p.author)}</p><div class="verse-preview ${p.modern?'modern-preview':''}">${p.lines.length?p.lines.slice(0,2).map(l=>`<span>${esc(l)}</span>`).join(''):'传统诗词形式的现代作品<br>补充篇目 · 标题与作者'}</div><div class="card-bottom"><button class="card-open" data-open="${p.id}">${p.lines.length?'展开阅读':'查看篇目'} <span aria-hidden="true">↗</span></button><button class="read-state" data-read="${p.id}" aria-label="${learned.has(p.id)?'取消已读':'标为已读'}：${esc(p.title)}" aria-pressed="${learned.has(p.id)}"><span class="read-word">${learned.has(p.id)?'已读':'未读'}</span><span class="read-check" aria-hidden="true">✓</span></button></div></article>`).join('');
  $('empty').hidden=!!filtered.length;
  $('empty-message').textContent=onlyLearned?'当前范围还没有已读记录，读完一首后可点击“标为已读”。':'换个关键词或学期，再找找看。';
+ renderFlashcards();
+}
+function renderFlashcards(){
+ const selected=visibleList.findIndex(p=>p.id===flashId);
+ flashIndex=selected>=0?selected:Math.min(flashIndex,Math.max(0,visibleList.length-1));
+ const p=visibleList[flashIndex];
+ if(!p||p.id!==flashId) flashRevealed=false;
+ flashId=p?p.id:null;
+ $('poem-grid').hidden=view!=='grid';
+ $('flashcards').hidden=view!=='flashcards'||!p;
+ document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));
+ $('view-hint').textContent=view==='flashcards'?'一次一首，先想一想，再翻开诗句。':'选择一首诗，慢慢读。';
+ if(!p)return;
+ $('flashcard-position').textContent=`第 ${flashIndex+1} / ${visibleList.length} 首`;
+ $('flashcard-location').textContent=`${gradeName(p.grade)} · ${p.term}册`;
+ $('flashcard-tag').textContent=p.modern?'现代诗词 · 补充篇目':'古诗词';
+ $('flashcard-title').textContent=p.title;
+ $('flashcard-author').textContent=p.dynasty==='作者待考'?'作者待考':`${p.dynasty} · ${p.author}`;
+ $('flashcard-prompt').textContent=p.modern?'想一想，你在课本中读过这首作品吗？':'还记得这首诗吗？想一想，再翻开。';
+ $('flashcard-prompt').hidden=flashRevealed;
+ $('flashcard-answer').hidden=!flashRevealed;
+ $('flashcard-lines').innerHTML=p.lines.map(line=>`<p class="poem-line">${esc(line)}</p>`).join('');
+ $('flashcard-note').textContent=p.modern?'本页保留标题与作者，正文请参阅课本。':'诗文存在异文，背诵与默写请以所用课本为准。';
+ $('flip-card').textContent=flashRevealed?'合上 · 再想一想':p.modern?'翻开 · 看篇目说明':'翻开 · 看诗句';
+ $('flip-card').setAttribute('aria-expanded',String(flashRevealed));
+ $('flashcard-read').textContent=learned.has(p.id)?'已读 ✓ · 点击取消':'标为已读 ✓';
+ $('flashcard-read').setAttribute('aria-pressed',String(learned.has(p.id)));
+ $('prev-card').disabled=flashIndex===0;
+ $('next-card').disabled=flashIndex>=visibleList.length-1;
+}
+function moveCard(offset){
+ const next=flashIndex+offset;
+ if(next<0||next>=visibleList.length)return;
+ flashIndex=next;flashId=visibleList[next].id;flashRevealed=false;renderFlashcards();
+ if(document.activeElement.disabled)$('flip-card').focus({preventScroll:true});
 }
 function toggleRead(id){if(learned.has(id)){learned.delete(id);toast('已取消已读标记');}else{learned.add(id);toast('又读完一首，诗意慢慢积累。');}save();render();if(current)updateReadButton();}
 function updateReadButton(){if(current)$('read-button').textContent=learned.has(current.id)?'已读 ✓ · 点击取消':'标为已读 ✓';}
@@ -66,6 +103,22 @@ document.querySelectorAll('[data-term]').forEach(b=>b.addEventListener('click',(
 $('learned-filter').addEventListener('click',()=>{onlyLearned=!onlyLearned;render();});
 $('reset-filters').addEventListener('click',()=>{query='';term='all';onlyLearned=false;$('search').value='';render();});
 $('poem-grid').addEventListener('click',e=>{const read=e.target.closest('[data-read]');if(read){toggleRead(read.dataset.read);return;}const card=e.target.closest('[data-poem]');if(card)showPoem(card.dataset.poem);});
+document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{
+ view=b.dataset.view;
+ try { localStorage.setItem('xiaoxue-shici-view-v1',view); } catch {}
+ renderFlashcards();
+}));
+$('flip-card').addEventListener('click',()=>{flashRevealed=!flashRevealed;renderFlashcards();});
+$('flashcard-read').addEventListener('click',()=>{
+ if(flashId)toggleRead(flashId);
+ if($('flashcards').hidden)$('reset-filters').focus({preventScroll:true});
+});
+$('prev-card').addEventListener('click',()=>moveCard(-1));
+$('next-card').addEventListener('click',()=>moveCard(1));
+$('collection').addEventListener('keydown',e=>{
+ if(view!=='flashcards'||!visibleList.length||e.altKey||e.ctrlKey||e.metaKey||e.shiftKey||['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)||e.target.isContentEditable)return;
+ if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();moveCard(e.key==='ArrowLeft'?-1:1);}
+});
 $('close-reader').addEventListener('click',closeReader);
 $('reader').addEventListener('close',()=>{document.body.style.overflow='';current=null;});
 $('reader').addEventListener('click',e=>{if(e.target===$('reader')){const rect=$('reader').getBoundingClientRect();if(e.clientX<rect.left||e.clientX>rect.right||e.clientY<rect.top||e.clientY>rect.bottom)closeReader();}});
