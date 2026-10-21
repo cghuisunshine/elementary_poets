@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f6f4ec"><meta name="description" content="小学一年级至六年级古诗词阅读集，按年级与上下册分类，支持搜索、全文阅读和背诵练习。">
+<title>小学诗词集 · 一至六年级</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#collection">跳到诗词目录</a>
+<aside class="sidebar">
+ <a class="brand" href="#grade-1" aria-label="小学诗词集首页"><span class="seal">诗</span><span>小学诗词集<small>把诗意，读进日常。</small></span></a>
+ <div class="nav-label">跟着年级读诗 <span>01 — 06</span></div>
+ <nav id="grade-nav" aria-label="选择年级"></nav>
+ <div class="side-bottom"><div class="side-verse">读书不觉已春深，<br>一寸光阴一寸金。</div><p>从一首小诗开始<br>慢慢读，慢慢长大。</p><button id="about-button" class="text-button">关于这本诗词集 <span>↗</span></button></div>
+</aside>
+<div class="page">
+ <header class="topbar"><span class="breadcrumb">诗词书架 <span>/</span> <b id="crumb-grade">一年级</b></span><div class="search-wrap"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.5"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="1.5"/></svg><input id="search" type="search" placeholder="搜索诗名、作者或诗句…" aria-label="搜索所有年级的诗名、作者或诗句"><kbd>/</kbd></div></header>
+ <main>
+  <section class="hero" aria-labelledby="hero-title"><div class="hero-copy"><div class="eyebrow"><span></span> 一至六年级 · 古诗词阅读</div><h1 id="hero-title">诗里，<br>遇见<span>山河。</span></h1><p>从鹅鸣春晓，到明月乡愁。<br>循着课本的脚步，收藏六年的诗意。</p><div class="hero-meta"><span><b id="classic-count">111</b> 首古诗词</span><i></i><span>6 个年级</span><i></i><span>上 · 下册</span></div></div>
+  <div class="landscape" aria-hidden="true"><span class="vertical-title">山水有清音</span><svg viewBox="0 0 620 380" role="presentation"><defs><linearGradient id="hill" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#77948a"/><stop offset="1" stop-color="#a6b6a5"/></linearGradient><linearGradient id="far" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c4cdc0"/><stop offset="1" stop-color="#e1e4d8"/></linearGradient></defs><circle cx="441" cy="90" r="39" fill="#b65b43" opacity=".85"/><path d="M16 278 96 195 153 234 217 154 282 213 347 146 428 237 492 195 620 284V380H16Z" fill="url(#far)"/><path d="m91 350 73-72 72-35 54-105 52 40 36 80 61 21 43 79 88-23 50 45H91Z" fill="url(#hill)"/><path d="m284 156 14 55 24 35-8 53 21 27 14 54" stroke="#dce2d6" stroke-width="6" fill="none" opacity=".8"/><path d="M0 338q150-17 253 15t367-4v31H0Z" fill="#f1f0e5"/><path d="M18 358q130-12 241 11t311-4" stroke="#b5c5b9" fill="none"/><path d="m409 124 8-4 9 4m16-8 8-4 9 4" fill="none" stroke="#596f64" stroke-width="1.5"/><path d="M512 308v38m-12-29 12-23 12 23m-26 10 14-24 14 24" stroke="#526b5b" fill="#526b5b" stroke-width="2"/><path d="m72 335 18-12 18 12m-32 1h27v13H76m12 0v-9h5v9" stroke="#768578" fill="none" stroke-width="1.5"/></svg><div class="landscape-caption">一山一水，皆可入诗。</div><span class="small-seal">诗意</span></div></section>
+  <section id="collection" class="collection" aria-labelledby="collection-title">
+   <div class="section-heading"><div><div class="eyebrow muted" id="section-kicker">第一册时光 · 从这里开始</div><h2 id="collection-title">一年级 <span id="grade-subtitle">从一声鹅鸣开始</span></h2></div><span class="collection-count" id="collection-count" aria-live="polite"></span></div>
+   <div class="toolbar"><div class="term-tabs" role="group" aria-label="选择学期"><button data-term="all" aria-pressed="true" class="active">全部</button><button data-term="上" aria-pressed="false">上册 <span id="up-count"></span></button><button data-term="下" aria-pressed="false">下册 <span id="down-count"></span></button></div><button id="learned-filter" class="learned-filter" aria-pressed="false"><span class="check-outline">✓</span> 只看已读 <span id="learned-count">0</span></button></div>
+   <div id="results-note" class="results-note" hidden></div>
+   <div id="poem-grid" class="poem-grid"></div>
+   <div id="empty" class="empty" hidden><span>寻</span><h3>这里暂时没有诗词</h3><p id="empty-message">换个关键词，再找找看。</p><button id="reset-filters" class="primary-button">查看本年级全部篇目</button></div>
+  </section>
+  <footer><div><span class="footer-seal">诗</span> 每天一首，日久成诗。</div><p>依据本次整理的统编版常见篇目 · 含课文、日积月累与古诗词诵读<br>教材版本及文字异文可能有差异，请以所用课本为准。</p><button id="footer-about" class="text-button">篇目说明与来源 ↗</button></footer>
+ </main>
+</div>
+<dialog id="reader" aria-labelledby="reader-title"><div class="dialog-bar"><span id="reader-location"></span><button class="icon-button" id="close-reader" aria-label="关闭阅读">×</button></div><div class="reader-content"><div id="reader-tag" class="reader-tag"></div><h2 id="reader-title"></h2><p id="reader-author"></p><div id="reader-body" class="reader-body"></div><p id="reader-note" class="reader-note"></p></div><div class="reader-tools"><button id="recite-button" class="secondary-button">背诵模式</button><button id="read-button" class="primary-button">标为已读 ✓</button></div><div class="reader-navigation"><button id="prev-poem">← 上一首</button><span id="reader-index"></span><button id="next-poem">下一首 →</button></div></dialog>
+<dialog id="about" aria-labelledby="about-title"><div class="dialog-bar"><span>编者小记</span><button class="icon-button" id="close-about" aria-label="关闭说明">×</button></div><div class="about-content"><span class="seal">诗</span><h2 id="about-title">给六年的时光，<br>留一本诗词集。</h2><p>本网页将本次整理的小学一年级至六年级篇目，按年级和上下册归类，包含课文、“日积月累”及“古诗词诵读”中的古诗词。</p><p><strong id="about-count"></strong>三首现代人创作的传统形式诗词作为补充篇目列入，保留标题与作者信息。</p><p>这是一份学习参考目录。教材修订会调整篇目和年级；诗文存在异文，背诵、默写请以学生手中的课本为准。《画》的作者有不同说法，本页不作确定归属。</p><p>点击卡片可阅读正文。“背诵模式”会隐藏诗句，点击单行可揭示或重新隐藏。已读记录保存在当前浏览器中。</p><div class="source-links"><b>参考来源</b><a href="https://www.pep.com.cn/xw/zt/cp/zxxbbgsc/xxsgsc112/202204/t20220406_1976041.html" target="_blank" rel="noopener">人民教育出版社 · 小学生必备古诗词112首 ↗</a><a href="https://www.gushiwen.org/gushi/xiaoxue.aspx" target="_blank" rel="noopener">古文岛 · 小学古诗文目录 ↗</a></div></div></dialog>
+<div id="toast" role="status" class="toast"></div>
+<script src="poems.js"></script><script src="app.js"></script>
+</body></html>
