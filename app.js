@@ -12,6 +12,34 @@ try { if(localStorage.getItem('xiaoxue-shici-view-v1')==='flashcards') view='fla
 const esc = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const shortTitle = p => p.title.replace(/（(?!节选)[^）]*）/g,'');
 const gradeName = g => names[g-1]+'年级';
+const studies = window.POEM_STUDIES || {};
+function wordList(words){return `<dl class="study-words">${words.map(g=>`<div><dt>${esc(g.word)}</dt><dd>${esc(g.meaning)}</dd></div>`).join('')}</dl>`;}
+function annotateClause(text,terms){
+ let at=0,html='',used=[];
+ while(at<text.length){
+  const found=terms.find(g=>text.startsWith(g.word,at));
+  if(found){html+=`<span class="study-token" title="${esc(found.meaning)}">${esc(found.word)}</span>`;if(!used.includes(found))used.push(found);at+=found.word.length;}
+  else{html+=esc(text[at]);at++;}
+ }
+ return {html,used};
+}
+function studyMarkup(p){
+ const data=studies[p.id];
+ if(!data)return '<p class="study-message">讲解暂未载入，请刷新页面后重试。</p>';
+ const terms=[...data.glossary].sort((a,b)=>b.word.length-a.word.length);
+ let sentenceNumber=0;
+ const groups=data.lines.map((row,i)=>{
+  const sentences=row.translations.map((translation,j)=>{
+   const original=row.clauses&&row.clauses[j];
+   const annotated=original?annotateClause(original,terms):null;
+   sentenceNumber++;
+   return `<section class="study-sentence" aria-label="第${sentenceNumber}句解释"><h5>第 ${sentenceNumber} 句${original?'':' · 内容解读'}</h5>${annotated?`<p class="study-original">${annotated.html}</p>`:''}<p class="study-translation"><b>白话</b>${esc(translation)}</p>${annotated?wordList(annotated.used):''}</section>`;
+  }).join('');
+  return `<details class="study-group" open><summary>${esc(p.lines[i]||row.label)}</summary><div>${sentences}<p class="study-reading"><b>读懂这一层</b>${esc(row.reading)}</p></div></details>`;
+ }).join('');
+ return `<details class="poem-study" open><summary><span>逐字逐句详解</span><small>${sentenceNumber} 句 · ${data.glossary.length} 条字词注释</small></summary><div class="study-content"><section class="study-intro"><h4>先读懂题目</h4><p>${esc(data.intro)}</p></section><div class="study-heading"><h4>${p.modern?'依次读懂全篇':'一句一句读'}</h4><div role="group" aria-label="展开或收起逐句讲解"><button type="button" data-study-expand="true">全部展开</button><button type="button" data-study-expand="false">全部收起</button></div></div><p class="study-help">字词按句中含义分组解释；固定词语连在一起读。</p>${groups}<section class="study-theme"><h4>全诗赏析 · 把意思连起来</h4><p>${esc(data.theme)}</p></section><details class="study-glossary"><summary>字词总表（含题目用语）</summary>${wordList(data.glossary)}</details><p class="study-reference">白话与赏析为学习讲解；有异文或多种解释的地方已作提示。<a href="https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/resources/primary/lang/jilei.html" target="_blank" rel="noopener">延伸阅读：教育局小学古诗文选编 ↗</a></p></div></details>`;
+}
+function renderStudy(id,p){const host=$(id);if(!host||host.dataset.poem===p.id)return;host.innerHTML=studyMarkup(p);host.dataset.poem=p.id;}
 const classicCount = POEMS.filter(p=>!p.modern).length;
 $('classic-count').textContent=classicCount;
 $('about-count').textContent=`共收录 ${classicCount} 首古诗词，另有 3 首现代诗词补充篇目。`;
@@ -34,7 +62,7 @@ function render(){
  $('learned-filter').setAttribute('aria-pressed',String(onlyLearned));
  document.querySelectorAll('[data-term]').forEach(b=>{b.classList.toggle('active',b.dataset.term===term);b.setAttribute('aria-pressed',String(b.dataset.term===term));});
  $('results-note').hidden=!q;$('results-note').textContent=`“${q}” 的搜索结果，范围为一年级至六年级。点击年级可回到该年级目录。`;
- $('poem-grid').innerHTML=filtered.map((p,i)=>`<article class="poem-card ${learned.has(p.id)?'is-read':''}" data-poem="${p.id}"><div class="card-top"><span>${String(i+1).padStart(2,'0')} / ${p.modern?'现代诗词补充':'古诗词'}</span><span class="term-tag">${gradeName(p.grade)} · ${p.term}册</span></div><h3 class="${shortTitle(p).length>8?'long-title':''}"><button class="title-open" data-open="${p.id}">${esc(shortTitle(p))}</button></h3><p class="author">${p.dynasty==='作者待考'?'作者待考':esc(p.dynasty)+' · '+esc(p.author)}</p><div class="verse-preview ${p.modern?'modern-preview':''}">${p.lines.length?p.lines.slice(0,2).map(l=>`<span>${esc(l)}</span>`).join(''):'传统诗词形式的现代作品<br>补充篇目 · 标题与作者'}</div><div class="card-bottom"><button class="card-open" data-open="${p.id}">${p.lines.length?'展开阅读':'查看篇目'} <span aria-hidden="true">↗</span></button><button class="read-state" data-read="${p.id}" aria-label="${learned.has(p.id)?'取消已读':'标为已读'}：${esc(p.title)}" aria-pressed="${learned.has(p.id)}"><span class="read-word">${learned.has(p.id)?'已读':'未读'}</span><span class="read-check" aria-hidden="true">✓</span></button></div></article>`).join('');
+ $('poem-grid').innerHTML=filtered.map((p,i)=>`<article class="poem-card ${learned.has(p.id)?'is-read':''}" data-poem="${p.id}"><div class="card-top"><span>${String(i+1).padStart(2,'0')} / ${p.modern?'现代诗词补充':'古诗词'}</span><span class="term-tag">${gradeName(p.grade)} · ${p.term}册</span></div><h3 class="${shortTitle(p).length>8?'long-title':''}"><button class="title-open" data-open="${p.id}">${esc(shortTitle(p))}</button></h3><p class="author">${p.dynasty==='作者待考'?'作者待考':esc(p.dynasty)+' · '+esc(p.author)}</p><div class="verse-preview ${p.modern?'modern-preview':''}">${p.lines.length?p.lines.slice(0,2).map(l=>`<span>${esc(l)}</span>`).join(''):'传统诗词形式的现代作品<br>补充篇目 · 标题与作者'}</div><div class="card-bottom"><button class="card-open" data-open="${p.id}">${p.lines.length?'阅读 · 详解':'篇目 · 详解'} <span aria-hidden="true">↗</span></button><button class="read-state" data-read="${p.id}" aria-label="${learned.has(p.id)?'取消已读':'标为已读'}：${esc(p.title)}" aria-pressed="${learned.has(p.id)}"><span class="read-word">${learned.has(p.id)?'已读':'未读'}</span><span class="read-check" aria-hidden="true">✓</span></button></div></article>`).join('');
  $('empty').hidden=!!filtered.length;
  $('empty-message').textContent=onlyLearned?'当前范围还没有已读记录，读完一首后可点击“标为已读”。':'换个关键词或学期，再找找看。';
  renderFlashcards();
@@ -58,8 +86,10 @@ function renderFlashcards(){
  $('flashcard-prompt').textContent=p.modern?'想一想，你在课本中读过这首作品吗？':'还记得这首诗吗？想一想，再翻开。';
  $('flashcard-prompt').hidden=flashRevealed;
  $('flashcard-answer').hidden=!flashRevealed;
+ if($('flashcard-study'))$('flashcard-study').hidden=!flashRevealed;
  $('flashcard-lines').innerHTML=p.lines.map(line=>`<p class="poem-line">${esc(line)}</p>`).join('');
  $('flashcard-note').textContent=p.modern?'本页保留标题与作者，正文请参阅课本。':'诗文存在异文，背诵与默写请以所用课本为准。';
+ renderStudy('flashcard-study',p);
  $('flip-card').textContent=flashRevealed?'合上 · 再想一想':p.modern?'翻开 · 看篇目说明':'翻开 · 看诗句';
  $('flip-card').setAttribute('aria-expanded',String(flashRevealed));
  $('flashcard-read').textContent=learned.has(p.id)?'已读 ✓ · 点击取消':'标为已读 ✓';
@@ -93,6 +123,7 @@ function renderBody(){
  const p=current;$('recite-button').disabled=!p.lines.length;
  $('recite-button').textContent=reciting?'显示全文':'背诵模式';
  $('reader-body').innerHTML=p.lines.length?p.lines.map((l,i)=>reciting?`<button class="poem-line recall masked" data-line="${i}" aria-label="揭示第${i+1}行诗句">点击揭示 · 第${i+1}行</button>`:`<p class="poem-line">${esc(l)}</p>`).join(''):'<p class="modern-preview">现代诗词补充篇目<br>请结合所用课本阅读。</p>';
+ renderStudy('reader-study',p);if($('reader-study'))$('reader-study').hidden=reciting;
 }
 function closeReader(){ $('reader').close(); }
 $('grade-nav').addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;const next=Number(a.hash.slice(-1));grade=next;term='all';query='';$('search').value='';onlyLearned=false;render();});
@@ -115,6 +146,11 @@ $('flashcard-read').addEventListener('click',()=>{
 });
 $('prev-card').addEventListener('click',()=>moveCard(-1));
 $('next-card').addEventListener('click',()=>moveCard(1));
+document.addEventListener('click',e=>{
+ const button=e.target.closest('[data-study-expand]');if(!button)return;
+ const expanded=button.dataset.studyExpand==='true';
+ button.closest('.poem-study').querySelectorAll('.study-group').forEach(group=>{group.open=expanded;});
+});
 $('collection').addEventListener('keydown',e=>{
  if(view!=='flashcards'||!visibleList.length||e.altKey||e.ctrlKey||e.metaKey||e.shiftKey||['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)||e.target.isContentEditable)return;
  if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();moveCard(e.key==='ArrowLeft'?-1:1);}
