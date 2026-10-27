@@ -13,6 +13,18 @@ const esc = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const shortTitle = p => p.title.replace(/（(?!节选)[^）]*）/g,'');
 const gradeName = g => names[g-1]+'年级';
 const studies = window.POEM_STUDIES || {};
+function imageMarkup(p, compact=false){
+ if(!p.image)return '';
+ const img=p.image;
+ const size=img.width&&img.height?` width="${Number(img.width)}" height="${Number(img.height)}"`:'';
+ const picture=`<img src="${esc(img.src)}" alt="${compact?'':esc(img.alt||`《${p.title}》配图`)}"${size} loading="lazy" decoding="async">`;
+ return compact?`<div class="card-art" aria-hidden="true">${picture}<span>诗中有画</span></div>`:`<figure class="poem-art"><a href="${esc(img.src)}" target="_blank" rel="noopener" aria-label="查看《${esc(p.title)}》完整配图（新窗口）">${picture}</a><figcaption>看图读诗 <span>· 点击查看大图 ↗</span></figcaption></figure>`;
+}
+function renderImage(id,p,visible){
+ const host=$(id);
+ host.hidden=!p.image||!visible;
+ if(host.dataset.poem!==p.id){host.innerHTML=imageMarkup(p);host.dataset.poem=p.id;}
+}
 function wordList(words){return `<dl class="study-words">${words.map(g=>`<div><dt>${esc(g.word)}</dt><dd>${esc(g.meaning)}</dd></div>`).join('')}</dl>`;}
 function annotateClause(text,terms){
  let at=0,html='',used=[];
@@ -62,7 +74,7 @@ function render(){
  $('learned-filter').setAttribute('aria-pressed',String(onlyLearned));
  document.querySelectorAll('[data-term]').forEach(b=>{b.classList.toggle('active',b.dataset.term===term);b.setAttribute('aria-pressed',String(b.dataset.term===term));});
  $('results-note').hidden=!q;$('results-note').textContent=`“${q}” 的搜索结果，范围为一年级至六年级。点击年级可回到该年级目录。`;
- $('poem-grid').innerHTML=filtered.map((p,i)=>`<article class="poem-card ${learned.has(p.id)?'is-read':''}" data-poem="${p.id}"><div class="card-top"><span>${String(i+1).padStart(2,'0')} / ${p.modern?'现代诗词补充':'古诗词'}</span><span class="term-tag">${gradeName(p.grade)} · ${p.term}册</span></div><h3 class="${shortTitle(p).length>8?'long-title':''}"><button class="title-open" data-open="${p.id}">${esc(shortTitle(p))}</button></h3><p class="author">${p.dynasty==='作者待考'?'作者待考':esc(p.dynasty)+' · '+esc(p.author)}</p><div class="verse-preview ${p.modern?'modern-preview':''}">${p.lines.length?p.lines.slice(0,2).map(l=>`<span>${esc(l)}</span>`).join(''):'传统诗词形式的现代作品<br>补充篇目 · 标题与作者'}</div><div class="card-bottom"><button class="card-open" data-open="${p.id}">${p.lines.length?'阅读 · 详解':'篇目 · 详解'} <span aria-hidden="true">↗</span></button><button class="read-state" data-read="${p.id}" aria-label="${learned.has(p.id)?'取消已读':'标为已读'}：${esc(p.title)}" aria-pressed="${learned.has(p.id)}"><span class="read-word">${learned.has(p.id)?'已读':'未读'}</span><span class="read-check" aria-hidden="true">✓</span></button></div></article>`).join('');
+ $('poem-grid').innerHTML=filtered.map((p,i)=>`<article class="poem-card ${learned.has(p.id)?'is-read':''}" data-poem="${p.id}"><div class="card-top"><span>${String(i+1).padStart(2,'0')} / ${p.modern?'现代诗词补充':'古诗词'}</span><span class="term-tag">${gradeName(p.grade)} · ${p.term}册</span></div><div class="card-reading"><div class="card-copy"><h3 class="${shortTitle(p).length>8?'long-title':''}"><button class="title-open" data-open="${p.id}">${esc(shortTitle(p))}</button></h3><p class="author">${p.dynasty==='作者待考'?'作者待考':esc(p.dynasty)+' · '+esc(p.author)}</p><div class="verse-preview ${p.modern?'modern-preview':''}">${p.lines.length?p.lines.slice(0,2).map(l=>`<span>${esc(l)}</span>`).join(''):'传统诗词形式的现代作品<br>补充篇目 · 标题与作者'}</div></div>${imageMarkup(p,true)}</div><div class="card-bottom"><button class="card-open" data-open="${p.id}">${p.lines.length?'阅读 · 详解':'篇目 · 详解'} <span aria-hidden="true">↗</span></button><button class="read-state" data-read="${p.id}" aria-label="${learned.has(p.id)?'取消已读':'标为已读'}：${esc(p.title)}" aria-pressed="${learned.has(p.id)}"><span class="read-word">${learned.has(p.id)?'已读':'未读'}</span><span class="read-check" aria-hidden="true">✓</span></button></div></article>`).join('');
  $('empty').hidden=!!filtered.length;
  $('empty-message').textContent=onlyLearned?'当前范围还没有已读记录，读完一首后可点击“标为已读”。':'换个关键词或学期，再找找看。';
  renderFlashcards();
@@ -86,6 +98,8 @@ function renderFlashcards(){
  $('flashcard-prompt').textContent=p.modern?'想一想，你在课本中读过这首作品吗？':'还记得这首诗吗？想一想，再翻开。';
  $('flashcard-prompt').hidden=flashRevealed;
  $('flashcard-answer').hidden=!flashRevealed;
+ renderImage('flashcard-image',p,flashRevealed);
+ document.querySelector('.flashcard-content').classList.toggle('has-image',!!p.image&&flashRevealed);
  if($('flashcard-study'))$('flashcard-study').hidden=!flashRevealed;
  $('flashcard-lines').innerHTML=p.lines.map(line=>`<p class="poem-line">${esc(line)}</p>`).join('');
  $('flashcard-note').textContent=p.modern?'本页保留标题与作者，正文请参阅课本。':'诗文存在异文，背诵与默写请以所用课本为准。';
@@ -120,7 +134,10 @@ function showPoem(id, list=visibleList){
  $('reader').scrollTop=0;
 }
 function renderBody(){
- const p=current;$('recite-button').disabled=!p.lines.length;
+ const p=current;
+ renderImage('reader-image',p,!reciting);
+ $('reader').classList.toggle('has-image',!!p.image&&!reciting);
+ $('recite-button').disabled=!p.lines.length;
  $('recite-button').textContent=reciting?'显示全文':'背诵模式';
  $('reader-body').innerHTML=p.lines.length?p.lines.map((l,i)=>reciting?`<button class="poem-line recall masked" data-line="${i}" aria-label="揭示第${i+1}行诗句">点击揭示 · 第${i+1}行</button>`:`<p class="poem-line">${esc(l)}</p>`).join(''):'<p class="modern-preview">现代诗词补充篇目<br>请结合所用课本阅读。</p>';
  renderStudy('reader-study',p);if($('reader-study'))$('reader-study').hidden=reciting;

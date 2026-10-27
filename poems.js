@@ -114,7 +114,16 @@ const rawPoems = `
 6|下|浣溪沙（山下兰芽短浸溪）|苏轼|宋|山下兰芽短浸溪，松间沙路净无泥，潇潇暮雨子规啼。/谁道人生无再少？门前流水尚能西！休将白发唱黄鸡。
 6|下|清平乐（春归何处）|黄庭坚|宋|春归何处？寂寞无行路。/若有人知春去处，唤取归来同住。/春无踪迹谁知？除非问取黄鹂。/百啭无人能解，因风飞过蔷薇。
 `;
+// Optional illustrations, keyed by the exact poem title. Omit entries for text-only poems.
+const poemImages = {
+ '小池': {
+  src: 'images/xiaochi.png',
+  alt: '《小池》诗意图：泉水细流、树阴映水、初露的嫩荷，以及停在荷尖上的蜻蜓。',
+  width: 1055,
+  height: 1491
+ }
+};
 window.POEMS = rawPoems.trim().split('\n').map((row, i) => {
  const [grade, term, title, author, dynasty, body] = row.split('|');
- return { id: 'poem-' + (i + 1), grade: Number(grade), term, title, author, dynasty, lines: body ? body.split('/') : [], modern: dynasty === '现代' };
+ return { id: 'poem-' + (i + 1), grade: Number(grade), term, title, author, dynasty, lines: body ? body.split('/') : [], modern: dynasty === '现代', image: poemImages[title] };
 });
