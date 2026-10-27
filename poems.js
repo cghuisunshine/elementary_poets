@@ -116,6 +116,12 @@ const rawPoems = `
 `;
 // Optional illustrations, keyed by the exact poem title. Omit entries for text-only poems.
 const poemImages = {
+ '画鸡': {
+  src: 'huaji.png',
+  alt: '《画鸡》诗意图：红冠白羽的公鸡在庭院中行走，清晨啼鸣唤醒千家万户。',
+  width: 1086,
+  height: 1448
+ },
  '小池': {
   src: 'images/xiaochi.png',
   alt: '《小池》诗意图：泉水细流、树阴映水、初露的嫩荷，以及停在荷尖上的蜻蜓。',
