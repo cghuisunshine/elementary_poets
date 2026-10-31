@@ -116,6 +116,12 @@ const rawPoems = `
 `;
 // Optional illustrations, keyed by the exact poem title. Omit entries for text-only poems.
 const poemImages = {
+ '寻隐者不遇': {
+  src: 'xunyinzhebuyu.png',
+  alt: '《寻隐者不遇》诗意图：诗人在松下询问童子，童子指向云雾深处的山中，师父正在采药。',
+  width: 1055,
+  height: 1491
+ },
  '画鸡': {
   src: 'huaji.png',
   alt: '《画鸡》诗意图：红冠白羽的公鸡在庭院中行走，清晨啼鸣唤醒千家万户。',
