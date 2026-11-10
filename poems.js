@@ -116,6 +116,12 @@ const rawPoems = `
 `;
 // Optional illustrations, keyed by the exact poem title. Omit entries for text-only poems.
 const poemImages = {
+ '春晓': {
+  src: 'chunxiao.png',
+  alt: '《春晓》四格诗意图：诗人春眠未醒，鸟儿在花枝间啼鸣，夜里风雨吹打庭院，清晨落花满地。',
+  width: 1254,
+  height: 1254
+ },
  '赠汪伦': {
   src: 'zengwanglun.png',
   alt: '《赠汪伦》四格诗意图：李白乘舟将行，岸上踏歌送别，桃花映着潭水，李白与汪伦握手道别。',
