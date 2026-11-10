@@ -116,6 +116,12 @@ const rawPoems = `
 `;
 // Optional illustrations, keyed by the exact poem title. Omit entries for text-only poems.
 const poemImages = {
+ '赠汪伦': {
+  src: 'zengwanglun.png',
+  alt: '《赠汪伦》四格诗意图：李白乘舟将行，岸上踏歌送别，桃花映着潭水，李白与汪伦握手道别。',
+  width: 1254,
+  height: 1254
+ },
  '寻隐者不遇': {
   src: 'xunyinzhebuyu.png',
   alt: '《寻隐者不遇》诗意图：诗人在松下询问童子，童子指向云雾深处的山中，师父正在采药。',
