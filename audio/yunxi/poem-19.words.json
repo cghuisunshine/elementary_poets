@@ -1,0 +1,114 @@
+{
+  "text": "夜宿山寺\n唐，李白\n危楼高百尺，手可摘星辰。\n不敢高声语，恐惊天上人。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-19.mp3",
+  "signature": "3ba3ca7c52ac52a9e9bac6db55c8c338b72e47c5a41b351c3384c1c160d4a1ea",
+  "words": [
+    {
+      "text": "夜宿山寺",
+      "start": 0.108833,
+      "end": 1.314708,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "唐",
+      "start": 1.985291,
+      "end": 2.558832,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "李白",
+      "start": 2.882333,
+      "end": 3.514666,
+      "start_char": 7,
+      "end_char": 9
+    },
+    {
+      "text": "危楼",
+      "start": 4.176458,
+      "end": 4.617624,
+      "start_char": 10,
+      "end_char": 12
+    },
+    {
+      "text": "高百尺",
+      "start": 4.647041,
+      "end": 5.470582,
+      "start_char": 12,
+      "end_char": 15
+    },
+    {
+      "text": "手",
+      "start": 5.720583,
+      "end": 6.088249,
+      "start_char": 16,
+      "end_char": 17
+    },
+    {
+      "text": "可",
+      "start": 6.102958,
+      "end": 6.308833,
+      "start_char": 17,
+      "end_char": 18
+    },
+    {
+      "text": "摘",
+      "start": 6.308833,
+      "end": 6.499999,
+      "start_char": 18,
+      "end_char": 19
+    },
+    {
+      "text": "星辰",
+      "start": 6.514708,
+      "end": 7.176458,
+      "start_char": 19,
+      "end_char": 21
+    },
+    {
+      "text": "不敢",
+      "start": 7.852958,
+      "end": 8.235291,
+      "start_char": 23,
+      "end_char": 25
+    },
+    {
+      "text": "高",
+      "start": 8.25,
+      "end": 8.441166,
+      "start_char": 25,
+      "end_char": 26
+    },
+    {
+      "text": "声语",
+      "start": 8.441166,
+      "end": 8.985291,
+      "start_char": 26,
+      "end_char": 28
+    },
+    {
+      "text": "恐",
+      "start": 9.529416,
+      "end": 9.852957,
+      "start_char": 29,
+      "end_char": 30
+    },
+    {
+      "text": "惊",
+      "start": 9.852958,
+      "end": 10.029416,
+      "start_char": 30,
+      "end_char": 31
+    },
+    {
+      "text": "天上人",
+      "start": 10.029416,
+      "end": 10.691166,
+      "start_char": 31,
+      "end_char": 34
+    }
+  ]
+}

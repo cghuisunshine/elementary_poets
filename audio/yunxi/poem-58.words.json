@@ -1,0 +1,65 @@
+{
+  "text": "江畔独步寻花·其五\n唐，杜甫\n黄师塔前江水东，春光懒困倚微风。\n桃花一簇开无主，可爱深红爱浅红？",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-58.mp3",
+  "signature": "5710ccb22e92f0941004cb08021ffd27eaf553f654c3e5a18bb9a38ce1f0de3f",
+  "words": [
+    {
+      "text": "江畔独步寻花",
+      "start": 0.108833,
+      "end": 1.770583,
+      "start_char": 0,
+      "end_char": 6
+    },
+    {
+      "text": "其五",
+      "start": 2.21175,
+      "end": 2.8735,
+      "start_char": 7,
+      "end_char": 9
+    },
+    {
+      "text": "唐",
+      "start": 3.544125,
+      "end": 4.073541,
+      "start_char": 10,
+      "end_char": 11
+    },
+    {
+      "text": "杜甫",
+      "start": 4.485291,
+      "end": 5.205874,
+      "start_char": 12,
+      "end_char": 14
+    },
+    {
+      "text": "黄师塔前江水东",
+      "start": 5.852958,
+      "end": 7.705916,
+      "start_char": 15,
+      "end_char": 22
+    },
+    {
+      "text": "春光懒困倚微风",
+      "start": 7.955875,
+      "end": 9.867625,
+      "start_char": 23,
+      "end_char": 30
+    },
+    {
+      "text": "桃花一簇开无主",
+      "start": 10.544125,
+      "end": 12.235291,
+      "start_char": 32,
+      "end_char": 39
+    },
+    {
+      "text": "可爱深红爱浅红",
+      "start": 12.632333,
+      "end": 14.338208,
+      "start_char": 40,
+      "end_char": 47
+    }
+  ]
+}

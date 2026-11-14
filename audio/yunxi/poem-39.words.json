@@ -1,0 +1,58 @@
+{
+  "text": "三衢道中\n宋，曾几\n梅子黄时日日晴，小溪泛尽却山行。\n绿阴不减来时路，添得黄鹂四五声。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-39.mp3",
+  "signature": "e299ee9b1cf218ee9d7c779a716b130006d3dbd5fd3d23edba2800b1116923cd",
+  "words": [
+    {
+      "text": "三衢道中",
+      "start": 0.108833,
+      "end": 1.417666,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "宋",
+      "start": 2.102958,
+      "end": 2.558833,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "曾几",
+      "start": 2.926458,
+      "end": 3.676458,
+      "start_char": 7,
+      "end_char": 9
+    },
+    {
+      "text": "梅子黄时日日晴",
+      "start": 4.33825,
+      "end": 6.191208,
+      "start_char": 10,
+      "end_char": 17
+    },
+    {
+      "text": "小溪泛尽却山行",
+      "start": 6.485291,
+      "end": 8.338249,
+      "start_char": 18,
+      "end_char": 25
+    },
+    {
+      "text": "绿阴不减来时路",
+      "start": 9.014708,
+      "end": 10.558833,
+      "start_char": 27,
+      "end_char": 34
+    },
+    {
+      "text": "添得黄鹂四五声",
+      "start": 11.014708,
+      "end": 12.661749,
+      "start_char": 35,
+      "end_char": 42
+    }
+  ]
+}

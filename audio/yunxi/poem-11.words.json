@@ -1,0 +1,58 @@
+{
+  "text": "池上\n唐，白居易\n小娃撑小艇，偷采白莲回。\n不解藏踪迹，浮萍一道开。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-11.mp3",
+  "signature": "b0d4711aceee85843e423e3fbfd91f6688f32201d67f651c5b61d4268cab6afe",
+  "words": [
+    {
+      "text": "池上",
+      "start": 0.108833,
+      "end": 0.932374,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "唐",
+      "start": 1.602958,
+      "end": 2.147083,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "白居易",
+      "start": 2.558833,
+      "end": 3.352958,
+      "start_char": 5,
+      "end_char": 8
+    },
+    {
+      "text": "小娃撑小艇",
+      "start": 4.029416,
+      "end": 5.382374,
+      "start_char": 9,
+      "end_char": 14
+    },
+    {
+      "text": "偷采白莲回",
+      "start": 5.764708,
+      "end": 7.147041,
+      "start_char": 15,
+      "end_char": 20
+    },
+    {
+      "text": "不解藏踪迹",
+      "start": 7.823541,
+      "end": 8.955874,
+      "start_char": 22,
+      "end_char": 27
+    },
+    {
+      "text": "浮萍一道开",
+      "start": 9.264708,
+      "end": 10.499999,
+      "start_char": 28,
+      "end_char": 33
+    }
+  ]
+}

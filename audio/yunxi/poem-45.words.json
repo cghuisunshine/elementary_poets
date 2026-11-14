@@ -1,0 +1,170 @@
+{
+  "text": "大林寺桃花\n唐，白居易\n人间四月芳菲尽，山寺桃花始盛开。\n长恨春归无觅处，不知转入此中来。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-45.mp3",
+  "signature": "43f0de097ff5a2efda031f4194f1676a235b0d88c8bf66e68ab33e859933d15c",
+  "words": [
+    {
+      "text": "大林寺",
+      "start": 0.108833,
+      "end": 0.726499,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "桃花",
+      "start": 0.741166,
+      "end": 1.373499,
+      "start_char": 3,
+      "end_char": 5
+    },
+    {
+      "text": "唐",
+      "start": 2.058833,
+      "end": 2.602958,
+      "start_char": 6,
+      "end_char": 7
+    },
+    {
+      "text": "白居易",
+      "start": 3.014708,
+      "end": 3.808833,
+      "start_char": 8,
+      "end_char": 11
+    },
+    {
+      "text": "人间",
+      "start": 4.485291,
+      "end": 4.970582,
+      "start_char": 12,
+      "end_char": 14
+    },
+    {
+      "text": "四月芳",
+      "start": 4.985291,
+      "end": 5.455874,
+      "start_char": 14,
+      "end_char": 17
+    },
+    {
+      "text": "菲尽",
+      "start": 5.470583,
+      "end": 6.014708,
+      "start_char": 17,
+      "end_char": 19
+    },
+    {
+      "text": "山寺",
+      "start": 6.308833,
+      "end": 6.823541,
+      "start_char": 20,
+      "end_char": 22
+    },
+    {
+      "text": "桃花",
+      "start": 6.83825,
+      "end": 7.352958,
+      "start_char": 22,
+      "end_char": 24
+    },
+    {
+      "text": "始",
+      "start": 7.382333,
+      "end": 7.617624,
+      "start_char": 24,
+      "end_char": 25
+    },
+    {
+      "text": "盛开",
+      "start": 7.617666,
+      "end": 8.191207,
+      "start_char": 25,
+      "end_char": 27
+    },
+    {
+      "text": "长恨",
+      "start": 8.852958,
+      "end": 9.397041,
+      "start_char": 29,
+      "end_char": 31
+    },
+    {
+      "text": "春",
+      "start": 9.397041,
+      "end": 9.661749,
+      "start_char": 31,
+      "end_char": 32
+    },
+    {
+      "text": "归",
+      "start": 9.676458,
+      "end": 9.867624,
+      "start_char": 32,
+      "end_char": 33
+    },
+    {
+      "text": "无",
+      "start": 9.867666,
+      "end": 10.044124,
+      "start_char": 33,
+      "end_char": 34
+    },
+    {
+      "text": "觅",
+      "start": 10.058833,
+      "end": 10.279416,
+      "start_char": 34,
+      "end_char": 35
+    },
+    {
+      "text": "处",
+      "start": 10.279416,
+      "end": 10.647082,
+      "start_char": 35,
+      "end_char": 36
+    },
+    {
+      "text": "不",
+      "start": 10.970583,
+      "end": 11.176458,
+      "start_char": 37,
+      "end_char": 38
+    },
+    {
+      "text": "知",
+      "start": 11.176458,
+      "end": 11.323499,
+      "start_char": 38,
+      "end_char": 39
+    },
+    {
+      "text": "转入",
+      "start": 11.33825,
+      "end": 11.6765,
+      "start_char": 39,
+      "end_char": 41
+    },
+    {
+      "text": "此",
+      "start": 11.691166,
+      "end": 11.955874,
+      "start_char": 41,
+      "end_char": 42
+    },
+    {
+      "text": "中",
+      "start": 11.955875,
+      "end": 12.176458,
+      "start_char": 42,
+      "end_char": 43
+    },
+    {
+      "text": "来",
+      "start": 12.176458,
+      "end": 12.470583,
+      "start_char": 43,
+      "end_char": 44
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "text": "饮湖上初晴后雨\n宋，苏轼\n水光潋滟晴方好，山色空蒙雨亦奇。\n欲把西湖比西子，淡妆浓抹总相宜。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-33.mp3",
+  "signature": "0f2f6224a6a2e43b6821d7c22537a80d7887df4ba22f6e9ea5d2f2a7bffe8c89",
+  "words": [
+    {
+      "text": "饮湖上初晴后雨",
+      "start": 0.108833,
+      "end": 1.902958,
+      "start_char": 0,
+      "end_char": 7
+    },
+    {
+      "text": "宋",
+      "start": 2.573541,
+      "end": 3.058832,
+      "start_char": 8,
+      "end_char": 9
+    },
+    {
+      "text": "苏轼",
+      "start": 3.470583,
+      "end": 4.073541,
+      "start_char": 10,
+      "end_char": 12
+    },
+    {
+      "text": "水光潋滟晴方好",
+      "start": 4.735291,
+      "end": 6.441166,
+      "start_char": 13,
+      "end_char": 20
+    },
+    {
+      "text": "山色空蒙雨亦奇",
+      "start": 6.75,
+      "end": 8.66175,
+      "start_char": 21,
+      "end_char": 28
+    },
+    {
+      "text": "欲把西湖比西子",
+      "start": 9.323541,
+      "end": 10.897082,
+      "start_char": 30,
+      "end_char": 37
+    },
+    {
+      "text": "淡妆浓抹总相宜",
+      "start": 11.308833,
+      "end": 13.029416,
+      "start_char": 38,
+      "end_char": 45
+    }
+  ]
+}

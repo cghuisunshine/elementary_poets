@@ -1,0 +1,142 @@
+{
+  "text": "村晚\n宋，雷震\n草满池塘水满陂，山衔落日浸寒漪。\n牧童归去横牛背，短笛无腔信口吹。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-78.mp3",
+  "signature": "9d1db2e6d1c9e414b1d26d961885b7ae4bd3fbece34a793a561add551aec8c91",
+  "words": [
+    {
+      "text": "村晚",
+      "start": 0.108833,
+      "end": 0.947083,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "宋",
+      "start": 1.617666,
+      "end": 2.102957,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "雷震",
+      "start": 2.573541,
+      "end": 3.102957,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "草",
+      "start": 3.779416,
+      "end": 4.029416,
+      "start_char": 8,
+      "end_char": 9
+    },
+    {
+      "text": "满",
+      "start": 4.029416,
+      "end": 4.191166,
+      "start_char": 9,
+      "end_char": 10
+    },
+    {
+      "text": "池塘",
+      "start": 4.205875,
+      "end": 4.676458,
+      "start_char": 10,
+      "end_char": 12
+    },
+    {
+      "text": "水",
+      "start": 4.705875,
+      "end": 4.941166,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "满",
+      "start": 4.941166,
+      "end": 5.161749,
+      "start_char": 13,
+      "end_char": 14
+    },
+    {
+      "text": "陂",
+      "start": 5.16175,
+      "end": 5.5,
+      "start_char": 14,
+      "end_char": 15
+    },
+    {
+      "text": "山衔",
+      "start": 5.897041,
+      "end": 6.455874,
+      "start_char": 16,
+      "end_char": 18
+    },
+    {
+      "text": "落日",
+      "start": 6.470583,
+      "end": 6.970583,
+      "start_char": 18,
+      "end_char": 20
+    },
+    {
+      "text": "浸寒漪",
+      "start": 7.0,
+      "end": 7.705875,
+      "start_char": 20,
+      "end_char": 23
+    },
+    {
+      "text": "牧童",
+      "start": 8.382333,
+      "end": 8.823499,
+      "start_char": 25,
+      "end_char": 27
+    },
+    {
+      "text": "归去",
+      "start": 8.83825,
+      "end": 9.220583,
+      "start_char": 27,
+      "end_char": 29
+    },
+    {
+      "text": "横牛背",
+      "start": 9.25,
+      "end": 9.955875,
+      "start_char": 29,
+      "end_char": 32
+    },
+    {
+      "text": "短笛",
+      "start": 10.235291,
+      "end": 10.749999,
+      "start_char": 33,
+      "end_char": 35
+    },
+    {
+      "text": "无腔",
+      "start": 10.764708,
+      "end": 11.220583,
+      "start_char": 35,
+      "end_char": 37
+    },
+    {
+      "text": "信口",
+      "start": 11.25,
+      "end": 11.632333,
+      "start_char": 37,
+      "end_char": 39
+    },
+    {
+      "text": "吹",
+      "start": 11.632333,
+      "end": 11.985291,
+      "start_char": 39,
+      "end_char": 40
+    }
+  ]
+}

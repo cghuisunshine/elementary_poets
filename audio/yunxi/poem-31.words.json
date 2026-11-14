@@ -1,0 +1,163 @@
+{
+  "text": "夜书所见\n宋，叶绍翁\n萧萧梧叶送寒声，江上秋风动客情。\n知有儿童挑促织，夜深篱落一灯明。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-31.mp3",
+  "signature": "2e29e01399f08608f55e4f79aa7a1326c63e83f7e4bd28c3c1ded597c8dc4e85",
+  "words": [
+    {
+      "text": "夜书",
+      "start": 0.108833,
+      "end": 0.652958,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "所",
+      "start": 0.667666,
+      "end": 0.917666,
+      "start_char": 2,
+      "end_char": 3
+    },
+    {
+      "text": "见",
+      "start": 0.917666,
+      "end": 1.285332,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "宋",
+      "start": 1.955875,
+      "end": 2.382333,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "叶绍翁",
+      "start": 2.882333,
+      "end": 3.573499,
+      "start_char": 7,
+      "end_char": 10
+    },
+    {
+      "text": "萧萧",
+      "start": 4.25,
+      "end": 4.779416,
+      "start_char": 11,
+      "end_char": 13
+    },
+    {
+      "text": "梧叶",
+      "start": 4.794125,
+      "end": 5.220583,
+      "start_char": 13,
+      "end_char": 15
+    },
+    {
+      "text": "送",
+      "start": 5.25,
+      "end": 5.485291,
+      "start_char": 15,
+      "end_char": 16
+    },
+    {
+      "text": "寒声",
+      "start": 5.485291,
+      "end": 6.102957,
+      "start_char": 16,
+      "end_char": 18
+    },
+    {
+      "text": "江",
+      "start": 6.352958,
+      "end": 6.647041,
+      "start_char": 19,
+      "end_char": 20
+    },
+    {
+      "text": "上秋",
+      "start": 6.647041,
+      "end": 7.205874,
+      "start_char": 20,
+      "end_char": 22
+    },
+    {
+      "text": "风动",
+      "start": 7.205875,
+      "end": 7.602916,
+      "start_char": 22,
+      "end_char": 24
+    },
+    {
+      "text": "客情",
+      "start": 7.617666,
+      "end": 8.220624,
+      "start_char": 24,
+      "end_char": 26
+    },
+    {
+      "text": "知",
+      "start": 8.897041,
+      "end": 9.088207,
+      "start_char": 28,
+      "end_char": 29
+    },
+    {
+      "text": "有",
+      "start": 9.08825,
+      "end": 9.220583,
+      "start_char": 29,
+      "end_char": 30
+    },
+    {
+      "text": "儿童",
+      "start": 9.235291,
+      "end": 9.588249,
+      "start_char": 30,
+      "end_char": 32
+    },
+    {
+      "text": "挑",
+      "start": 9.617666,
+      "end": 9.808832,
+      "start_char": 32,
+      "end_char": 33
+    },
+    {
+      "text": "促织",
+      "start": 9.808833,
+      "end": 10.338249,
+      "start_char": 33,
+      "end_char": 35
+    },
+    {
+      "text": "夜深",
+      "start": 10.705875,
+      "end": 11.220583,
+      "start_char": 36,
+      "end_char": 38
+    },
+    {
+      "text": "篱落",
+      "start": 11.235291,
+      "end": 11.588249,
+      "start_char": 38,
+      "end_char": 40
+    },
+    {
+      "text": "一",
+      "start": 11.617666,
+      "end": 11.764707,
+      "start_char": 40,
+      "end_char": 41
+    },
+    {
+      "text": "灯明",
+      "start": 11.764708,
+      "end": 12.294124,
+      "start_char": 41,
+      "end_char": 43
+    }
+  ]
+}

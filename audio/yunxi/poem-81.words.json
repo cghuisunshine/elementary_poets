@@ -1,0 +1,163 @@
+{
+  "text": "从军行\n唐，王昌龄\n青海长云暗雪山，孤城遥望玉门关。\n黄沙百战穿金甲，不破楼兰终不还。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-81.mp3",
+  "signature": "b1d838a4a289f7a6058ef21f57a59147623eebb896afffae7509cf182cf66349",
+  "words": [
+    {
+      "text": "从",
+      "start": 0.108833,
+      "end": 0.432333,
+      "start_char": 0,
+      "end_char": 1
+    },
+    {
+      "text": "军行",
+      "start": 0.432333,
+      "end": 1.035291,
+      "start_char": 1,
+      "end_char": 3
+    },
+    {
+      "text": "唐",
+      "start": 1.705875,
+      "end": 2.220583,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "王昌龄",
+      "start": 2.676458,
+      "end": 3.602916,
+      "start_char": 6,
+      "end_char": 9
+    },
+    {
+      "text": "青海",
+      "start": 4.264708,
+      "end": 4.764708,
+      "start_char": 10,
+      "end_char": 12
+    },
+    {
+      "text": "长云",
+      "start": 4.779416,
+      "end": 5.191166,
+      "start_char": 12,
+      "end_char": 14
+    },
+    {
+      "text": "暗",
+      "start": 5.220583,
+      "end": 5.397041,
+      "start_char": 14,
+      "end_char": 15
+    },
+    {
+      "text": "雪山",
+      "start": 5.397041,
+      "end": 5.985291,
+      "start_char": 15,
+      "end_char": 17
+    },
+    {
+      "text": "孤城",
+      "start": 6.382333,
+      "end": 6.941166,
+      "start_char": 18,
+      "end_char": 20
+    },
+    {
+      "text": "遥望",
+      "start": 6.955875,
+      "end": 7.323541,
+      "start_char": 20,
+      "end_char": 22
+    },
+    {
+      "text": "玉门关",
+      "start": 7.352958,
+      "end": 7.970624,
+      "start_char": 22,
+      "end_char": 25
+    },
+    {
+      "text": "黄沙",
+      "start": 8.647041,
+      "end": 9.279374,
+      "start_char": 27,
+      "end_char": 29
+    },
+    {
+      "text": "百战",
+      "start": 9.294125,
+      "end": 9.735291,
+      "start_char": 29,
+      "end_char": 31
+    },
+    {
+      "text": "穿",
+      "start": 9.735291,
+      "end": 9.955874,
+      "start_char": 31,
+      "end_char": 32
+    },
+    {
+      "text": "金甲",
+      "start": 9.970583,
+      "end": 10.499999,
+      "start_char": 32,
+      "end_char": 34
+    },
+    {
+      "text": "不",
+      "start": 10.897041,
+      "end": 11.117624,
+      "start_char": 35,
+      "end_char": 36
+    },
+    {
+      "text": "破",
+      "start": 11.117666,
+      "end": 11.338249,
+      "start_char": 36,
+      "end_char": 37
+    },
+    {
+      "text": "楼",
+      "start": 11.33825,
+      "end": 11.5,
+      "start_char": 37,
+      "end_char": 38
+    },
+    {
+      "text": "兰",
+      "start": 11.514708,
+      "end": 11.764708,
+      "start_char": 38,
+      "end_char": 39
+    },
+    {
+      "text": "终",
+      "start": 11.764708,
+      "end": 11.941166,
+      "start_char": 39,
+      "end_char": 40
+    },
+    {
+      "text": "不",
+      "start": 11.955875,
+      "end": 12.117625,
+      "start_char": 40,
+      "end_char": 41
+    },
+    {
+      "text": "还",
+      "start": 12.117666,
+      "end": 12.485332,
+      "start_char": 41,
+      "end_char": 42
+    }
+  ]
+}

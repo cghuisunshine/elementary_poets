@@ -1,0 +1,86 @@
+{
+  "text": "过故人庄\n唐，孟浩然\n故人具鸡黍，邀我至田家。\n绿树村边合，青山郭外斜。\n开轩面场圃，把酒话桑麻。\n待到重阳日，还来就菊花。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-90.mp3",
+  "signature": "78eb2aa1ba561eb6157b57ab3627e3c7ed429cfd5c62e4c2c8ecddd8e50794b9",
+  "words": [
+    {
+      "text": "过故人庄",
+      "start": 0.108833,
+      "end": 1.226499,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "唐",
+      "start": 1.897041,
+      "end": 2.397041,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "孟浩然",
+      "start": 2.764708,
+      "end": 3.573541,
+      "start_char": 7,
+      "end_char": 10
+    },
+    {
+      "text": "故人具鸡黍",
+      "start": 4.25,
+      "end": 5.647041,
+      "start_char": 11,
+      "end_char": 16
+    },
+    {
+      "text": "邀我至田家",
+      "start": 6.102958,
+      "end": 7.352958,
+      "start_char": 17,
+      "end_char": 22
+    },
+    {
+      "text": "绿树村边合",
+      "start": 8.029416,
+      "end": 9.264707,
+      "start_char": 24,
+      "end_char": 29
+    },
+    {
+      "text": "青山郭外斜",
+      "start": 9.514708,
+      "end": 10.970583,
+      "start_char": 30,
+      "end_char": 35
+    },
+    {
+      "text": "开轩面场圃",
+      "start": 11.647041,
+      "end": 13.132332,
+      "start_char": 37,
+      "end_char": 42
+    },
+    {
+      "text": "把酒话桑麻",
+      "start": 13.558833,
+      "end": 14.897083,
+      "start_char": 43,
+      "end_char": 48
+    },
+    {
+      "text": "待到重阳日",
+      "start": 15.573541,
+      "end": 16.794124,
+      "start_char": 50,
+      "end_char": 55
+    },
+    {
+      "text": "还来就菊花",
+      "start": 17.220583,
+      "end": 18.617624,
+      "start_char": 56,
+      "end_char": 61
+    }
+  ]
+}

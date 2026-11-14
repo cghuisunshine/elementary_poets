@@ -209,7 +209,7 @@ function adjacent(offset){const i=readerList.findIndex(p=>p.id===current.id);if(
 $('prev-poem').addEventListener('click',()=>adjacent(-1));$('next-poem').addEventListener('click',()=>adjacent(1));
 function about(){ $('about').showModal();document.body.style.overflow='hidden'; }
 $('about-button').addEventListener('click',about);$('footer-about').addEventListener('click',about);$('close-about').addEventListener('click',()=>$('about').close());$('about').addEventListener('close',()=>{document.body.style.overflow='';});
-document.addEventListener('keydown',e=>{if(e.key==='/'&&!$('reader').open&&!$('about').open&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){e.preventDefault();$('search').focus();}if($('reader').open&&!['INPUT','TEXTAREA','BUTTON','AUDIO'].includes(document.activeElement.tagName)){if(e.key==='ArrowLeft')adjacent(-1);if(e.key==='ArrowRight')adjacent(1);}});
+document.addEventListener('keydown',e=>{if(e.key==='/'&&!$('reader').open&&!$('about').open&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){e.preventDefault();$('search').focus();}if($('reader').open&&!['INPUT','TEXTAREA','SELECT','BUTTON','AUDIO'].includes(document.activeElement.tagName)){if(e.key==='ArrowLeft')adjacent(-1);if(e.key==='ArrowRight')adjacent(1);}});
 render();
 followLocation();
 })();

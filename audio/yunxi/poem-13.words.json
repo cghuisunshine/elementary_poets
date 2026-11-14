@@ -1,0 +1,142 @@
+{
+  "text": "画鸡\n明，唐寅\n头上红冠不用裁，满身雪白走将来。\n平生不敢轻言语，一叫千门万户开。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-13.mp3",
+  "signature": "6136df045ccd45a19af98e1d51ee7f98937cf22e9db98e9b2042ad909921a2c3",
+  "words": [
+    {
+      "text": "画鸡",
+      "start": 0.108833,
+      "end": 0.917666,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "明",
+      "start": 1.58825,
+      "end": 2.058833,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "唐寅",
+      "start": 2.426458,
+      "end": 3.058791,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "头",
+      "start": 3.720583,
+      "end": 3.955874,
+      "start_char": 8,
+      "end_char": 9
+    },
+    {
+      "text": "上",
+      "start": 3.955875,
+      "end": 4.132333,
+      "start_char": 9,
+      "end_char": 10
+    },
+    {
+      "text": "红冠",
+      "start": 4.147041,
+      "end": 4.529374,
+      "start_char": 10,
+      "end_char": 12
+    },
+    {
+      "text": "不用",
+      "start": 4.558833,
+      "end": 4.852958,
+      "start_char": 12,
+      "end_char": 14
+    },
+    {
+      "text": "裁",
+      "start": 4.852958,
+      "end": 5.308833,
+      "start_char": 14,
+      "end_char": 15
+    },
+    {
+      "text": "满身",
+      "start": 5.617666,
+      "end": 6.147082,
+      "start_char": 16,
+      "end_char": 18
+    },
+    {
+      "text": "雪白",
+      "start": 6.16175,
+      "end": 6.602916,
+      "start_char": 18,
+      "end_char": 20
+    },
+    {
+      "text": "走",
+      "start": 6.602958,
+      "end": 6.749999,
+      "start_char": 20,
+      "end_char": 21
+    },
+    {
+      "text": "将来",
+      "start": 6.764708,
+      "end": 7.323541,
+      "start_char": 21,
+      "end_char": 23
+    },
+    {
+      "text": "平生",
+      "start": 8.0,
+      "end": 8.441166,
+      "start_char": 25,
+      "end_char": 27
+    },
+    {
+      "text": "不敢",
+      "start": 8.470583,
+      "end": 8.764708,
+      "start_char": 27,
+      "end_char": 29
+    },
+    {
+      "text": "轻言语",
+      "start": 8.779416,
+      "end": 9.455874,
+      "start_char": 29,
+      "end_char": 32
+    },
+    {
+      "text": "一",
+      "start": 9.852958,
+      "end": 10.029416,
+      "start_char": 33,
+      "end_char": 34
+    },
+    {
+      "text": "叫",
+      "start": 10.029416,
+      "end": 10.249999,
+      "start_char": 34,
+      "end_char": 35
+    },
+    {
+      "text": "千门万户",
+      "start": 10.264708,
+      "end": 11.220583,
+      "start_char": 35,
+      "end_char": 39
+    },
+    {
+      "text": "开",
+      "start": 11.220583,
+      "end": 11.573541,
+      "start_char": 39,
+      "end_char": 40
+    }
+  ]
+}

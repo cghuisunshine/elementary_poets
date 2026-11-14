@@ -1,0 +1,86 @@
+{
+  "text": "春夜喜雨\n唐，杜甫\n好雨知时节，当春乃发生。\n随风潜入夜，润物细无声。\n野径云俱黑，江船火独明。\n晓看红湿处，花重锦官城。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-107.mp3",
+  "signature": "4e32883436bf47c6c271d16dad64d2ce18da426b0bb8efb106ec79cfd9c33651",
+  "words": [
+    {
+      "text": "春夜喜雨",
+      "start": 0.108833,
+      "end": 1.373541,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "唐",
+      "start": 2.044125,
+      "end": 2.573541,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "杜甫",
+      "start": 2.985291,
+      "end": 3.705874,
+      "start_char": 7,
+      "end_char": 9
+    },
+    {
+      "text": "好雨知时节",
+      "start": 4.352958,
+      "end": 5.720624,
+      "start_char": 10,
+      "end_char": 15
+    },
+    {
+      "text": "当春乃发生",
+      "start": 6.16175,
+      "end": 7.41175,
+      "start_char": 16,
+      "end_char": 21
+    },
+    {
+      "text": "随风潜入夜",
+      "start": 8.08825,
+      "end": 9.514708,
+      "start_char": 23,
+      "end_char": 28
+    },
+    {
+      "text": "润物细无声",
+      "start": 9.941166,
+      "end": 11.294124,
+      "start_char": 29,
+      "end_char": 34
+    },
+    {
+      "text": "野径云俱黑",
+      "start": 11.970583,
+      "end": 13.235291,
+      "start_char": 36,
+      "end_char": 41
+    },
+    {
+      "text": "江船火独明",
+      "start": 13.58825,
+      "end": 15.044125,
+      "start_char": 42,
+      "end_char": 47
+    },
+    {
+      "text": "晓看红湿处",
+      "start": 15.720583,
+      "end": 17.102916,
+      "start_char": 49,
+      "end_char": 54
+    },
+    {
+      "text": "花重锦官城",
+      "start": 17.485291,
+      "end": 18.926457,
+      "start_char": 55,
+      "end_char": 60
+    }
+  ]
+}

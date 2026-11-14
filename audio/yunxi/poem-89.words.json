@@ -1,0 +1,261 @@
+{
+  "text": "西江月·夜行黄沙道中\n宋，辛弃疾\n明月别枝惊鹊，清风半夜鸣蝉。\n稻花香里说丰年，听取蛙声一片。\n七八个星天外，两三点雨山前。\n旧时茅店社林边，路转溪桥忽见。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-89.mp3",
+  "signature": "d70891985d3744886d4bf790b860da99d4f34d463e078703ce15b7f4226032bd",
+  "words": [
+    {
+      "text": "西江月",
+      "start": 0.108833,
+      "end": 1.035291,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "夜行",
+      "start": 1.447041,
+      "end": 1.991166,
+      "start_char": 4,
+      "end_char": 6
+    },
+    {
+      "text": "黄沙道中",
+      "start": 2.020583,
+      "end": 3.049999,
+      "start_char": 6,
+      "end_char": 10
+    },
+    {
+      "text": "宋",
+      "start": 3.735291,
+      "end": 4.191166,
+      "start_char": 11,
+      "end_char": 12
+    },
+    {
+      "text": "辛弃疾",
+      "start": 4.617666,
+      "end": 5.455916,
+      "start_char": 13,
+      "end_char": 16
+    },
+    {
+      "text": "明月",
+      "start": 6.132333,
+      "end": 6.720583,
+      "start_char": 17,
+      "end_char": 19
+    },
+    {
+      "text": "别枝惊鹊",
+      "start": 6.75,
+      "end": 7.764708,
+      "start_char": 19,
+      "end_char": 23
+    },
+    {
+      "text": "清风",
+      "start": 7.985291,
+      "end": 8.632332,
+      "start_char": 24,
+      "end_char": 26
+    },
+    {
+      "text": "半夜",
+      "start": 8.66175,
+      "end": 9.029416,
+      "start_char": 26,
+      "end_char": 28
+    },
+    {
+      "text": "鸣蝉",
+      "start": 9.044125,
+      "end": 9.676458,
+      "start_char": 28,
+      "end_char": 30
+    },
+    {
+      "text": "稻",
+      "start": 10.352958,
+      "end": 10.573541,
+      "start_char": 32,
+      "end_char": 33
+    },
+    {
+      "text": "花香",
+      "start": 10.573541,
+      "end": 11.044124,
+      "start_char": 33,
+      "end_char": 35
+    },
+    {
+      "text": "里",
+      "start": 11.044125,
+      "end": 11.161791,
+      "start_char": 35,
+      "end_char": 36
+    },
+    {
+      "text": "说",
+      "start": 11.176458,
+      "end": 11.367624,
+      "start_char": 36,
+      "end_char": 37
+    },
+    {
+      "text": "丰年",
+      "start": 11.382333,
+      "end": 12.058791,
+      "start_char": 37,
+      "end_char": 39
+    },
+    {
+      "text": "听取",
+      "start": 12.323541,
+      "end": 12.720582,
+      "start_char": 40,
+      "end_char": 42
+    },
+    {
+      "text": "蛙声",
+      "start": 12.75,
+      "end": 13.132333,
+      "start_char": 42,
+      "end_char": 44
+    },
+    {
+      "text": "一片",
+      "start": 13.147041,
+      "end": 13.558791,
+      "start_char": 44,
+      "end_char": 46
+    },
+    {
+      "text": "七",
+      "start": 14.235291,
+      "end": 14.514707,
+      "start_char": 48,
+      "end_char": 49
+    },
+    {
+      "text": "八",
+      "start": 14.514708,
+      "end": 14.691166,
+      "start_char": 49,
+      "end_char": 50
+    },
+    {
+      "text": "个",
+      "start": 14.691166,
+      "end": 14.764707,
+      "start_char": 50,
+      "end_char": 51
+    },
+    {
+      "text": "星天",
+      "start": 14.779416,
+      "end": 15.102957,
+      "start_char": 51,
+      "end_char": 53
+    },
+    {
+      "text": "外",
+      "start": 15.102958,
+      "end": 15.411791,
+      "start_char": 53,
+      "end_char": 54
+    },
+    {
+      "text": "两",
+      "start": 15.779416,
+      "end": 16.102957,
+      "start_char": 55,
+      "end_char": 56
+    },
+    {
+      "text": "三点雨",
+      "start": 16.102958,
+      "end": 16.588249,
+      "start_char": 56,
+      "end_char": 59
+    },
+    {
+      "text": "山",
+      "start": 16.602958,
+      "end": 16.867666,
+      "start_char": 59,
+      "end_char": 60
+    },
+    {
+      "text": "前",
+      "start": 16.867666,
+      "end": 17.264707,
+      "start_char": 60,
+      "end_char": 61
+    },
+    {
+      "text": "旧时",
+      "start": 17.926458,
+      "end": 18.455874,
+      "start_char": 63,
+      "end_char": 65
+    },
+    {
+      "text": "茅店",
+      "start": 18.485291,
+      "end": 18.838249,
+      "start_char": 65,
+      "end_char": 67
+    },
+    {
+      "text": "社林",
+      "start": 18.852958,
+      "end": 19.191166,
+      "start_char": 67,
+      "end_char": 69
+    },
+    {
+      "text": "边",
+      "start": 19.191166,
+      "end": 19.514707,
+      "start_char": 69,
+      "end_char": 70
+    },
+    {
+      "text": "路",
+      "start": 19.779416,
+      "end": 20.117666,
+      "start_char": 71,
+      "end_char": 72
+    },
+    {
+      "text": "转",
+      "start": 20.132333,
+      "end": 20.397041,
+      "start_char": 72,
+      "end_char": 73
+    },
+    {
+      "text": "溪桥",
+      "start": 20.397041,
+      "end": 20.852916,
+      "start_char": 73,
+      "end_char": 75
+    },
+    {
+      "text": "忽",
+      "start": 20.867666,
+      "end": 21.088249,
+      "start_char": 75,
+      "end_char": 76
+    },
+    {
+      "text": "见",
+      "start": 21.08825,
+      "end": 21.367666,
+      "start_char": 76,
+      "end_char": 77
+    }
+  ]
+}

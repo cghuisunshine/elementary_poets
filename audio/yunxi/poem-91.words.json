@@ -1,0 +1,58 @@
+{
+  "text": "春日\n宋，朱熹\n胜日寻芳泗水滨，无边光景一时新。\n等闲识得东风面，万紫千红总是春。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-91.mp3",
+  "signature": "b2350e12cf2cd02c8437b68fc5ad9fb134c7ff942eb3df52101d09c71199edcb",
+  "words": [
+    {
+      "text": "春日",
+      "start": 0.108833,
+      "end": 0.858833,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "宋",
+      "start": 1.529416,
+      "end": 1.970582,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "朱熹",
+      "start": 2.397041,
+      "end": 2.941166,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "胜日寻芳泗水滨",
+      "start": 3.602958,
+      "end": 5.397083,
+      "start_char": 8,
+      "end_char": 15
+    },
+    {
+      "text": "无边光景一时新",
+      "start": 5.75,
+      "end": 7.485291,
+      "start_char": 16,
+      "end_char": 23
+    },
+    {
+      "text": "等闲识得东风面",
+      "start": 8.16175,
+      "end": 9.838208,
+      "start_char": 25,
+      "end_char": 32
+    },
+    {
+      "text": "万紫千红总是春",
+      "start": 10.235291,
+      "end": 12.132332,
+      "start_char": 33,
+      "end_char": 40
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "text": "静夜思\n唐，李白\n床前明月光，疑是地上霜。\n举头望明月，低头思故乡。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-9.mp3",
+  "signature": "91da7e3f9ad7d57bed8f4f056a866fa2033ca3c363ce065fdfb54f24f2ce3d55",
+  "words": [
+    {
+      "text": "静夜思",
+      "start": 0.108833,
+      "end": 0.917666,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "唐",
+      "start": 1.58825,
+      "end": 2.161791,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "李白",
+      "start": 2.485291,
+      "end": 3.117624,
+      "start_char": 6,
+      "end_char": 8
+    },
+    {
+      "text": "床前明月光",
+      "start": 3.779416,
+      "end": 5.132374,
+      "start_char": 9,
+      "end_char": 14
+    },
+    {
+      "text": "疑是地上霜",
+      "start": 5.455875,
+      "end": 6.882333,
+      "start_char": 15,
+      "end_char": 20
+    },
+    {
+      "text": "举头望明月",
+      "start": 7.558833,
+      "end": 8.823541,
+      "start_char": 22,
+      "end_char": 27
+    },
+    {
+      "text": "低头思故乡",
+      "start": 9.205875,
+      "end": 10.382333,
+      "start_char": 28,
+      "end_char": 33
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "text": "乞巧\n唐，林杰\n七夕今宵看碧霄，牵牛织女渡河桥。\n家家乞巧望秋月，穿尽红丝几万条。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-66.mp3",
+  "signature": "3d036242632b636abccdacd13b5f0bb917340f9bded824eeb0780337532c5346",
+  "words": [
+    {
+      "text": "乞巧",
+      "start": 0.108833,
+      "end": 0.947083,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "唐",
+      "start": 1.617666,
+      "end": 2.191207,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "林杰",
+      "start": 2.514708,
+      "end": 3.205874,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "七夕",
+      "start": 3.867666,
+      "end": 4.279416,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "今宵",
+      "start": 4.294125,
+      "end": 4.764708,
+      "start_char": 10,
+      "end_char": 12
+    },
+    {
+      "text": "看",
+      "start": 4.794125,
+      "end": 5.014708,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "碧霄",
+      "start": 5.014708,
+      "end": 5.558833,
+      "start_char": 13,
+      "end_char": 15
+    },
+    {
+      "text": "牵牛",
+      "start": 5.794125,
+      "end": 6.323541,
+      "start_char": 16,
+      "end_char": 18
+    },
+    {
+      "text": "织女渡",
+      "start": 6.33825,
+      "end": 6.867666,
+      "start_char": 18,
+      "end_char": 21
+    },
+    {
+      "text": "河",
+      "start": 6.882333,
+      "end": 7.073499,
+      "start_char": 21,
+      "end_char": 22
+    },
+    {
+      "text": "桥",
+      "start": 7.073541,
+      "end": 7.514707,
+      "start_char": 22,
+      "end_char": 23
+    },
+    {
+      "text": "家家",
+      "start": 8.16175,
+      "end": 8.632333,
+      "start_char": 25,
+      "end_char": 27
+    },
+    {
+      "text": "乞巧",
+      "start": 8.647041,
+      "end": 9.147041,
+      "start_char": 27,
+      "end_char": 29
+    },
+    {
+      "text": "望",
+      "start": 9.176458,
+      "end": 9.367624,
+      "start_char": 29,
+      "end_char": 30
+    },
+    {
+      "text": "秋月",
+      "start": 9.367666,
+      "end": 9.999999,
+      "start_char": 30,
+      "end_char": 32
+    },
+    {
+      "text": "穿",
+      "start": 10.235291,
+      "end": 10.544124,
+      "start_char": 33,
+      "end_char": 34
+    },
+    {
+      "text": "尽",
+      "start": 10.544125,
+      "end": 10.676458,
+      "start_char": 34,
+      "end_char": 35
+    },
+    {
+      "text": "红丝",
+      "start": 10.691166,
+      "end": 11.147041,
+      "start_char": 35,
+      "end_char": 37
+    },
+    {
+      "text": "几万",
+      "start": 11.176458,
+      "end": 11.602916,
+      "start_char": 37,
+      "end_char": 39
+    },
+    {
+      "text": "条",
+      "start": 11.602958,
+      "end": 11.970624,
+      "start_char": 39,
+      "end_char": 40
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "text": "山居秋暝\n唐，王维\n空山新雨后，天气晚来秋。\n明月松间照，清泉石上流。\n竹喧归浣女，莲动下渔舟。\n随意春芳歇，王孙自可留。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-70.mp3",
+  "signature": "e1cbdb5dbb5f059bbeb9b25a230a80faeea934183a45dbf4b7e90634265f7809",
+  "words": [
+    {
+      "text": "山居秋暝",
+      "start": 0.108833,
+      "end": 1.402958,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "唐",
+      "start": 2.073541,
+      "end": 2.632374,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "王维",
+      "start": 3.044125,
+      "end": 3.661791,
+      "start_char": 7,
+      "end_char": 9
+    },
+    {
+      "text": "空山新雨后",
+      "start": 4.33825,
+      "end": 5.558833,
+      "start_char": 10,
+      "end_char": 15
+    },
+    {
+      "text": "天气晚来秋",
+      "start": 5.794125,
+      "end": 7.044125,
+      "start_char": 16,
+      "end_char": 21
+    },
+    {
+      "text": "明月松间照",
+      "start": 7.720583,
+      "end": 9.044124,
+      "start_char": 23,
+      "end_char": 28
+    },
+    {
+      "text": "清泉石上流",
+      "start": 9.41175,
+      "end": 11.044083,
+      "start_char": 29,
+      "end_char": 34
+    },
+    {
+      "text": "竹喧归浣女",
+      "start": 11.705875,
+      "end": 13.058833,
+      "start_char": 36,
+      "end_char": 41
+    },
+    {
+      "text": "莲动下渔舟",
+      "start": 13.367666,
+      "end": 14.794124,
+      "start_char": 42,
+      "end_char": 47
+    },
+    {
+      "text": "随意春芳歇",
+      "start": 15.455875,
+      "end": 16.720583,
+      "start_char": 49,
+      "end_char": 54
+    },
+    {
+      "text": "王孙自可留",
+      "start": 17.147041,
+      "end": 18.676457,
+      "start_char": 55,
+      "end_char": 60
+    }
+  ]
+}

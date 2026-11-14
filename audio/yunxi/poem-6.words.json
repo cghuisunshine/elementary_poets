@@ -1,0 +1,58 @@
+{
+  "text": "风\n唐，李峤\n解落三秋叶，能开二月花。\n过江千尺浪，入竹万竿斜。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-6.mp3",
+  "signature": "2907233da751a8fde7a7345534c44745592711f90bdd9c208890b7767bc15a01",
+  "words": [
+    {
+      "text": "风",
+      "start": 0.108833,
+      "end": 0.829416,
+      "start_char": 0,
+      "end_char": 1
+    },
+    {
+      "text": "唐",
+      "start": 1.5,
+      "end": 2.132333,
+      "start_char": 2,
+      "end_char": 3
+    },
+    {
+      "text": "李峤",
+      "start": 2.441166,
+      "end": 3.191166,
+      "start_char": 4,
+      "end_char": 6
+    },
+    {
+      "text": "解落三秋叶",
+      "start": 3.83825,
+      "end": 5.147083,
+      "start_char": 7,
+      "end_char": 12
+    },
+    {
+      "text": "能开二月花",
+      "start": 5.529416,
+      "end": 6.838249,
+      "start_char": 13,
+      "end_char": 18
+    },
+    {
+      "text": "过江千尺浪",
+      "start": 7.514708,
+      "end": 8.852958,
+      "start_char": 20,
+      "end_char": 25
+    },
+    {
+      "text": "入竹万竿斜",
+      "start": 9.352958,
+      "end": 10.823541,
+      "start_char": 26,
+      "end_char": 31
+    }
+  ]
+}

@@ -10,16 +10,20 @@ reader returns the URL to the current grade.
 
 ## Chinese narration
 
-Every entry has pre-generated Edge TTS audio using the Chinese female voice
-`zh-CN-XiaoxiaoNeural` (晓晓), at a slightly slower reading pace. Open a poem or
-reveal a flashcard to use its play/pause and seek controls. Poem words highlight
+Every entry has pre-generated Edge TTS audio using both `zh-CN-XiaoxiaoNeural`
+(晓晓, female) and `zh-CN-YunxiNeural` (云希, male), at a slightly slower reading
+pace. Choose a voice above the player; your choice is remembered across poems,
+views, and visits. Switching voices pauses playback and starts the new voice
+from the beginning. Open a poem or reveal a flashcard to use its play/pause and
+seek controls. Poem words highlight
 in sync with the recording. Switching poems, hiding a flashcard, entering
 recitation mode, or closing the reader pauses playback. Only one player plays
 at a time. The three modern entries narrate their title and author only because
 their poem text is not included.
 
-The committed `audio/` and `audio-data.js` assets work offline and with a direct
-file open. To regenerate after editing `poems.js` (requires network access):
+The included `audio/`, `audio-data.js`, and `audio-yunxi-data.js` assets work
+offline and with a direct file open. To regenerate both voices after editing
+`poems.js` (requires network access):
 
 ```sh
 python3 -m venv /tmp/elementary-poets-tts
@@ -27,8 +31,9 @@ python3 -m venv /tmp/elementary-poets-tts
 /tmp/elementary-poets-tts/bin/python tools/generate_poem_audio.py
 ```
 
-Unchanged recordings are reused. Audio and word timings are generated together;
-`audio-data.js` bundles the timings so playback does not require a web server.
+Unchanged recordings are reused. Use `--voice yunxi` or `--voice xiaoxiao` to
+generate one voice only. Audio and word timings are generated together; the two
+JavaScript bundles contain the timings so playback needs no web server.
 
 ## Optional poem illustrations
 

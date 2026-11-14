@@ -1,0 +1,205 @@
+{
+  "text": "宿新市徐公店\n宋，杨万里\n篱落疏疏一径深，树头新绿未成阴。\n儿童急走追黄蝶，飞入菜花无处寻。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-56.mp3",
+  "signature": "3f447e8509555e9438ceaa1cf547e72b277983f7b90fb2558be90711c8104460",
+  "words": [
+    {
+      "text": "宿",
+      "start": 0.108833,
+      "end": 0.417666,
+      "start_char": 0,
+      "end_char": 1
+    },
+    {
+      "text": "新市",
+      "start": 0.417666,
+      "end": 0.917666,
+      "start_char": 1,
+      "end_char": 3
+    },
+    {
+      "text": "徐",
+      "start": 0.947041,
+      "end": 1.182332,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "公店",
+      "start": 1.182333,
+      "end": 1.697041,
+      "start_char": 4,
+      "end_char": 6
+    },
+    {
+      "text": "宋",
+      "start": 2.352958,
+      "end": 2.779416,
+      "start_char": 7,
+      "end_char": 8
+    },
+    {
+      "text": "杨万里",
+      "start": 3.176458,
+      "end": 4.117624,
+      "start_char": 9,
+      "end_char": 12
+    },
+    {
+      "text": "篱落",
+      "start": 4.794125,
+      "end": 5.191166,
+      "start_char": 13,
+      "end_char": 15
+    },
+    {
+      "text": "疏疏",
+      "start": 5.205875,
+      "end": 5.617625,
+      "start_char": 15,
+      "end_char": 17
+    },
+    {
+      "text": "一",
+      "start": 5.647041,
+      "end": 5.808791,
+      "start_char": 17,
+      "end_char": 18
+    },
+    {
+      "text": "径",
+      "start": 5.808833,
+      "end": 5.985291,
+      "start_char": 18,
+      "end_char": 19
+    },
+    {
+      "text": "深",
+      "start": 5.985291,
+      "end": 6.367624,
+      "start_char": 19,
+      "end_char": 20
+    },
+    {
+      "text": "树头",
+      "start": 6.66175,
+      "end": 7.191166,
+      "start_char": 21,
+      "end_char": 23
+    },
+    {
+      "text": "新绿",
+      "start": 7.205875,
+      "end": 7.558833,
+      "start_char": 23,
+      "end_char": 25
+    },
+    {
+      "text": "未",
+      "start": 7.58825,
+      "end": 7.779416,
+      "start_char": 25,
+      "end_char": 26
+    },
+    {
+      "text": "成",
+      "start": 7.779416,
+      "end": 8.029416,
+      "start_char": 26,
+      "end_char": 27
+    },
+    {
+      "text": "阴",
+      "start": 8.029416,
+      "end": 8.279416,
+      "start_char": 27,
+      "end_char": 28
+    },
+    {
+      "text": "儿童",
+      "start": 8.941166,
+      "end": 9.352916,
+      "start_char": 30,
+      "end_char": 32
+    },
+    {
+      "text": "急",
+      "start": 9.367666,
+      "end": 9.544124,
+      "start_char": 32,
+      "end_char": 33
+    },
+    {
+      "text": "走",
+      "start": 9.544125,
+      "end": 9.735291,
+      "start_char": 33,
+      "end_char": 34
+    },
+    {
+      "text": "追",
+      "start": 9.764708,
+      "end": 9.926458,
+      "start_char": 34,
+      "end_char": 35
+    },
+    {
+      "text": "黄",
+      "start": 9.941166,
+      "end": 10.191166,
+      "start_char": 35,
+      "end_char": 36
+    },
+    {
+      "text": "蝶",
+      "start": 10.191166,
+      "end": 10.544124,
+      "start_char": 36,
+      "end_char": 37
+    },
+    {
+      "text": "飞",
+      "start": 10.897041,
+      "end": 11.191166,
+      "start_char": 38,
+      "end_char": 39
+    },
+    {
+      "text": "入",
+      "start": 11.191166,
+      "end": 11.338207,
+      "start_char": 39,
+      "end_char": 40
+    },
+    {
+      "text": "菜花",
+      "start": 11.352958,
+      "end": 11.882374,
+      "start_char": 40,
+      "end_char": 42
+    },
+    {
+      "text": "无",
+      "start": 11.91175,
+      "end": 12.102916,
+      "start_char": 42,
+      "end_char": 43
+    },
+    {
+      "text": "处",
+      "start": 12.102958,
+      "end": 12.323541,
+      "start_char": 43,
+      "end_char": 44
+    },
+    {
+      "text": "寻",
+      "start": 12.323541,
+      "end": 12.705874,
+      "start_char": 44,
+      "end_char": 45
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "text": "观书有感·其一\n宋，朱熹\n半亩方塘一鉴开，天光云影共徘徊。\n问渠那得清如许？为有源头活水来。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-74.mp3",
+  "signature": "1a26e16544da506eb8477947dbae46d714541fc0c79a18e10544aa7e54cecf8d",
+  "words": [
+    {
+      "text": "观书有感",
+      "start": 0.108833,
+      "end": 1.138249,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "其一",
+      "start": 1.505875,
+      "end": 2.167625,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "宋",
+      "start": 2.83825,
+      "end": 3.279416,
+      "start_char": 8,
+      "end_char": 9
+    },
+    {
+      "text": "朱熹",
+      "start": 3.705875,
+      "end": 4.25,
+      "start_char": 10,
+      "end_char": 12
+    },
+    {
+      "text": "半亩方塘一鉴开",
+      "start": 4.91175,
+      "end": 6.66175,
+      "start_char": 13,
+      "end_char": 20
+    },
+    {
+      "text": "天光云影共徘徊",
+      "start": 7.0,
+      "end": 8.882333,
+      "start_char": 21,
+      "end_char": 28
+    },
+    {
+      "text": "问渠那得清如许",
+      "start": 9.558833,
+      "end": 11.499999,
+      "start_char": 30,
+      "end_char": 37
+    },
+    {
+      "text": "为有源头活水来",
+      "start": 12.16175,
+      "end": 14.0,
+      "start_char": 38,
+      "end_char": 45
+    }
+  ]
+}

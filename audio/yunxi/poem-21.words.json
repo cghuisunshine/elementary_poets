@@ -1,0 +1,58 @@
+{
+  "text": "村居\n清，高鼎\n草长莺飞二月天，拂堤杨柳醉春烟。\n儿童散学归来早，忙趁东风放纸鸢。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-21.mp3",
+  "signature": "f9d66f70ba2e5f9f04fedd2b2dec3f35d06e791af4ea7906d6197a0d54cd424a",
+  "words": [
+    {
+      "text": "村居",
+      "start": 0.108833,
+      "end": 0.844124,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "清",
+      "start": 1.514708,
+      "end": 2.044124,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "高鼎",
+      "start": 2.397041,
+      "end": 2.985291,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "草长莺飞二月天",
+      "start": 3.632333,
+      "end": 5.397041,
+      "start_char": 8,
+      "end_char": 15
+    },
+    {
+      "text": "拂堤杨柳醉春烟",
+      "start": 5.75,
+      "end": 7.485291,
+      "start_char": 16,
+      "end_char": 23
+    },
+    {
+      "text": "儿童散学归来早",
+      "start": 8.16175,
+      "end": 9.735291,
+      "start_char": 25,
+      "end_char": 32
+    },
+    {
+      "text": "忙趁东风放纸鸢",
+      "start": 10.132333,
+      "end": 12.102916,
+      "start_char": 33,
+      "end_char": 40
+    }
+  ]
+}

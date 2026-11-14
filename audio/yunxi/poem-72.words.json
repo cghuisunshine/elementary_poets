@@ -1,0 +1,226 @@
+{
+  "text": "长相思\n清，纳兰性德\n山一程，水一程，身向榆关那畔行，夜深千帐灯。\n风一更，雪一更，聒碎乡心梦不成，故园无此声。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-72.mp3",
+  "signature": "f0caba384ed0bc144b6b42e2fe003b60ba9cf8903d1738e77c7e6ae9fb87657a",
+  "words": [
+    {
+      "text": "长相思",
+      "start": 0.108833,
+      "end": 1.094124,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "清",
+      "start": 1.764708,
+      "end": 2.235291,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "纳兰",
+      "start": 2.676458,
+      "end": 3.117624,
+      "start_char": 6,
+      "end_char": 8
+    },
+    {
+      "text": "性德",
+      "start": 3.132333,
+      "end": 3.720583,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "山",
+      "start": 4.397041,
+      "end": 4.749999,
+      "start_char": 11,
+      "end_char": 12
+    },
+    {
+      "text": "一",
+      "start": 4.75,
+      "end": 4.882333,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "程",
+      "start": 4.882333,
+      "end": 5.338208,
+      "start_char": 13,
+      "end_char": 14
+    },
+    {
+      "text": "水",
+      "start": 5.529416,
+      "end": 5.882332,
+      "start_char": 15,
+      "end_char": 16
+    },
+    {
+      "text": "一",
+      "start": 5.882333,
+      "end": 6.044083,
+      "start_char": 16,
+      "end_char": 17
+    },
+    {
+      "text": "程",
+      "start": 6.044125,
+      "end": 6.485291,
+      "start_char": 17,
+      "end_char": 18
+    },
+    {
+      "text": "身向",
+      "start": 6.691166,
+      "end": 7.235291,
+      "start_char": 19,
+      "end_char": 21
+    },
+    {
+      "text": "榆关",
+      "start": 7.235291,
+      "end": 7.661749,
+      "start_char": 21,
+      "end_char": 23
+    },
+    {
+      "text": "那",
+      "start": 7.676458,
+      "end": 7.823499,
+      "start_char": 23,
+      "end_char": 24
+    },
+    {
+      "text": "畔",
+      "start": 7.823541,
+      "end": 8.102957,
+      "start_char": 24,
+      "end_char": 25
+    },
+    {
+      "text": "行",
+      "start": 8.102958,
+      "end": 8.514708,
+      "start_char": 25,
+      "end_char": 26
+    },
+    {
+      "text": "夜深",
+      "start": 8.808833,
+      "end": 9.441166,
+      "start_char": 27,
+      "end_char": 29
+    },
+    {
+      "text": "千",
+      "start": 9.470583,
+      "end": 9.911749,
+      "start_char": 29,
+      "end_char": 30
+    },
+    {
+      "text": "帐",
+      "start": 9.91175,
+      "end": 10.147041,
+      "start_char": 30,
+      "end_char": 31
+    },
+    {
+      "text": "灯",
+      "start": 10.147041,
+      "end": 10.426457,
+      "start_char": 31,
+      "end_char": 32
+    },
+    {
+      "text": "风",
+      "start": 11.08825,
+      "end": 11.382333,
+      "start_char": 34,
+      "end_char": 35
+    },
+    {
+      "text": "一更",
+      "start": 11.382333,
+      "end": 11.882333,
+      "start_char": 35,
+      "end_char": 37
+    },
+    {
+      "text": "雪",
+      "start": 12.16175,
+      "end": 12.441166,
+      "start_char": 38,
+      "end_char": 39
+    },
+    {
+      "text": "一更",
+      "start": 12.441166,
+      "end": 12.941166,
+      "start_char": 39,
+      "end_char": 41
+    },
+    {
+      "text": "聒碎乡",
+      "start": 13.323541,
+      "end": 13.985291,
+      "start_char": 42,
+      "end_char": 45
+    },
+    {
+      "text": "心",
+      "start": 13.985291,
+      "end": 14.308832,
+      "start_char": 45,
+      "end_char": 46
+    },
+    {
+      "text": "梦",
+      "start": 14.308833,
+      "end": 14.470583,
+      "start_char": 46,
+      "end_char": 47
+    },
+    {
+      "text": "不成",
+      "start": 14.485291,
+      "end": 14.999999,
+      "start_char": 47,
+      "end_char": 49
+    },
+    {
+      "text": "故园",
+      "start": 15.397041,
+      "end": 15.779374,
+      "start_char": 50,
+      "end_char": 52
+    },
+    {
+      "text": "无",
+      "start": 15.808833,
+      "end": 15.985291,
+      "start_char": 52,
+      "end_char": 53
+    },
+    {
+      "text": "此",
+      "start": 15.985291,
+      "end": 16.176457,
+      "start_char": 53,
+      "end_char": 54
+    },
+    {
+      "text": "声",
+      "start": 16.176458,
+      "end": 16.514708,
+      "start_char": 54,
+      "end_char": 55
+    }
+  ]
+}

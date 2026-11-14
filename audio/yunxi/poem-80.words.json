@@ -1,0 +1,142 @@
+{
+  "text": "鸟鸣涧\n唐，王维\n人闲桂花落，夜静春山空。\n月出惊山鸟，时鸣春涧中。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-80.mp3",
+  "signature": "c8443aa3ffe22f1da45427f565f373f5543d3ffd87463903c5de2d4aac301ba5",
+  "words": [
+    {
+      "text": "鸟鸣涧",
+      "start": 0.108833,
+      "end": 1.049999,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "唐",
+      "start": 1.720583,
+      "end": 2.279416,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "王维",
+      "start": 2.691166,
+      "end": 3.308832,
+      "start_char": 6,
+      "end_char": 8
+    },
+    {
+      "text": "人",
+      "start": 3.985291,
+      "end": 4.308832,
+      "start_char": 9,
+      "end_char": 10
+    },
+    {
+      "text": "闲",
+      "start": 4.308833,
+      "end": 4.558833,
+      "start_char": 10,
+      "end_char": 11
+    },
+    {
+      "text": "桂",
+      "start": 4.558833,
+      "end": 4.735291,
+      "start_char": 11,
+      "end_char": 12
+    },
+    {
+      "text": "花落",
+      "start": 4.735291,
+      "end": 5.338249,
+      "start_char": 12,
+      "end_char": 14
+    },
+    {
+      "text": "夜静",
+      "start": 5.779416,
+      "end": 6.294124,
+      "start_char": 15,
+      "end_char": 17
+    },
+    {
+      "text": "春山",
+      "start": 6.323541,
+      "end": 6.897041,
+      "start_char": 17,
+      "end_char": 19
+    },
+    {
+      "text": "空",
+      "start": 6.897041,
+      "end": 7.235291,
+      "start_char": 19,
+      "end_char": 20
+    },
+    {
+      "text": "月",
+      "start": 7.897041,
+      "end": 8.147041,
+      "start_char": 22,
+      "end_char": 23
+    },
+    {
+      "text": "出",
+      "start": 8.147041,
+      "end": 8.441166,
+      "start_char": 23,
+      "end_char": 24
+    },
+    {
+      "text": "惊山",
+      "start": 8.470583,
+      "end": 8.926458,
+      "start_char": 24,
+      "end_char": 26
+    },
+    {
+      "text": "鸟",
+      "start": 8.926458,
+      "end": 9.249999,
+      "start_char": 26,
+      "end_char": 27
+    },
+    {
+      "text": "时",
+      "start": 9.544125,
+      "end": 9.926458,
+      "start_char": 28,
+      "end_char": 29
+    },
+    {
+      "text": "鸣",
+      "start": 9.926458,
+      "end": 10.132333,
+      "start_char": 29,
+      "end_char": 30
+    },
+    {
+      "text": "春",
+      "start": 10.132333,
+      "end": 10.411749,
+      "start_char": 30,
+      "end_char": 31
+    },
+    {
+      "text": "涧",
+      "start": 10.41175,
+      "end": 10.66175,
+      "start_char": 31,
+      "end_char": 32
+    },
+    {
+      "text": "中",
+      "start": 10.66175,
+      "end": 11.014708,
+      "start_char": 32,
+      "end_char": 33
+    }
+  ]
+}

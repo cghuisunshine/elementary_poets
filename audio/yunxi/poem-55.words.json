@@ -1,0 +1,72 @@
+{
+  "text": "四时田园杂兴·其二十五\n宋，范成大\n梅子金黄杏子肥，麦花雪白菜花稀。\n日长篱落无人过，惟有蜻蜓蛱蝶飞。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-55.mp3",
+  "signature": "80f4b9c8f4c5e572b7654ffae37e0b6b539b7aabe2605302d109cbb76676809b",
+  "words": [
+    {
+      "text": "四时田园杂兴",
+      "start": 0.108833,
+      "end": 1.652958,
+      "start_char": 0,
+      "end_char": 6
+    },
+    {
+      "text": "其",
+      "start": 2.079416,
+      "end": 2.388249,
+      "start_char": 7,
+      "end_char": 8
+    },
+    {
+      "text": "二十五",
+      "start": 2.402958,
+      "end": 3.020624,
+      "start_char": 8,
+      "end_char": 11
+    },
+    {
+      "text": "宋",
+      "start": 3.705875,
+      "end": 4.147041,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "范成大",
+      "start": 4.617666,
+      "end": 5.411791,
+      "start_char": 14,
+      "end_char": 17
+    },
+    {
+      "text": "梅子金黄杏子肥",
+      "start": 6.08825,
+      "end": 7.823541,
+      "start_char": 18,
+      "end_char": 25
+    },
+    {
+      "text": "麦花雪白菜花稀",
+      "start": 8.132333,
+      "end": 9.720583,
+      "start_char": 26,
+      "end_char": 33
+    },
+    {
+      "text": "日长篱落无人过",
+      "start": 10.397041,
+      "end": 11.985291,
+      "start_char": 35,
+      "end_char": 42
+    },
+    {
+      "text": "惟有蜻蜓蛱蝶飞",
+      "start": 12.397041,
+      "end": 14.088207,
+      "start_char": 43,
+      "end_char": 50
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "text": "赠刘景文\n宋，苏轼\n荷尽已无擎雨盖，菊残犹有傲霜枝。\n一年好景君须记，最是橙黄橘绿时。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-30.mp3",
+  "signature": "8de336e5e457c73f6bebdf0073c1aaca2d39d5df0fd988e058cf64d17afa3426",
+  "words": [
+    {
+      "text": "赠",
+      "start": 0.108833,
+      "end": 0.505874,
+      "start_char": 0,
+      "end_char": 1
+    },
+    {
+      "text": "刘景文",
+      "start": 0.505875,
+      "end": 1.197041,
+      "start_char": 1,
+      "end_char": 4
+    },
+    {
+      "text": "宋",
+      "start": 1.867666,
+      "end": 2.352957,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "苏轼",
+      "start": 2.764708,
+      "end": 3.367666,
+      "start_char": 7,
+      "end_char": 9
+    },
+    {
+      "text": "荷",
+      "start": 4.029416,
+      "end": 4.279416,
+      "start_char": 10,
+      "end_char": 11
+    },
+    {
+      "text": "尽已",
+      "start": 4.279416,
+      "end": 4.573541,
+      "start_char": 11,
+      "end_char": 13
+    },
+    {
+      "text": "无",
+      "start": 4.58825,
+      "end": 4.764708,
+      "start_char": 13,
+      "end_char": 14
+    },
+    {
+      "text": "擎",
+      "start": 4.764708,
+      "end": 4.985291,
+      "start_char": 14,
+      "end_char": 15
+    },
+    {
+      "text": "雨盖",
+      "start": 4.985291,
+      "end": 5.426457,
+      "start_char": 15,
+      "end_char": 17
+    },
+    {
+      "text": "菊残",
+      "start": 5.779416,
+      "end": 6.544124,
+      "start_char": 18,
+      "end_char": 20
+    },
+    {
+      "text": "犹",
+      "start": 6.558833,
+      "end": 6.749999,
+      "start_char": 20,
+      "end_char": 21
+    },
+    {
+      "text": "有",
+      "start": 6.75,
+      "end": 6.867666,
+      "start_char": 21,
+      "end_char": 22
+    },
+    {
+      "text": "傲",
+      "start": 6.897041,
+      "end": 7.102916,
+      "start_char": 22,
+      "end_char": 23
+    },
+    {
+      "text": "霜枝",
+      "start": 7.102958,
+      "end": 7.647083,
+      "start_char": 23,
+      "end_char": 25
+    },
+    {
+      "text": "一",
+      "start": 8.308833,
+      "end": 8.544124,
+      "start_char": 27,
+      "end_char": 28
+    },
+    {
+      "text": "年",
+      "start": 8.544125,
+      "end": 8.735291,
+      "start_char": 28,
+      "end_char": 29
+    },
+    {
+      "text": "好",
+      "start": 8.75,
+      "end": 8.985291,
+      "start_char": 29,
+      "end_char": 30
+    },
+    {
+      "text": "景君",
+      "start": 8.985291,
+      "end": 9.426457,
+      "start_char": 30,
+      "end_char": 32
+    },
+    {
+      "text": "须",
+      "start": 9.441166,
+      "end": 9.764707,
+      "start_char": 32,
+      "end_char": 33
+    },
+    {
+      "text": "记",
+      "start": 9.764708,
+      "end": 10.044124,
+      "start_char": 33,
+      "end_char": 34
+    },
+    {
+      "text": "最是",
+      "start": 10.33825,
+      "end": 10.823541,
+      "start_char": 35,
+      "end_char": 37
+    },
+    {
+      "text": "橙黄橘绿",
+      "start": 10.852958,
+      "end": 11.632333,
+      "start_char": 37,
+      "end_char": 41
+    },
+    {
+      "text": "时",
+      "start": 11.632333,
+      "end": 12.058791,
+      "start_char": 41,
+      "end_char": 42
+    }
+  ]
+}

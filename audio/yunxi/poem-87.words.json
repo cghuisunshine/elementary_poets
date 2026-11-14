@@ -1,0 +1,58 @@
+{
+  "text": "宿建德江\n唐，孟浩然\n移舟泊烟渚，日暮客愁新。\n野旷天低树，江清月近人。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-87.mp3",
+  "signature": "9ccc4e96b924d9e2e3f8207883fb73ef96a5cf7f065ebcdf86d76d995cf4ca33",
+  "words": [
+    {
+      "text": "宿建德江",
+      "start": 0.108833,
+      "end": 1.417666,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "唐",
+      "start": 2.08825,
+      "end": 2.58825,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "孟浩然",
+      "start": 2.955875,
+      "end": 3.764708,
+      "start_char": 7,
+      "end_char": 10
+    },
+    {
+      "text": "移舟泊烟渚",
+      "start": 4.441166,
+      "end": 5.676457,
+      "start_char": 11,
+      "end_char": 16
+    },
+    {
+      "text": "日暮客愁新",
+      "start": 6.132333,
+      "end": 7.352916,
+      "start_char": 17,
+      "end_char": 22
+    },
+    {
+      "text": "野旷天低树",
+      "start": 8.029416,
+      "end": 9.382374,
+      "start_char": 24,
+      "end_char": 29
+    },
+    {
+      "text": "江清月近人",
+      "start": 9.794125,
+      "end": 11.279416,
+      "start_char": 30,
+      "end_char": 35
+    }
+  ]
+}

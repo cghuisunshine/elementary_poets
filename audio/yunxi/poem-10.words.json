@@ -1,0 +1,65 @@
+{
+  "text": "寻隐者不遇\n唐，贾岛\n松下问童子，言师采药去。\n只在此山中，云深不知处。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-10.mp3",
+  "signature": "44175d00d256e8f878d9fa1cc26c4482a853742be69200da4894e43595feb094",
+  "words": [
+    {
+      "text": "寻隐者不遇",
+      "start": 0.108833,
+      "end": 1.417666,
+      "start_char": 0,
+      "end_char": 5
+    },
+    {
+      "text": "唐",
+      "start": 2.08825,
+      "end": 2.632375,
+      "start_char": 6,
+      "end_char": 7
+    },
+    {
+      "text": "贾",
+      "start": 2.970583,
+      "end": 3.308833,
+      "start_char": 8,
+      "end_char": 9
+    },
+    {
+      "text": "岛",
+      "start": 3.308833,
+      "end": 3.691166,
+      "start_char": 9,
+      "end_char": 10
+    },
+    {
+      "text": "松下问童子",
+      "start": 4.33825,
+      "end": 5.661791,
+      "start_char": 11,
+      "end_char": 16
+    },
+    {
+      "text": "言师采药去",
+      "start": 6.029416,
+      "end": 7.352957,
+      "start_char": 17,
+      "end_char": 22
+    },
+    {
+      "text": "只在此山中",
+      "start": 8.029416,
+      "end": 9.426457,
+      "start_char": 24,
+      "end_char": 29
+    },
+    {
+      "text": "云深不知处",
+      "start": 9.794125,
+      "end": 11.0,
+      "start_char": 30,
+      "end_char": 35
+    }
+  ]
+}

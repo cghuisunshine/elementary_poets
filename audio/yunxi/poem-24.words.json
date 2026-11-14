@@ -1,0 +1,58 @@
+{
+  "text": "晓出净慈寺送林子方\n宋，杨万里\n毕竟西湖六月中，风光不与四时同。\n接天莲叶无穷碧，映日荷花别样红。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-24.mp3",
+  "signature": "64f9f8a38b4dc0293876a144a7f1312e19ac09b4a4da0422ba499decdaabd372",
+  "words": [
+    {
+      "text": "晓出净慈寺送林子方",
+      "start": 0.108833,
+      "end": 2.432374,
+      "start_char": 0,
+      "end_char": 9
+    },
+    {
+      "text": "宋",
+      "start": 3.117666,
+      "end": 3.544124,
+      "start_char": 10,
+      "end_char": 11
+    },
+    {
+      "text": "杨万里",
+      "start": 3.941166,
+      "end": 4.882332,
+      "start_char": 12,
+      "end_char": 15
+    },
+    {
+      "text": "毕竟西湖六月中",
+      "start": 5.558833,
+      "end": 7.220583,
+      "start_char": 16,
+      "end_char": 23
+    },
+    {
+      "text": "风光不与四时同",
+      "start": 7.544125,
+      "end": 9.205875,
+      "start_char": 24,
+      "end_char": 31
+    },
+    {
+      "text": "接天莲叶无穷碧",
+      "start": 9.882333,
+      "end": 11.573499,
+      "start_char": 33,
+      "end_char": 40
+    },
+    {
+      "text": "映日荷花别样红",
+      "start": 12.073541,
+      "end": 13.838249,
+      "start_char": 41,
+      "end_char": 48
+    }
+  ]
+}

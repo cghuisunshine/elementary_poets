@@ -1,0 +1,72 @@
+{
+  "text": "秋夜将晓出篱门迎凉有感\n宋，陆游\n三万里河东入海，五千仞岳上摩天。\n遗民泪尽胡尘里，南望王师又一年。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-82.mp3",
+  "signature": "6c0ed76d9e98434474711a2e1f6ed0f673550b40b448a55e26a239168a9a61c8",
+  "words": [
+    {
+      "text": "秋夜将晓出篱门",
+      "start": 0.108833,
+      "end": 1.858833,
+      "start_char": 0,
+      "end_char": 7
+    },
+    {
+      "text": "迎凉有感",
+      "start": 1.858833,
+      "end": 2.829416,
+      "start_char": 7,
+      "end_char": 11
+    },
+    {
+      "text": "宋",
+      "start": 3.514708,
+      "end": 3.955874,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "陆",
+      "start": 4.382333,
+      "end": 4.691166,
+      "start_char": 14,
+      "end_char": 15
+    },
+    {
+      "text": "游",
+      "start": 4.691166,
+      "end": 5.073499,
+      "start_char": 15,
+      "end_char": 16
+    },
+    {
+      "text": "三万里河东入海",
+      "start": 5.720583,
+      "end": 7.382333,
+      "start_char": 17,
+      "end_char": 24
+    },
+    {
+      "text": "五千仞岳上摩天",
+      "start": 7.764708,
+      "end": 9.323541,
+      "start_char": 25,
+      "end_char": 32
+    },
+    {
+      "text": "遗民泪尽胡尘里",
+      "start": 10.0,
+      "end": 12.0,
+      "start_char": 34,
+      "end_char": 41
+    },
+    {
+      "text": "南望王师又一年",
+      "start": 12.397041,
+      "end": 14.161749,
+      "start_char": 42,
+      "end_char": 49
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "text": "石灰吟\n明，于谦\n千锤万凿出深山，烈火焚烧若等闲。\n粉骨碎身浑不怕，要留清白在人间。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-103.mp3",
+  "signature": "1ecbdd979811647b9f209683ece86eaf77303f3d751eb42b0d282e6be2e51ee8",
+  "words": [
+    {
+      "text": "石灰吟",
+      "start": 0.108833,
+      "end": 1.167666,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "明",
+      "start": 1.823541,
+      "end": 2.352957,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "于谦",
+      "start": 2.75,
+      "end": 3.382333,
+      "start_char": 6,
+      "end_char": 8
+    },
+    {
+      "text": "千锤万凿出深山",
+      "start": 4.044125,
+      "end": 5.926458,
+      "start_char": 9,
+      "end_char": 16
+    },
+    {
+      "text": "烈火焚烧若等闲",
+      "start": 6.25,
+      "end": 8.397041,
+      "start_char": 17,
+      "end_char": 24
+    },
+    {
+      "text": "粉骨碎身浑不怕",
+      "start": 9.073541,
+      "end": 10.764707,
+      "start_char": 26,
+      "end_char": 33
+    },
+    {
+      "text": "要留清白在人间",
+      "start": 11.16175,
+      "end": 12.794083,
+      "start_char": 34,
+      "end_char": 41
+    }
+  ]
+}

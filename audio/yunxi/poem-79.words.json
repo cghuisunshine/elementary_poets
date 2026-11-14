@@ -1,0 +1,79 @@
+{
+  "text": "游子吟\n唐，孟郊\n慈母手中线，游子身上衣。\n临行密密缝，意恐迟迟归。\n谁言寸草心，报得三春晖。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-79.mp3",
+  "signature": "2b8ca9ebdb47a3ffedf2e2620d07d7cefdb173b4bcad73d97b81d1a22d4bd45f",
+  "words": [
+    {
+      "text": "游子",
+      "start": 0.108833,
+      "end": 0.711749,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "吟",
+      "start": 0.71175,
+      "end": 1.167625,
+      "start_char": 2,
+      "end_char": 3
+    },
+    {
+      "text": "唐",
+      "start": 1.83825,
+      "end": 2.397083,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "孟郊",
+      "start": 2.779416,
+      "end": 3.455874,
+      "start_char": 6,
+      "end_char": 8
+    },
+    {
+      "text": "慈母手中线",
+      "start": 4.117666,
+      "end": 5.397082,
+      "start_char": 9,
+      "end_char": 14
+    },
+    {
+      "text": "游子身上衣",
+      "start": 5.823541,
+      "end": 7.249999,
+      "start_char": 15,
+      "end_char": 20
+    },
+    {
+      "text": "临行密密缝",
+      "start": 7.926458,
+      "end": 9.176458,
+      "start_char": 22,
+      "end_char": 27
+    },
+    {
+      "text": "意恐迟迟归",
+      "start": 9.441166,
+      "end": 10.779416,
+      "start_char": 28,
+      "end_char": 33
+    },
+    {
+      "text": "谁言寸草心",
+      "start": 11.455875,
+      "end": 12.808833,
+      "start_char": 35,
+      "end_char": 40
+    },
+    {
+      "text": "报得三春晖",
+      "start": 13.220583,
+      "end": 14.367624,
+      "start_char": 41,
+      "end_char": 46
+    }
+  ]
+}

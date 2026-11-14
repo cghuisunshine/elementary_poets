@@ -1,0 +1,65 @@
+{
+  "text": "小池\n宋，杨万里\n泉眼无声惜细流，树阴照水爱晴柔。\n小荷才露尖尖角，早有蜻蜓立上头。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-12.mp3",
+  "signature": "c58d93ab74bd8f51e03c774d97b72368e12fff10fdd3367e93be5294dd7e9a65",
+  "words": [
+    {
+      "text": "小",
+      "start": 0.108833,
+      "end": 0.491166,
+      "start_char": 0,
+      "end_char": 1
+    },
+    {
+      "text": "池",
+      "start": 0.491166,
+      "end": 0.976457,
+      "start_char": 1,
+      "end_char": 2
+    },
+    {
+      "text": "宋",
+      "start": 1.647041,
+      "end": 2.073499,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "杨万里",
+      "start": 2.470583,
+      "end": 3.411749,
+      "start_char": 5,
+      "end_char": 8
+    },
+    {
+      "text": "泉眼无声惜细流",
+      "start": 4.08825,
+      "end": 5.823541,
+      "start_char": 9,
+      "end_char": 16
+    },
+    {
+      "text": "树阴照水爱晴柔",
+      "start": 6.102958,
+      "end": 7.970624,
+      "start_char": 17,
+      "end_char": 24
+    },
+    {
+      "text": "小荷才露尖尖角",
+      "start": 8.632333,
+      "end": 10.544083,
+      "start_char": 26,
+      "end_char": 33
+    },
+    {
+      "text": "早有蜻蜓立上头",
+      "start": 11.029416,
+      "end": 12.735291,
+      "start_char": 34,
+      "end_char": 41
+    }
+  ]
+}

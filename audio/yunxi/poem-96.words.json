@@ -1,0 +1,37 @@
+{
+  "text": "七律·长征\n现代，毛泽东",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-96.mp3",
+  "signature": "c1a3e4dd75c9ac1df5534dc26b25d6007f32e2bb9118042a166fc31e9b8fb5a9",
+  "words": [
+    {
+      "text": "七律",
+      "start": 0.108833,
+      "end": 0.814708,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "长征",
+      "start": 1.197041,
+      "end": 1.976457,
+      "start_char": 3,
+      "end_char": 5
+    },
+    {
+      "text": "现代",
+      "start": 2.632333,
+      "end": 3.397041,
+      "start_char": 6,
+      "end_char": 8
+    },
+    {
+      "text": "毛泽东",
+      "start": 3.897041,
+      "end": 4.558791,
+      "start_char": 9,
+      "end_char": 12
+    }
+  ]
+}

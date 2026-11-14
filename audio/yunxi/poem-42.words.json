@@ -1,0 +1,58 @@
+{
+  "text": "清明\n唐，杜牧\n清明时节雨纷纷，路上行人欲断魂。\n借问酒家何处有？牧童遥指杏花村。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-42.mp3",
+  "signature": "0909542410aa5a3daf4fd44b97e6b01c8622e00e86b2b21bb3b1d50a2b67fb83",
+  "words": [
+    {
+      "text": "清明",
+      "start": 0.108833,
+      "end": 0.947083,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "唐",
+      "start": 1.617666,
+      "end": 2.191207,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "杜牧",
+      "start": 2.544125,
+      "end": 3.058833,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "清明时节雨纷纷",
+      "start": 3.720583,
+      "end": 5.382333,
+      "start_char": 8,
+      "end_char": 15
+    },
+    {
+      "text": "路上行人欲断魂",
+      "start": 5.808833,
+      "end": 7.426499,
+      "start_char": 16,
+      "end_char": 23
+    },
+    {
+      "text": "借问酒家何处有",
+      "start": 8.102958,
+      "end": 10.014708,
+      "start_char": 25,
+      "end_char": 32
+    },
+    {
+      "text": "牧童遥指杏花村",
+      "start": 10.676458,
+      "end": 12.676458,
+      "start_char": 33,
+      "end_char": 40
+    }
+  ]
+}

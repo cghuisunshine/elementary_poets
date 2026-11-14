@@ -2,11 +2,21 @@
 (() => {
 'use strict';
 const players = new Map();
+const voices = {
+ xiaoxiao: {label: '晓晓，中文女声', recordings: () => window.POEM_AUDIO || {}},
+ yunxi: {label: '云希，中文男声', recordings: () => window.POEM_AUDIO_YUNXI || {}}
+};
+let selectedVoice = 'xiaoxiao';
+try {
+ const saved = localStorage.getItem('xiaoxue-shici-voice-v1');
+ if (Object.hasOwn(voices, saved)) selectedVoice = saved;
+} catch {}
 function player(prefix) {
  if (players.has(prefix)) return players.get(prefix);
  const host = document.getElementById(`${prefix}-speech`);
  const audio = host.querySelector('audio');
- const state = {host, audio, id: null, entries: [], frame: 0, active: null};
+ const selector = host.querySelector('select');
+ const state = {host, audio, selector, id: null, voice: null, poem: null, visible: false, entries: [], frame: 0, active: null};
  function clear() {
   if (state.active) state.active.classList.remove('is-speaking');
   state.active = null;
@@ -37,6 +47,15 @@ function player(prefix) {
  audio.addEventListener('error', () => {
   if (state.id) host.querySelector('[role="status"]').textContent = '音频未能载入，请刷新后重试。';
  });
+ selector.addEventListener('change', () => {
+  if (!Object.hasOwn(voices, selector.value)) return;
+  selectedVoice = selector.value;
+  try { localStorage.setItem('xiaoxue-shici-voice-v1', selectedVoice); } catch {}
+  players.forEach((other, key) => {
+   if (other.poem) window.PoemSpeech.prepare(key, other.poem, other.visible);
+  });
+ });
+ state.clear = clear;
  state.paint = paint;
  players.set(prefix, state);
  return state;
@@ -48,20 +67,27 @@ window.PoemSpeech = {
  },
  prepare(prefix, poem, visible = true) {
   const state = player(prefix);
-  const data = (window.POEM_AUDIO || {})[poem.id];
+  state.poem = poem;
+  state.visible = visible;
+  state.selector.value = selectedVoice;
+  const data = voices[selectedVoice].recordings()[poem.id];
   state.host.hidden = !visible || !data;
-  if (state.id !== poem.id || !visible || !data) {
+  if (state.id !== poem.id || state.voice !== selectedVoice || !visible || !data) {
    state.audio.pause();
+   cancelAnimationFrame(state.frame);
+   state.clear();
    state.audio.removeAttribute('src');
    state.id = null;
+   state.voice = null;
    state.audio.load();
   }
   state.entries = [];
   if (!visible || !data) return;
   if (state.id !== poem.id) {
    state.id = poem.id;
+   state.voice = selectedVoice;
    state.audio.src = data.audio;
-   state.audio.setAttribute('aria-label', `朗读《${poem.title}》：晓晓，中文女声`);
+   state.audio.setAttribute('aria-label', `朗读《${poem.title}》：${voices[selectedVoice].label}`);
    state.host.querySelector('[role="status"]').textContent = poem.lines.length ? '' : '本篇朗读标题与作者，正文请参阅课本。';
   }
   const body = document.getElementById(prefix === 'reader' ? 'reader-body' : 'flashcard-lines');

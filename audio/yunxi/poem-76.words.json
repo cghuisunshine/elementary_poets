@@ -1,0 +1,72 @@
+{
+  "text": "四时田园杂兴·其三十一\n宋，范成大\n昼出耘田夜绩麻，村庄儿女各当家。\n童孙未解供耕织，也傍桑阴学种瓜。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-76.mp3",
+  "signature": "b3098fafe523e42d5597a2b3c6550c97b2cea99e986408363c5e009322256205",
+  "words": [
+    {
+      "text": "四时田园杂兴",
+      "start": 0.108833,
+      "end": 1.652958,
+      "start_char": 0,
+      "end_char": 6
+    },
+    {
+      "text": "其",
+      "start": 2.064708,
+      "end": 2.358833,
+      "start_char": 7,
+      "end_char": 8
+    },
+    {
+      "text": "三十一",
+      "start": 2.373541,
+      "end": 3.079416,
+      "start_char": 8,
+      "end_char": 11
+    },
+    {
+      "text": "宋",
+      "start": 3.764708,
+      "end": 4.205874,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "范成大",
+      "start": 4.676458,
+      "end": 5.470583,
+      "start_char": 14,
+      "end_char": 17
+    },
+    {
+      "text": "昼出耘田夜绩麻",
+      "start": 6.147041,
+      "end": 7.999999,
+      "start_char": 18,
+      "end_char": 25
+    },
+    {
+      "text": "村庄儿女各当家",
+      "start": 8.294125,
+      "end": 10.0,
+      "start_char": 26,
+      "end_char": 33
+    },
+    {
+      "text": "童孙未解供耕织",
+      "start": 10.676458,
+      "end": 12.499999,
+      "start_char": 35,
+      "end_char": 42
+    },
+    {
+      "text": "也傍桑阴学种瓜",
+      "start": 12.794125,
+      "end": 14.514708,
+      "start_char": 43,
+      "end_char": 50
+    }
+  ]
+}

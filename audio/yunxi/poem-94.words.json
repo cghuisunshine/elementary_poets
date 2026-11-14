@@ -1,0 +1,58 @@
+{
+  "text": "江南春\n唐，杜牧\n千里莺啼绿映红，水村山郭酒旗风。\n南朝四百八十寺，多少楼台烟雨中。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-94.mp3",
+  "signature": "4b8328761c92691fbf051965cb9fcde86de113191d9595b72a7793d7afc69040",
+  "words": [
+    {
+      "text": "江南春",
+      "start": 0.108833,
+      "end": 1.211791,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "唐",
+      "start": 1.882333,
+      "end": 2.455874,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "杜牧",
+      "start": 2.808833,
+      "end": 3.323541,
+      "start_char": 6,
+      "end_char": 8
+    },
+    {
+      "text": "千里莺啼绿映红",
+      "start": 3.985291,
+      "end": 5.867624,
+      "start_char": 9,
+      "end_char": 16
+    },
+    {
+      "text": "水村山郭酒旗风",
+      "start": 6.16175,
+      "end": 8.014708,
+      "start_char": 17,
+      "end_char": 24
+    },
+    {
+      "text": "南朝四百八十寺",
+      "start": 8.691166,
+      "end": 10.249999,
+      "start_char": 26,
+      "end_char": 33
+    },
+    {
+      "text": "多少楼台烟雨中",
+      "start": 10.602958,
+      "end": 12.117666,
+      "start_char": 34,
+      "end_char": 41
+    }
+  ]
+}

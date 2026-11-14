@@ -1,0 +1,282 @@
+{
+  "text": "卜算子·送鲍浩然之浙东\n宋，王观\n水是眼波横，山是眉峰聚。\n欲问行人去那边？眉眼盈盈处。\n才始送春归，又送君归去。\n若到江南赶上春，千万和春住。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-112.mp3",
+  "signature": "974ab63fddf17ef33167ea6631493ccc5b1331621aaa8e485047b0b177d99f1e",
+  "words": [
+    {
+      "text": "卜算子",
+      "start": 0.108833,
+      "end": 1.020583,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "送",
+      "start": 1.373541,
+      "end": 1.711749,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "鲍",
+      "start": 1.71175,
+      "end": 1.858791,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "浩然",
+      "start": 1.873541,
+      "end": 2.402957,
+      "start_char": 6,
+      "end_char": 8
+    },
+    {
+      "text": "之",
+      "start": 2.432333,
+      "end": 2.564666,
+      "start_char": 8,
+      "end_char": 9
+    },
+    {
+      "text": "浙东",
+      "start": 2.564708,
+      "end": 2.976458,
+      "start_char": 9,
+      "end_char": 11
+    },
+    {
+      "text": "宋",
+      "start": 3.647041,
+      "end": 4.088207,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "王观",
+      "start": 4.544125,
+      "end": 5.220583,
+      "start_char": 14,
+      "end_char": 16
+    },
+    {
+      "text": "水",
+      "start": 5.882333,
+      "end": 6.279374,
+      "start_char": 17,
+      "end_char": 18
+    },
+    {
+      "text": "是",
+      "start": 6.279416,
+      "end": 6.455874,
+      "start_char": 18,
+      "end_char": 19
+    },
+    {
+      "text": "眼波",
+      "start": 6.470583,
+      "end": 6.867624,
+      "start_char": 19,
+      "end_char": 21
+    },
+    {
+      "text": "横",
+      "start": 6.867666,
+      "end": 7.294124,
+      "start_char": 21,
+      "end_char": 22
+    },
+    {
+      "text": "山",
+      "start": 7.617666,
+      "end": 8.014707,
+      "start_char": 23,
+      "end_char": 24
+    },
+    {
+      "text": "是",
+      "start": 8.029416,
+      "end": 8.176457,
+      "start_char": 24,
+      "end_char": 25
+    },
+    {
+      "text": "眉",
+      "start": 8.191166,
+      "end": 8.352916,
+      "start_char": 25,
+      "end_char": 26
+    },
+    {
+      "text": "峰聚",
+      "start": 8.352958,
+      "end": 8.852958,
+      "start_char": 26,
+      "end_char": 28
+    },
+    {
+      "text": "欲",
+      "start": 9.514708,
+      "end": 9.661749,
+      "start_char": 30,
+      "end_char": 31
+    },
+    {
+      "text": "问",
+      "start": 9.66175,
+      "end": 9.838208,
+      "start_char": 31,
+      "end_char": 32
+    },
+    {
+      "text": "行人",
+      "start": 9.852958,
+      "end": 10.161791,
+      "start_char": 32,
+      "end_char": 34
+    },
+    {
+      "text": "去",
+      "start": 10.191166,
+      "end": 10.294124,
+      "start_char": 34,
+      "end_char": 35
+    },
+    {
+      "text": "那边",
+      "start": 10.308833,
+      "end": 10.808833,
+      "start_char": 35,
+      "end_char": 37
+    },
+    {
+      "text": "眉眼",
+      "start": 11.485291,
+      "end": 12.014707,
+      "start_char": 38,
+      "end_char": 40
+    },
+    {
+      "text": "盈",
+      "start": 12.044125,
+      "end": 12.264708,
+      "start_char": 40,
+      "end_char": 41
+    },
+    {
+      "text": "盈处",
+      "start": 12.264708,
+      "end": 12.823541,
+      "start_char": 41,
+      "end_char": 43
+    },
+    {
+      "text": "才",
+      "start": 13.485291,
+      "end": 13.749999,
+      "start_char": 45,
+      "end_char": 46
+    },
+    {
+      "text": "始送",
+      "start": 13.75,
+      "end": 14.235291,
+      "start_char": 46,
+      "end_char": 48
+    },
+    {
+      "text": "春归",
+      "start": 14.25,
+      "end": 14.83825,
+      "start_char": 48,
+      "end_char": 50
+    },
+    {
+      "text": "又",
+      "start": 15.147041,
+      "end": 15.338207,
+      "start_char": 51,
+      "end_char": 52
+    },
+    {
+      "text": "送",
+      "start": 15.33825,
+      "end": 15.602958,
+      "start_char": 52,
+      "end_char": 53
+    },
+    {
+      "text": "君",
+      "start": 15.602958,
+      "end": 15.794124,
+      "start_char": 53,
+      "end_char": 54
+    },
+    {
+      "text": "归去",
+      "start": 15.808833,
+      "end": 16.323541,
+      "start_char": 54,
+      "end_char": 56
+    },
+    {
+      "text": "若",
+      "start": 17.0,
+      "end": 17.25,
+      "start_char": 58,
+      "end_char": 59
+    },
+    {
+      "text": "到",
+      "start": 17.25,
+      "end": 17.382333,
+      "start_char": 59,
+      "end_char": 60
+    },
+    {
+      "text": "江南",
+      "start": 17.397041,
+      "end": 17.941166,
+      "start_char": 60,
+      "end_char": 62
+    },
+    {
+      "text": "赶上",
+      "start": 17.970583,
+      "end": 18.426458,
+      "start_char": 62,
+      "end_char": 64
+    },
+    {
+      "text": "春",
+      "start": 18.426458,
+      "end": 18.823499,
+      "start_char": 64,
+      "end_char": 65
+    },
+    {
+      "text": "千",
+      "start": 19.220583,
+      "end": 19.691166,
+      "start_char": 66,
+      "end_char": 67
+    },
+    {
+      "text": "万和春",
+      "start": 19.691166,
+      "end": 20.323499,
+      "start_char": 67,
+      "end_char": 70
+    },
+    {
+      "text": "住",
+      "start": 20.33825,
+      "end": 20.544125,
+      "start_char": 70,
+      "end_char": 71
+    }
+  ]
+}

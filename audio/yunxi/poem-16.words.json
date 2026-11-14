@@ -1,0 +1,58 @@
+{
+  "text": "登鹳雀楼\n唐，王之涣\n白日依山尽，黄河入海流。\n欲穷千里目，更上一层楼。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-16.mp3",
+  "signature": "c88be7d7917bac4d21517d41ab2846a20640a02bf34da2d6825b37da828d0eed",
+  "words": [
+    {
+      "text": "登鹳雀楼",
+      "start": 0.108833,
+      "end": 1.182374,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "唐",
+      "start": 1.867666,
+      "end": 2.367666,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "王之涣",
+      "start": 2.83825,
+      "end": 3.544125,
+      "start_char": 7,
+      "end_char": 10
+    },
+    {
+      "text": "白日依山尽",
+      "start": 4.220583,
+      "end": 5.367624,
+      "start_char": 11,
+      "end_char": 16
+    },
+    {
+      "text": "黄河入海流",
+      "start": 5.764708,
+      "end": 7.264708,
+      "start_char": 17,
+      "end_char": 22
+    },
+    {
+      "text": "欲穷千里目",
+      "start": 7.941166,
+      "end": 9.088207,
+      "start_char": 24,
+      "end_char": 29
+    },
+    {
+      "text": "更上一层楼",
+      "start": 9.514708,
+      "end": 10.720583,
+      "start_char": 30,
+      "end_char": 35
+    }
+  ]
+}

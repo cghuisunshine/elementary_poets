@@ -1,0 +1,72 @@
+{
+  "text": "凉州词（黄河远上白云间）\n唐，王之涣\n黄河远上白云间，一片孤城万仞山。\n羌笛何须怨杨柳，春风不度玉门关。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-84.mp3",
+  "signature": "891f069c5089ba5278e6e8253c0e6f2cbddf3a7bf5affe94881459ae035dba8f",
+  "words": [
+    {
+      "text": "凉州",
+      "start": 0.108833,
+      "end": 0.594124,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "词",
+      "start": 0.594125,
+      "end": 1.035291,
+      "start_char": 2,
+      "end_char": 3
+    },
+    {
+      "text": "黄河远上白云间",
+      "start": 1.417666,
+      "end": 3.123541,
+      "start_char": 4,
+      "end_char": 11
+    },
+    {
+      "text": "唐",
+      "start": 3.808833,
+      "end": 4.308833,
+      "start_char": 13,
+      "end_char": 14
+    },
+    {
+      "text": "王之涣",
+      "start": 4.779416,
+      "end": 5.485291,
+      "start_char": 15,
+      "end_char": 18
+    },
+    {
+      "text": "黄河远上白云间",
+      "start": 6.16175,
+      "end": 7.897041,
+      "start_char": 19,
+      "end_char": 26
+    },
+    {
+      "text": "一片孤城万仞山",
+      "start": 8.279416,
+      "end": 10.088249,
+      "start_char": 27,
+      "end_char": 34
+    },
+    {
+      "text": "羌笛何须怨杨柳",
+      "start": 10.764708,
+      "end": 12.573541,
+      "start_char": 36,
+      "end_char": 43
+    },
+    {
+      "text": "春风不度玉门关",
+      "start": 12.897041,
+      "end": 14.573499,
+      "start_char": 44,
+      "end_char": 51
+    }
+  ]
+}

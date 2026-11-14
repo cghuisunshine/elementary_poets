@@ -1,0 +1,65 @@
+{
+  "text": "赋得古原草送别（节选）\n唐，白居易\n离离原上草，一岁一枯荣。\n野火烧不尽，春风吹又生。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-23.mp3",
+  "signature": "4342c4123ded4f969754267fb6bda8eaae3537e17811aefdc74ac6e721695668",
+  "words": [
+    {
+      "text": "赋得古原草送别",
+      "start": 0.108833,
+      "end": 1.902958,
+      "start_char": 0,
+      "end_char": 7
+    },
+    {
+      "text": "节选",
+      "start": 2.432333,
+      "end": 2.932333,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "唐",
+      "start": 3.58825,
+      "end": 4.132375,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "白居易",
+      "start": 4.544125,
+      "end": 5.33825,
+      "start_char": 14,
+      "end_char": 17
+    },
+    {
+      "text": "离离原上草",
+      "start": 6.014708,
+      "end": 7.308833,
+      "start_char": 18,
+      "end_char": 23
+    },
+    {
+      "text": "一岁一枯荣",
+      "start": 7.676458,
+      "end": 8.838208,
+      "start_char": 24,
+      "end_char": 29
+    },
+    {
+      "text": "野火烧不尽",
+      "start": 9.5,
+      "end": 10.705875,
+      "start_char": 31,
+      "end_char": 36
+    },
+    {
+      "text": "春风吹又生",
+      "start": 11.147041,
+      "end": 12.794082,
+      "start_char": 37,
+      "end_char": 42
+    }
+  ]
+}

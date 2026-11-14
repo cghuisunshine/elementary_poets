@@ -1,0 +1,65 @@
+{
+  "text": "塞下曲\n唐，卢纶\n月黑雁飞高，单于夜遁逃。\n欲将轻骑逐，大雪满弓刀。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-62.mp3",
+  "signature": "649274658fb9afcd86fe4be14964d08cf8c4b013e5926caa9aa414768a877b6d",
+  "words": [
+    {
+      "text": "塞",
+      "start": 0.108833,
+      "end": 0.476458,
+      "start_char": 0,
+      "end_char": 1
+    },
+    {
+      "text": "下曲",
+      "start": 0.476458,
+      "end": 1.152916,
+      "start_char": 1,
+      "end_char": 3
+    },
+    {
+      "text": "唐",
+      "start": 1.823541,
+      "end": 2.352957,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "卢纶",
+      "start": 2.764708,
+      "end": 3.382374,
+      "start_char": 6,
+      "end_char": 8
+    },
+    {
+      "text": "月黑雁飞高",
+      "start": 4.044125,
+      "end": 5.323541,
+      "start_char": 9,
+      "end_char": 14
+    },
+    {
+      "text": "单于夜遁逃",
+      "start": 5.676458,
+      "end": 7.338208,
+      "start_char": 15,
+      "end_char": 20
+    },
+    {
+      "text": "欲将轻骑逐",
+      "start": 8.0,
+      "end": 9.294125,
+      "start_char": 22,
+      "end_char": 27
+    },
+    {
+      "text": "大雪满弓刀",
+      "start": 9.705875,
+      "end": 11.102916,
+      "start_char": 28,
+      "end_char": 33
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "text": "出塞\n唐，王昌龄\n秦时明月汉时关，万里长征人未还。\n但使龙城飞将在，不教胡马度阴山。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-51.mp3",
+  "signature": "d333bf1209175e72a709d5c7e902a0ab83ecd156814662acea8fcfca6d1c98c8",
+  "words": [
+    {
+      "text": "出塞",
+      "start": 0.108833,
+      "end": 0.799999,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "唐",
+      "start": 1.470583,
+      "end": 1.985291,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "王昌龄",
+      "start": 2.441166,
+      "end": 3.367624,
+      "start_char": 5,
+      "end_char": 8
+    },
+    {
+      "text": "秦时明月汉时关",
+      "start": 4.029416,
+      "end": 5.999999,
+      "start_char": 9,
+      "end_char": 16
+    },
+    {
+      "text": "万里长征人未还",
+      "start": 6.41175,
+      "end": 8.117625,
+      "start_char": 17,
+      "end_char": 24
+    },
+    {
+      "text": "但使龙城飞将在",
+      "start": 8.794125,
+      "end": 10.455875,
+      "start_char": 26,
+      "end_char": 33
+    },
+    {
+      "text": "不教胡马度阴山",
+      "start": 10.808833,
+      "end": 12.470583,
+      "start_char": 34,
+      "end_char": 41
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "text": "示儿\n宋，陆游\n死去元知万事空，但悲不见九州同。\n王师北定中原日，家祭无忘告乃翁。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-67.mp3",
+  "signature": "c8c6e5818291f9b505efd67e8c03d03f1d0c3c081817f70e17809ad07b5911da",
+  "words": [
+    {
+      "text": "示儿",
+      "start": 0.108833,
+      "end": 0.917666,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "宋",
+      "start": 1.58825,
+      "end": 2.029416,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "陆",
+      "start": 2.455875,
+      "end": 2.764708,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "游",
+      "start": 2.764708,
+      "end": 3.147041,
+      "start_char": 6,
+      "end_char": 7
+    },
+    {
+      "text": "死去元知万事空",
+      "start": 3.794125,
+      "end": 5.58825,
+      "start_char": 8,
+      "end_char": 15
+    },
+    {
+      "text": "但悲不见九州同",
+      "start": 6.08825,
+      "end": 7.75,
+      "start_char": 16,
+      "end_char": 23
+    },
+    {
+      "text": "王师北定中原日",
+      "start": 8.41175,
+      "end": 10.102916,
+      "start_char": 25,
+      "end_char": 32
+    },
+    {
+      "text": "家祭无忘告乃翁",
+      "start": 10.441166,
+      "end": 12.147041,
+      "start_char": 33,
+      "end_char": 40
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "text": "江上渔者\n宋，范仲淹\n江上往来人，但爱鲈鱼美。\n君看一叶舟，出没风波里。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-109.mp3",
+  "signature": "1ac0b11abe825641b9b1b9ba7000ee9efd60744947cd2a2f9f648364a68059df",
+  "words": [
+    {
+      "text": "江上渔者",
+      "start": 0.108833,
+      "end": 1.299999,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "宋",
+      "start": 1.970583,
+      "end": 2.397041,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "范仲淹",
+      "start": 2.83825,
+      "end": 3.764708,
+      "start_char": 7,
+      "end_char": 10
+    },
+    {
+      "text": "江上往来人",
+      "start": 4.441166,
+      "end": 5.823499,
+      "start_char": 11,
+      "end_char": 16
+    },
+    {
+      "text": "但爱鲈鱼美",
+      "start": 6.323541,
+      "end": 7.441207,
+      "start_char": 17,
+      "end_char": 22
+    },
+    {
+      "text": "君看一叶舟",
+      "start": 8.117666,
+      "end": 9.426499,
+      "start_char": 24,
+      "end_char": 29
+    },
+    {
+      "text": "出没风波里",
+      "start": 9.705875,
+      "end": 10.808833,
+      "start_char": 30,
+      "end_char": 35
+    }
+  ]
+}

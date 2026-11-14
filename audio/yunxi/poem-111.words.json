@@ -1,0 +1,58 @@
+{
+  "text": "游园不值\n宋，叶绍翁\n应怜屐齿印苍苔，小扣柴扉久不开。\n春色满园关不住，一枝红杏出墙来。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-111.mp3",
+  "signature": "e1be694079b551d962b5b347e79d36d7770ea9a398f49334133beb00811e66bc",
+  "words": [
+    {
+      "text": "游园不值",
+      "start": 0.108833,
+      "end": 1.255874,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "宋",
+      "start": 1.926458,
+      "end": 2.352916,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "叶绍翁",
+      "start": 2.852958,
+      "end": 3.544124,
+      "start_char": 7,
+      "end_char": 10
+    },
+    {
+      "text": "应怜屐齿印苍苔",
+      "start": 4.220583,
+      "end": 6.014708,
+      "start_char": 11,
+      "end_char": 18
+    },
+    {
+      "text": "小扣柴扉久不开",
+      "start": 6.25,
+      "end": 8.176458,
+      "start_char": 19,
+      "end_char": 26
+    },
+    {
+      "text": "春色满园关不住",
+      "start": 8.852958,
+      "end": 10.588249,
+      "start_char": 28,
+      "end_char": 35
+    },
+    {
+      "text": "一枝红杏出墙来",
+      "start": 11.014708,
+      "end": 12.823541,
+      "start_char": 36,
+      "end_char": 43
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "text": "六月二十七日望湖楼醉书\n宋，苏轼\n黑云翻墨未遮山，白雨跳珠乱入船。\n卷地风来忽吹散，望湖楼下水如天。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-88.mp3",
+  "signature": "d2908c66b5d0516dbf12303c58d1c2745e60205ff8bc072a0f9ea2afe4793cd8",
+  "words": [
+    {
+      "text": "六月二十七日",
+      "start": 0.108833,
+      "end": 1.402958,
+      "start_char": 0,
+      "end_char": 6
+    },
+    {
+      "text": "望湖楼醉书",
+      "start": 1.535291,
+      "end": 2.770582,
+      "start_char": 6,
+      "end_char": 11
+    },
+    {
+      "text": "宋",
+      "start": 3.441166,
+      "end": 3.926457,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "苏轼",
+      "start": 4.33825,
+      "end": 4.941208,
+      "start_char": 14,
+      "end_char": 16
+    },
+    {
+      "text": "黑云翻墨未遮山",
+      "start": 5.602958,
+      "end": 7.294124,
+      "start_char": 17,
+      "end_char": 24
+    },
+    {
+      "text": "白雨跳珠乱入船",
+      "start": 7.735291,
+      "end": 9.352957,
+      "start_char": 25,
+      "end_char": 32
+    },
+    {
+      "text": "卷地风来忽吹散",
+      "start": 10.029416,
+      "end": 11.749999,
+      "start_char": 34,
+      "end_char": 41
+    },
+    {
+      "text": "望湖楼下水如天",
+      "start": 12.220583,
+      "end": 13.955874,
+      "start_char": 42,
+      "end_char": 49
+    }
+  ]
+}

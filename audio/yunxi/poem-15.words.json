@@ -1,0 +1,58 @@
+{
+  "text": "小儿垂钓\n唐，胡令能\n蓬头稚子学垂纶，侧坐莓苔草映身。\n路人借问遥招手，怕得鱼惊不应人。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-15.mp3",
+  "signature": "9d8091558a048986d8a49704f505b72c91219eb893936a577c20f4dd10130870",
+  "words": [
+    {
+      "text": "小儿垂钓",
+      "start": 0.108833,
+      "end": 1.388249,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "唐",
+      "start": 2.058833,
+      "end": 2.558833,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "胡令能",
+      "start": 3.014708,
+      "end": 3.808833,
+      "start_char": 7,
+      "end_char": 10
+    },
+    {
+      "text": "蓬头稚子学垂纶",
+      "start": 4.470583,
+      "end": 6.338249,
+      "start_char": 11,
+      "end_char": 18
+    },
+    {
+      "text": "侧坐莓苔草映身",
+      "start": 6.676458,
+      "end": 8.352916,
+      "start_char": 19,
+      "end_char": 26
+    },
+    {
+      "text": "路人借问遥招手",
+      "start": 9.029416,
+      "end": 10.588249,
+      "start_char": 28,
+      "end_char": 35
+    },
+    {
+      "text": "怕得鱼惊不应人",
+      "start": 10.985291,
+      "end": 12.867624,
+      "start_char": 36,
+      "end_char": 43
+    }
+  ]
+}

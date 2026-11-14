@@ -1,0 +1,58 @@
+{
+  "text": "枫桥夜泊\n唐，张继\n月落乌啼霜满天，江枫渔火对愁眠。\n姑苏城外寒山寺，夜半钟声到客船。",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-15%",
+  "audio": "audio/yunxi/poem-71.mp3",
+  "signature": "4e4bd0a2de404961cca427f9c185b5ae557e52ddfcfb4739eddd919de308aa23",
+  "words": [
+    {
+      "text": "枫桥夜泊",
+      "start": 0.108833,
+      "end": 1.491166,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "唐",
+      "start": 2.16175,
+      "end": 2.735291,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "张继",
+      "start": 3.132333,
+      "end": 3.749999,
+      "start_char": 7,
+      "end_char": 9
+    },
+    {
+      "text": "月落乌啼霜满天",
+      "start": 4.41175,
+      "end": 6.0735,
+      "start_char": 10,
+      "end_char": 17
+    },
+    {
+      "text": "江枫渔火对愁眠",
+      "start": 6.441166,
+      "end": 8.367624,
+      "start_char": 18,
+      "end_char": 25
+    },
+    {
+      "text": "姑苏城外寒山寺",
+      "start": 9.044125,
+      "end": 10.83825,
+      "start_char": 27,
+      "end_char": 34
+    },
+    {
+      "text": "夜半钟声到客船",
+      "start": 11.323541,
+      "end": 13.161791,
+      "start_char": 35,
+      "end_char": 42
+    }
+  ]
+}
