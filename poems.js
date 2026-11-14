@@ -116,6 +116,12 @@ const rawPoems = `
 `;
 // Optional illustrations, keyed by the exact poem title. Omit entries for text-only poems.
 const poemImages = {
+ '梅花': {
+  src: 'meihua.png',
+  alt: '《梅花》四格诗意图：墙角梅枝迎寒绽放，花朵映着白雪，诗人闻到梅花的暗香。',
+  width: 1536,
+  height: 1024
+ },
  '画': {
   src: 'hua.png',
   alt: '《画》四格诗意图：远山青翠，溪水流淌，春花盛开，行人走近树枝上的鸟儿。',
