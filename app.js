@@ -3,6 +3,7 @@
 const $ = id => document.getElementById(id);
 const names = ['一','二','三','四','五','六'];
 const subtitles = ['从一声鹅鸣开始','在山水间，发现新天地','把四季，读成一首诗','山川有情，诗中有志','明月照见，故园与远方','带着六年的诗意，向前走'];
+const pageTitle = document.title;
 let learned = new Set();
 try { const saved = JSON.parse(localStorage.getItem('xiaoxue-shici-read-v1') || '[]'); if (Array.isArray(saved)) learned = new Set(saved.filter(id => POEMS.some(p=>p.id===id))); } catch {}
 let grade = Math.min(6, Math.max(1, Number((location.hash.match(/^#grade-([1-6])$/)||[])[1])||1));
@@ -120,7 +121,7 @@ function moveCard(offset){
 }
 function toggleRead(id){if(learned.has(id)){learned.delete(id);toast('已取消已读标记');}else{learned.add(id);toast('又读完一首，诗意慢慢积累。');}save();render();if(current)updateReadButton();}
 function updateReadButton(){if(current)$('read-button').textContent=learned.has(current.id)?'已读 ✓ · 点击取消':'标为已读 ✓';}
-function showPoem(id, list=visibleList){
+function showPoem(id, list=visibleList, updateUrl=true){
  PoemSpeech.stop('flashcard');
  current=POEMS.find(p=>p.id===id);if(!current)return;
  readerList=[...list];reciting=false;
@@ -134,6 +135,8 @@ function showPoem(id, list=visibleList){
  $('prev-poem').disabled=index<=0;$('next-poem').disabled=index<0||index>=readerList.length-1;
  if(!$('reader').open){$('reader').showModal();document.body.style.overflow='hidden';}
  $('reader').scrollTop=0;
+ document.title=`${current.title} · ${pageTitle}`;
+ if(updateUrl&&location.hash!==`#${current.id}`)history.pushState(null,'',`#${current.id}`);
 }
 function renderBody(){
  const p=current;
@@ -146,9 +149,25 @@ function renderBody(){
  renderStudy('reader-study',p);if($('reader-study'))$('reader-study').hidden=reciting;
 }
 function closeReader(){ $('reader').close(); }
+function followLocation(){
+ const poem=POEMS.find(p=>location.hash===`#${p.id}`);
+ if(poem){
+  if($('reader').open&&current?.id===poem.id)return;
+  if(grade!==poem.grade||!visibleList.some(p=>p.id===poem.id)){
+   grade=poem.grade;term='all';query='';$('search').value='';onlyLearned=false;render();
+  }
+  showPoem(poem.id,visibleList,false);
+  return;
+ }
+ if($('reader').open)closeReader();
+ const match=location.hash.match(/^#grade-([1-6])$/);
+ if(match&&grade!==Number(match[1])){
+  grade=Number(match[1]);term='all';query='';$('search').value='';onlyLearned=false;render();
+ }
+}
 $('grade-nav').addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;const next=Number(a.hash.slice(-1));grade=next;term='all';query='';$('search').value='';onlyLearned=false;render();});
 document.querySelector('.brand').addEventListener('click',()=>{grade=1;term='all';query='';$('search').value='';onlyLearned=false;render();});
-window.addEventListener('hashchange',()=>{const match=location.hash.match(/^#grade-([1-6])$/);if(match&&grade!==Number(match[1])){grade=Number(match[1]);term='all';query='';$('search').value='';onlyLearned=false;render();}});
+window.addEventListener('hashchange',followLocation);
 $('search').addEventListener('input',e=>{query=e.target.value;term='all';render();});
 document.querySelectorAll('[data-term]').forEach(b=>b.addEventListener('click',()=>{term=b.dataset.term;render();}));
 $('learned-filter').addEventListener('click',()=>{onlyLearned=!onlyLearned;render();});
@@ -176,7 +195,12 @@ $('collection').addEventListener('keydown',e=>{
  if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();moveCard(e.key==='ArrowLeft'?-1:1);}
 });
 $('close-reader').addEventListener('click',closeReader);
-$('reader').addEventListener('close',()=>{PoemSpeech.stop('reader');document.body.style.overflow='';current=null;renderFlashcards();});
+$('reader').addEventListener('close',()=>{
+ if($('reader').open)return;
+ PoemSpeech.stop('reader');document.body.style.overflow='';
+ if(current&&location.hash===`#${current.id}`)history.replaceState(null,'',`#grade-${grade}`);
+ document.title=pageTitle;current=null;renderFlashcards();
+});
 $('reader').addEventListener('click',e=>{if(e.target===$('reader')){const rect=$('reader').getBoundingClientRect();if(e.clientX<rect.left||e.clientX>rect.right||e.clientY<rect.top||e.clientY>rect.bottom)closeReader();}});
 $('recite-button').addEventListener('click',()=>{reciting=!reciting;renderBody();});
 $('reader-body').addEventListener('click',e=>{const line=e.target.closest('[data-line]');if(!line)return;const n=Number(line.dataset.line),masked=line.classList.toggle('masked');line.textContent=masked?`点击揭示 · 第${n+1}行`:current.lines[n];line.setAttribute('aria-label',masked?`揭示第${n+1}行诗句`:`隐藏第${n+1}行诗句：${current.lines[n]}`);});
@@ -187,4 +211,5 @@ function about(){ $('about').showModal();document.body.style.overflow='hidden'; 
 $('about-button').addEventListener('click',about);$('footer-about').addEventListener('click',about);$('close-about').addEventListener('click',()=>$('about').close());$('about').addEventListener('close',()=>{document.body.style.overflow='';});
 document.addEventListener('keydown',e=>{if(e.key==='/'&&!$('reader').open&&!$('about').open&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){e.preventDefault();$('search').focus();}if($('reader').open&&!['INPUT','TEXTAREA','BUTTON','AUDIO'].includes(document.activeElement.tagName)){if(e.key==='ArrowLeft')adjacent(-1);if(e.key==='ArrowRight')adjacent(1);}});
 render();
+followLocation();
 })();

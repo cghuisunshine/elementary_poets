@@ -2,6 +2,12 @@
 
 Open `index.html` in a browser; no build or installation is needed.
 
+Opening a poem updates the URL to its own link, such as `#poem-7` for 春晓.
+Copy the browser address to share it. Opening or refreshing that link opens the
+same poem automatically, with its grade selected. Previous/next poems update
+the link too; browser Back/Forward follows your reading history. Closing the
+reader returns the URL to the current grade.
+
 ## Chinese narration
 
 Every entry has pre-generated Edge TTS audio using the Chinese female voice
