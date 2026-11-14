@@ -116,6 +116,12 @@ const rawPoems = `
 `;
 // Optional illustrations, keyed by the exact poem title. Omit entries for text-only poems.
 const poemImages = {
+ '画': {
+  src: 'hua.png',
+  alt: '《画》四格诗意图：远山青翠，溪水流淌，春花盛开，行人走近树枝上的鸟儿。',
+  width: 1536,
+  height: 1216
+ },
  '春晓': {
   src: 'chunxiao.png',
   alt: '《春晓》四格诗意图：诗人春眠未醒，鸟儿在花枝间啼鸣，夜里风雨吹打庭院，清晨落花满地。',
