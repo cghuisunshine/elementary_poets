@@ -1,0 +1,219 @@
+{
+  "text": "迢迢牵牛星\n汉，佚名\n迢迢牵牛星，皎皎河汉女。\n纤纤擢素手，札札弄机杼。\n终日不成章，泣涕零如雨。\n河汉清且浅，相去复几许。\n盈盈一水间，脉脉不得语。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-99.mp3",
+  "signature": "391ba2bf59efbdb8cbe1776b24b9feb64781ceca97dd20be93a6b3e2f682c33d",
+  "words": [
+    {
+      "text": "迢迢",
+      "start": 0.108833,
+      "end": 0.623541,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "牵牛星",
+      "start": 0.63825,
+      "end": 1.491208,
+      "start_char": 2,
+      "end_char": 5
+    },
+    {
+      "text": "汉",
+      "start": 2.176458,
+      "end": 2.602916,
+      "start_char": 6,
+      "end_char": 7
+    },
+    {
+      "text": "佚名",
+      "start": 2.926458,
+      "end": 3.485291,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "迢迢牵牛星",
+      "start": 4.147041,
+      "end": 5.455874,
+      "start_char": 11,
+      "end_char": 16
+    },
+    {
+      "text": "皎皎河",
+      "start": 5.720583,
+      "end": 6.352916,
+      "start_char": 17,
+      "end_char": 20
+    },
+    {
+      "text": "汉女",
+      "start": 6.367666,
+      "end": 6.999999,
+      "start_char": 20,
+      "end_char": 22
+    },
+    {
+      "text": "纤纤",
+      "start": 7.676458,
+      "end": 8.279416,
+      "start_char": 24,
+      "end_char": 26
+    },
+    {
+      "text": "擢",
+      "start": 8.308833,
+      "end": 8.499999,
+      "start_char": 26,
+      "end_char": 27
+    },
+    {
+      "text": "素手",
+      "start": 8.5,
+      "end": 9.147041,
+      "start_char": 27,
+      "end_char": 29
+    },
+    {
+      "text": "札",
+      "start": 9.382333,
+      "end": 9.632333,
+      "start_char": 30,
+      "end_char": 31
+    },
+    {
+      "text": "札弄",
+      "start": 9.632333,
+      "end": 10.088208,
+      "start_char": 31,
+      "end_char": 33
+    },
+    {
+      "text": "机杼",
+      "start": 10.102958,
+      "end": 10.647083,
+      "start_char": 33,
+      "end_char": 35
+    },
+    {
+      "text": "终日",
+      "start": 11.323541,
+      "end": 11.749999,
+      "start_char": 37,
+      "end_char": 39
+    },
+    {
+      "text": "不",
+      "start": 11.764708,
+      "end": 11.897041,
+      "start_char": 39,
+      "end_char": 40
+    },
+    {
+      "text": "成章",
+      "start": 11.897041,
+      "end": 12.470582,
+      "start_char": 40,
+      "end_char": 42
+    },
+    {
+      "text": "泣",
+      "start": 12.779416,
+      "end": 13.029416,
+      "start_char": 43,
+      "end_char": 44
+    },
+    {
+      "text": "涕零如雨",
+      "start": 13.029416,
+      "end": 14.029416,
+      "start_char": 44,
+      "end_char": 48
+    },
+    {
+      "text": "河",
+      "start": 14.691166,
+      "end": 14.911749,
+      "start_char": 50,
+      "end_char": 51
+    },
+    {
+      "text": "汉清",
+      "start": 14.91175,
+      "end": 15.41175,
+      "start_char": 51,
+      "end_char": 53
+    },
+    {
+      "text": "且",
+      "start": 15.426458,
+      "end": 15.676458,
+      "start_char": 53,
+      "end_char": 54
+    },
+    {
+      "text": "浅",
+      "start": 15.676458,
+      "end": 16.073499,
+      "start_char": 54,
+      "end_char": 55
+    },
+    {
+      "text": "相去",
+      "start": 16.352958,
+      "end": 16.794124,
+      "start_char": 56,
+      "end_char": 58
+    },
+    {
+      "text": "复几",
+      "start": 16.823541,
+      "end": 17.264707,
+      "start_char": 58,
+      "end_char": 60
+    },
+    {
+      "text": "许",
+      "start": 17.264708,
+      "end": 17.661749,
+      "start_char": 60,
+      "end_char": 61
+    },
+    {
+      "text": "盈盈一水",
+      "start": 18.323541,
+      "end": 19.235291,
+      "start_char": 63,
+      "end_char": 67
+    },
+    {
+      "text": "间",
+      "start": 19.235291,
+      "end": 19.588249,
+      "start_char": 67,
+      "end_char": 68
+    },
+    {
+      "text": "脉脉",
+      "start": 19.867666,
+      "end": 20.220624,
+      "start_char": 69,
+      "end_char": 71
+    },
+    {
+      "text": "不",
+      "start": 20.25,
+      "end": 20.382333,
+      "start_char": 71,
+      "end_char": 72
+    },
+    {
+      "text": "得语",
+      "start": 20.382333,
+      "end": 21.014666,
+      "start_char": 72,
+      "end_char": 74
+    }
+  ]
+}

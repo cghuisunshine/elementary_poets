@@ -1,0 +1,163 @@
+{
+  "text": "十五夜望月\n唐，王建\n中庭地白树栖鸦，冷露无声湿桂花。\n今夜月明人尽望，不知秋思落谁家。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-100.mp3",
+  "signature": "c07054466a580977e8484826084bb1c9dfd9c9f92e8761303486935c8d75ffed",
+  "words": [
+    {
+      "text": "十五夜",
+      "start": 0.108833,
+      "end": 0.844124,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "望月",
+      "start": 0.858833,
+      "end": 1.447083,
+      "start_char": 3,
+      "end_char": 5
+    },
+    {
+      "text": "唐",
+      "start": 2.132333,
+      "end": 2.544083,
+      "start_char": 6,
+      "end_char": 7
+    },
+    {
+      "text": "王建",
+      "start": 2.852958,
+      "end": 3.441208,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "中庭",
+      "start": 4.102958,
+      "end": 4.573541,
+      "start_char": 11,
+      "end_char": 13
+    },
+    {
+      "text": "地",
+      "start": 4.573541,
+      "end": 4.676499,
+      "start_char": 13,
+      "end_char": 14
+    },
+    {
+      "text": "白树",
+      "start": 4.705875,
+      "end": 5.132333,
+      "start_char": 14,
+      "end_char": 16
+    },
+    {
+      "text": "栖鸦",
+      "start": 5.132333,
+      "end": 5.676458,
+      "start_char": 16,
+      "end_char": 18
+    },
+    {
+      "text": "冷露",
+      "start": 6.029416,
+      "end": 6.441166,
+      "start_char": 19,
+      "end_char": 21
+    },
+    {
+      "text": "无声",
+      "start": 6.455875,
+      "end": 6.897041,
+      "start_char": 21,
+      "end_char": 23
+    },
+    {
+      "text": "湿",
+      "start": 6.926458,
+      "end": 7.147041,
+      "start_char": 23,
+      "end_char": 24
+    },
+    {
+      "text": "桂花",
+      "start": 7.147041,
+      "end": 7.764707,
+      "start_char": 24,
+      "end_char": 26
+    },
+    {
+      "text": "今夜月",
+      "start": 8.426458,
+      "end": 9.147041,
+      "start_char": 28,
+      "end_char": 31
+    },
+    {
+      "text": "明人",
+      "start": 9.16175,
+      "end": 9.558791,
+      "start_char": 31,
+      "end_char": 33
+    },
+    {
+      "text": "尽望",
+      "start": 9.573541,
+      "end": 10.132374,
+      "start_char": 33,
+      "end_char": 35
+    },
+    {
+      "text": "不",
+      "start": 10.441166,
+      "end": 10.602916,
+      "start_char": 36,
+      "end_char": 37
+    },
+    {
+      "text": "知",
+      "start": 10.602958,
+      "end": 10.808833,
+      "start_char": 37,
+      "end_char": 38
+    },
+    {
+      "text": "秋",
+      "start": 10.823541,
+      "end": 11.088249,
+      "start_char": 38,
+      "end_char": 39
+    },
+    {
+      "text": "思",
+      "start": 11.08825,
+      "end": 11.308833,
+      "start_char": 39,
+      "end_char": 40
+    },
+    {
+      "text": "落",
+      "start": 11.308833,
+      "end": 11.485291,
+      "start_char": 40,
+      "end_char": 41
+    },
+    {
+      "text": "谁",
+      "start": 11.5,
+      "end": 11.794125,
+      "start_char": 41,
+      "end_char": 42
+    },
+    {
+      "text": "家",
+      "start": 11.794125,
+      "end": 12.161791,
+      "start_char": 42,
+      "end_char": 43
+    }
+  ]
+}

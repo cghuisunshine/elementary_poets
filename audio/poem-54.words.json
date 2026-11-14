@@ -1,0 +1,65 @@
+{
+  "text": "别董大\n唐，高适\n千里黄云白日曛，北风吹雁雪纷纷。\n莫愁前路无知己，天下谁人不识君？",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-54.mp3",
+  "signature": "2a87395381e965f457d27c9b71f7142a27c6754e1ca90949f5a7c661c0cb8bce",
+  "words": [
+    {
+      "text": "别董",
+      "start": 0.108833,
+      "end": 0.623541,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "大",
+      "start": 0.623541,
+      "end": 0.961791,
+      "start_char": 2,
+      "end_char": 3
+    },
+    {
+      "text": "唐",
+      "start": 1.632333,
+      "end": 2.029374,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "高适",
+      "start": 2.323541,
+      "end": 2.955874,
+      "start_char": 6,
+      "end_char": 8
+    },
+    {
+      "text": "千里黄云白日曛",
+      "start": 3.617666,
+      "end": 5.367666,
+      "start_char": 9,
+      "end_char": 16
+    },
+    {
+      "text": "北风吹雁雪纷纷",
+      "start": 5.66175,
+      "end": 7.41175,
+      "start_char": 17,
+      "end_char": 24
+    },
+    {
+      "text": "莫愁前路无知己",
+      "start": 8.08825,
+      "end": 9.83825,
+      "start_char": 26,
+      "end_char": 33
+    },
+    {
+      "text": "天下谁人不识君",
+      "start": 10.16175,
+      "end": 11.926458,
+      "start_char": 34,
+      "end_char": 41
+    }
+  ]
+}

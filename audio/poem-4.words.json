@@ -1,0 +1,65 @@
+{
+  "text": "悯农·其二\n唐，李绅\n锄禾日当午，汗滴禾下土。\n谁知盘中餐，粒粒皆辛苦。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-4.mp3",
+  "signature": "9576e4df31e689a8c0f0d43658c5da3801c5fde209aa1ed579ff55f75643976a",
+  "words": [
+    {
+      "text": "悯农",
+      "start": 0.108833,
+      "end": 0.667666,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "其二",
+      "start": 0.96175,
+      "end": 1.505875,
+      "start_char": 3,
+      "end_char": 5
+    },
+    {
+      "text": "唐",
+      "start": 2.176458,
+      "end": 2.558791,
+      "start_char": 6,
+      "end_char": 7
+    },
+    {
+      "text": "李绅",
+      "start": 2.897041,
+      "end": 3.441166,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "锄禾日当午",
+      "start": 4.102958,
+      "end": 5.382374,
+      "start_char": 11,
+      "end_char": 16
+    },
+    {
+      "text": "汗滴禾下土",
+      "start": 5.705875,
+      "end": 7.044125,
+      "start_char": 17,
+      "end_char": 22
+    },
+    {
+      "text": "谁知盘中餐",
+      "start": 7.720583,
+      "end": 9.102916,
+      "start_char": 24,
+      "end_char": 29
+    },
+    {
+      "text": "粒粒皆辛苦",
+      "start": 9.426458,
+      "end": 10.794124,
+      "start_char": 30,
+      "end_char": 35
+    }
+  ]
+}

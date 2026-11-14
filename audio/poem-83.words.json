@@ -1,0 +1,86 @@
+{
+  "text": "闻官军收河南河北\n唐，杜甫\n剑外忽传收蓟北，初闻涕泪满衣裳。\n却看妻子愁何在，漫卷诗书喜欲狂。\n白日放歌须纵酒，青春作伴好还乡。\n即从巴峡穿巫峡，便下襄阳向洛阳。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-83.mp3",
+  "signature": "596b4115648a84632fb415d9264139cbfad88f4a249d7f6bc6851d9d27586927",
+  "words": [
+    {
+      "text": "闻官军收河南河北",
+      "start": 0.108833,
+      "end": 2.197083,
+      "start_char": 0,
+      "end_char": 8
+    },
+    {
+      "text": "唐",
+      "start": 2.867666,
+      "end": 3.264707,
+      "start_char": 9,
+      "end_char": 10
+    },
+    {
+      "text": "杜甫",
+      "start": 3.558833,
+      "end": 4.235291,
+      "start_char": 11,
+      "end_char": 13
+    },
+    {
+      "text": "剑外忽传收蓟北",
+      "start": 4.897041,
+      "end": 6.588207,
+      "start_char": 14,
+      "end_char": 21
+    },
+    {
+      "text": "初闻涕泪满衣裳",
+      "start": 6.897041,
+      "end": 8.691166,
+      "start_char": 22,
+      "end_char": 29
+    },
+    {
+      "text": "却看妻子愁何在",
+      "start": 9.367666,
+      "end": 11.132374,
+      "start_char": 31,
+      "end_char": 38
+    },
+    {
+      "text": "漫卷诗书喜欲狂",
+      "start": 11.470583,
+      "end": 13.264708,
+      "start_char": 39,
+      "end_char": 46
+    },
+    {
+      "text": "白日放歌须纵酒",
+      "start": 13.941166,
+      "end": 15.676457,
+      "start_char": 48,
+      "end_char": 55
+    },
+    {
+      "text": "青春作伴好还乡",
+      "start": 15.985291,
+      "end": 17.794124,
+      "start_char": 56,
+      "end_char": 63
+    },
+    {
+      "text": "即从巴峡穿巫峡",
+      "start": 18.470583,
+      "end": 20.264708,
+      "start_char": 65,
+      "end_char": 72
+    },
+    {
+      "text": "便下襄阳向洛阳",
+      "start": 20.573541,
+      "end": 22.485291,
+      "start_char": 73,
+      "end_char": 80
+    }
+  ]
+}

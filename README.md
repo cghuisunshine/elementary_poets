@@ -2,6 +2,28 @@
 
 Open `index.html` in a browser; no build or installation is needed.
 
+## Chinese narration
+
+Every entry has pre-generated Edge TTS audio using the Chinese female voice
+`zh-CN-XiaoxiaoNeural` (晓晓), at a slightly slower reading pace. Open a poem or
+reveal a flashcard to use its play/pause and seek controls. Poem words highlight
+in sync with the recording. Switching poems, hiding a flashcard, entering
+recitation mode, or closing the reader pauses playback. Only one player plays
+at a time. The three modern entries narrate their title and author only because
+their poem text is not included.
+
+The committed `audio/` and `audio-data.js` assets work offline and with a direct
+file open. To regenerate after editing `poems.js` (requires network access):
+
+```sh
+python3 -m venv /tmp/elementary-poets-tts
+/tmp/elementary-poets-tts/bin/pip install -r tools/requirements-tts.txt
+/tmp/elementary-poets-tts/bin/python tools/generate_poem_audio.py
+```
+
+Unchanged recordings are reused. Audio and word timings are generated together;
+`audio-data.js` bundles the timings so playback does not require a web server.
+
 ## Optional poem illustrations
 
 Put images in `images/`, then add an entry to `poemImages` near the bottom of `poems.js`, using the exact poem title:

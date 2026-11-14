@@ -1,0 +1,58 @@
+{
+  "text": "竹石\n清，郑燮\n咬定青山不放松，立根原在破岩中。\n千磨万击还坚劲，任尔东西南北风。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-104.mp3",
+  "signature": "0f77d25e0945ec5029dfdd230b880d6af88d142c8bf863190bfdc7c69e1dd709",
+  "words": [
+    {
+      "text": "竹石",
+      "start": 0.108833,
+      "end": 0.888249,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "清",
+      "start": 1.544125,
+      "end": 1.911791,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "郑燮",
+      "start": 2.220583,
+      "end": 2.882333,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "咬定青山不放松",
+      "start": 3.529416,
+      "end": 5.294124,
+      "start_char": 8,
+      "end_char": 15
+    },
+    {
+      "text": "立根原在破岩中",
+      "start": 5.705875,
+      "end": 7.441166,
+      "start_char": 16,
+      "end_char": 23
+    },
+    {
+      "text": "千磨万击还坚劲",
+      "start": 8.102958,
+      "end": 9.838249,
+      "start_char": 25,
+      "end_char": 32
+    },
+    {
+      "text": "任尔东西南北风",
+      "start": 10.191166,
+      "end": 11.852916,
+      "start_char": 33,
+      "end_char": 40
+    }
+  ]
+}

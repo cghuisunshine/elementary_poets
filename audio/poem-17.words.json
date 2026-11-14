@@ -1,0 +1,58 @@
+{
+  "text": "望庐山瀑布\n唐，李白\n日照香炉生紫烟，遥看瀑布挂前川。\n飞流直下三千尺，疑是银河落九天。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-17.mp3",
+  "signature": "179774e2c4edb83608d23a26cb8b5ffaecb7ee5776b7879a810532209245bae2",
+  "words": [
+    {
+      "text": "望庐山瀑布",
+      "start": 0.108833,
+      "end": 1.447083,
+      "start_char": 0,
+      "end_char": 5
+    },
+    {
+      "text": "唐",
+      "start": 2.117666,
+      "end": 2.514707,
+      "start_char": 6,
+      "end_char": 7
+    },
+    {
+      "text": "李白",
+      "start": 2.83825,
+      "end": 3.352958,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "日照香炉生紫烟",
+      "start": 4.014708,
+      "end": 5.808833,
+      "start_char": 11,
+      "end_char": 18
+    },
+    {
+      "text": "遥看瀑布挂前川",
+      "start": 6.117666,
+      "end": 7.985332,
+      "start_char": 19,
+      "end_char": 26
+    },
+    {
+      "text": "飞流直下三千尺",
+      "start": 8.66175,
+      "end": 10.529416,
+      "start_char": 28,
+      "end_char": 35
+    },
+    {
+      "text": "疑是银河落九天",
+      "start": 10.83825,
+      "end": 12.632375,
+      "start_char": 36,
+      "end_char": 43
+    }
+  ]
+}

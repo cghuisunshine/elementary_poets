@@ -1,0 +1,58 @@
+{
+  "text": "望天门山\n唐，李白\n天门中断楚江开，碧水东流至此回。\n两岸青山相对出，孤帆一片日边来。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-32.mp3",
+  "signature": "6597a868df4458d3debbaa69cc11eda1d40e7fe1f0744190d6ae27f7644e2749",
+  "words": [
+    {
+      "text": "望天门山",
+      "start": 0.108833,
+      "end": 1.270583,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "唐",
+      "start": 1.941166,
+      "end": 2.338207,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "李白",
+      "start": 2.66175,
+      "end": 3.176458,
+      "start_char": 7,
+      "end_char": 9
+    },
+    {
+      "text": "天门中断楚江开",
+      "start": 3.83825,
+      "end": 5.6765,
+      "start_char": 10,
+      "end_char": 17
+    },
+    {
+      "text": "碧水东流至此回",
+      "start": 6.0,
+      "end": 7.882333,
+      "start_char": 18,
+      "end_char": 25
+    },
+    {
+      "text": "两岸青山相对出",
+      "start": 8.558833,
+      "end": 10.397083,
+      "start_char": 27,
+      "end_char": 34
+    },
+    {
+      "text": "孤帆一片日边来",
+      "start": 10.735291,
+      "end": 12.455874,
+      "start_char": 35,
+      "end_char": 42
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "text": "浣溪沙（山下兰芽短浸溪）\n宋，苏轼\n山下兰芽短浸溪，松间沙路净无泥，潇潇暮雨子规啼。\n谁道人生无再少？门前流水尚能西！休将白发唱黄鸡。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-113.mp3",
+  "signature": "22f1f3c0b7402e8582bbe46742481e1b50d83bdc9a7d2816eab9cf6d8be7c1c9",
+  "words": [
+    {
+      "text": "浣溪",
+      "start": 0.108833,
+      "end": 0.579416,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "沙",
+      "start": 0.579416,
+      "end": 0.947082,
+      "start_char": 2,
+      "end_char": 3
+    },
+    {
+      "text": "山",
+      "start": 1.05,
+      "end": 1.329416,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "下兰",
+      "start": 1.329416,
+      "end": 1.785291,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "芽",
+      "start": 1.8,
+      "end": 2.035291,
+      "start_char": 7,
+      "end_char": 8
+    },
+    {
+      "text": "短",
+      "start": 2.035291,
+      "end": 2.270582,
+      "start_char": 8,
+      "end_char": 9
+    },
+    {
+      "text": "浸",
+      "start": 2.285291,
+      "end": 2.520582,
+      "start_char": 9,
+      "end_char": 10
+    },
+    {
+      "text": "溪",
+      "start": 2.520583,
+      "end": 2.932333,
+      "start_char": 10,
+      "end_char": 11
+    },
+    {
+      "text": "宋",
+      "start": 3.602958,
+      "end": 4.044124,
+      "start_char": 13,
+      "end_char": 14
+    },
+    {
+      "text": "苏轼",
+      "start": 4.397041,
+      "end": 5.044082,
+      "start_char": 15,
+      "end_char": 17
+    },
+    {
+      "text": "山",
+      "start": 5.705875,
+      "end": 6.029416,
+      "start_char": 18,
+      "end_char": 19
+    },
+    {
+      "text": "下兰",
+      "start": 6.029416,
+      "end": 6.470582,
+      "start_char": 19,
+      "end_char": 21
+    },
+    {
+      "text": "芽",
+      "start": 6.485291,
+      "end": 6.705874,
+      "start_char": 21,
+      "end_char": 22
+    },
+    {
+      "text": "短",
+      "start": 6.705875,
+      "end": 6.941166,
+      "start_char": 22,
+      "end_char": 23
+    },
+    {
+      "text": "浸",
+      "start": 6.955875,
+      "end": 7.176458,
+      "start_char": 23,
+      "end_char": 24
+    },
+    {
+      "text": "溪",
+      "start": 7.176458,
+      "end": 7.544124,
+      "start_char": 24,
+      "end_char": 25
+    },
+    {
+      "text": "松",
+      "start": 7.941166,
+      "end": 8.191166,
+      "start_char": 26,
+      "end_char": 27
+    },
+    {
+      "text": "间",
+      "start": 8.191166,
+      "end": 8.382332,
+      "start_char": 27,
+      "end_char": 28
+    },
+    {
+      "text": "沙",
+      "start": 8.397041,
+      "end": 8.661749,
+      "start_char": 28,
+      "end_char": 29
+    },
+    {
+      "text": "路",
+      "start": 8.66175,
+      "end": 8.852916,
+      "start_char": 29,
+      "end_char": 30
+    },
+    {
+      "text": "净",
+      "start": 8.882333,
+      "end": 9.088208,
+      "start_char": 30,
+      "end_char": 31
+    },
+    {
+      "text": "无",
+      "start": 9.08825,
+      "end": 9.279416,
+      "start_char": 31,
+      "end_char": 32
+    },
+    {
+      "text": "泥",
+      "start": 9.279416,
+      "end": 9.632374,
+      "start_char": 32,
+      "end_char": 33
+    },
+    {
+      "text": "潇潇暮",
+      "start": 9.926458,
+      "end": 10.588208,
+      "start_char": 34,
+      "end_char": 37
+    },
+    {
+      "text": "雨子",
+      "start": 10.602958,
+      "end": 11.029416,
+      "start_char": 37,
+      "end_char": 39
+    },
+    {
+      "text": "规啼",
+      "start": 11.044125,
+      "end": 11.720583,
+      "start_char": 39,
+      "end_char": 41
+    },
+    {
+      "text": "谁",
+      "start": 12.397041,
+      "end": 12.705874,
+      "start_char": 43,
+      "end_char": 44
+    },
+    {
+      "text": "道",
+      "start": 12.705875,
+      "end": 12.91175,
+      "start_char": 44,
+      "end_char": 45
+    },
+    {
+      "text": "人生",
+      "start": 12.926458,
+      "end": 13.352916,
+      "start_char": 45,
+      "end_char": 47
+    },
+    {
+      "text": "无",
+      "start": 13.352958,
+      "end": 13.485291,
+      "start_char": 47,
+      "end_char": 48
+    },
+    {
+      "text": "再",
+      "start": 13.5,
+      "end": 13.720583,
+      "start_char": 48,
+      "end_char": 49
+    },
+    {
+      "text": "少",
+      "start": 13.720583,
+      "end": 14.147041,
+      "start_char": 49,
+      "end_char": 50
+    },
+    {
+      "text": "门前",
+      "start": 14.808833,
+      "end": 15.308833,
+      "start_char": 51,
+      "end_char": 53
+    },
+    {
+      "text": "流水",
+      "start": 15.323541,
+      "end": 15.749999,
+      "start_char": 53,
+      "end_char": 55
+    },
+    {
+      "text": "尚",
+      "start": 15.779416,
+      "end": 15.985291,
+      "start_char": 55,
+      "end_char": 56
+    },
+    {
+      "text": "能",
+      "start": 15.985291,
+      "end": 16.176457,
+      "start_char": 56,
+      "end_char": 57
+    },
+    {
+      "text": "西",
+      "start": 16.176458,
+      "end": 16.573499,
+      "start_char": 57,
+      "end_char": 58
+    },
+    {
+      "text": "休",
+      "start": 17.220583,
+      "end": 17.514708,
+      "start_char": 59,
+      "end_char": 60
+    },
+    {
+      "text": "将",
+      "start": 17.514708,
+      "end": 17.749999,
+      "start_char": 60,
+      "end_char": 61
+    },
+    {
+      "text": "白发",
+      "start": 17.764708,
+      "end": 18.220583,
+      "start_char": 61,
+      "end_char": 63
+    },
+    {
+      "text": "唱",
+      "start": 18.235291,
+      "end": 18.499999,
+      "start_char": 63,
+      "end_char": 64
+    },
+    {
+      "text": "黄鸡",
+      "start": 18.5,
+      "end": 19.16175,
+      "start_char": 64,
+      "end_char": 66
+    }
+  ]
+}

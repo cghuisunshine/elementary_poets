@@ -1,0 +1,65 @@
+{
+  "text": "悯农·其一\n唐，李绅\n春种一粒粟，秋收万颗子。\n四海无闲田，农夫犹饿死。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-26.mp3",
+  "signature": "0d9ff924ff5947672ce35372bc94e3458dc721008e370a896991ee4326fa87af",
+  "words": [
+    {
+      "text": "悯农",
+      "start": 0.108833,
+      "end": 0.667666,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "其一",
+      "start": 0.96175,
+      "end": 1.535291,
+      "start_char": 3,
+      "end_char": 5
+    },
+    {
+      "text": "唐",
+      "start": 2.191166,
+      "end": 2.573499,
+      "start_char": 6,
+      "end_char": 7
+    },
+    {
+      "text": "李绅",
+      "start": 2.91175,
+      "end": 3.455875,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "春种一粒粟",
+      "start": 4.117666,
+      "end": 5.397082,
+      "start_char": 11,
+      "end_char": 16
+    },
+    {
+      "text": "秋收万颗子",
+      "start": 5.66175,
+      "end": 6.970583,
+      "start_char": 17,
+      "end_char": 22
+    },
+    {
+      "text": "四海无闲田",
+      "start": 7.632333,
+      "end": 9.044083,
+      "start_char": 24,
+      "end_char": 29
+    },
+    {
+      "text": "农夫犹饿死",
+      "start": 9.323541,
+      "end": 10.588249,
+      "start_char": 30,
+      "end_char": 35
+    }
+  ]
+}

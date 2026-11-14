@@ -1,0 +1,233 @@
+{
+  "text": "清平乐·村居\n宋，辛弃疾\n茅檐低小，溪上青青草。\n醉里吴音相媚好，白发谁家翁媪？\n大儿锄豆溪东，中儿正织鸡笼。\n最喜小儿亡赖，溪头卧剥莲蓬。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-57.mp3",
+  "signature": "a1045e3a9a587c72ab9e25a90c1459556a2a3aa9263d8917a4ab9bfab7d722ca",
+  "words": [
+    {
+      "text": "清平乐",
+      "start": 0.108833,
+      "end": 0.991166,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "村",
+      "start": 1.270583,
+      "end": 1.579416,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "居",
+      "start": 1.579416,
+      "end": 1.917666,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "宋",
+      "start": 2.573541,
+      "end": 2.999999,
+      "start_char": 7,
+      "end_char": 8
+    },
+    {
+      "text": "辛弃疾",
+      "start": 3.323541,
+      "end": 4.147082,
+      "start_char": 9,
+      "end_char": 12
+    },
+    {
+      "text": "茅檐",
+      "start": 4.823541,
+      "end": 5.294124,
+      "start_char": 13,
+      "end_char": 15
+    },
+    {
+      "text": "低小",
+      "start": 5.308833,
+      "end": 5.897083,
+      "start_char": 15,
+      "end_char": 17
+    },
+    {
+      "text": "溪",
+      "start": 6.191166,
+      "end": 6.397041,
+      "start_char": 18,
+      "end_char": 19
+    },
+    {
+      "text": "上",
+      "start": 6.41175,
+      "end": 6.676458,
+      "start_char": 19,
+      "end_char": 20
+    },
+    {
+      "text": "青青草",
+      "start": 6.676458,
+      "end": 7.485291,
+      "start_char": 20,
+      "end_char": 23
+    },
+    {
+      "text": "醉",
+      "start": 8.16175,
+      "end": 8.441166,
+      "start_char": 25,
+      "end_char": 26
+    },
+    {
+      "text": "里",
+      "start": 8.441166,
+      "end": 8.573499,
+      "start_char": 26,
+      "end_char": 27
+    },
+    {
+      "text": "吴音",
+      "start": 8.58825,
+      "end": 8.985291,
+      "start_char": 27,
+      "end_char": 29
+    },
+    {
+      "text": "相媚",
+      "start": 9.014708,
+      "end": 9.441166,
+      "start_char": 29,
+      "end_char": 31
+    },
+    {
+      "text": "好",
+      "start": 9.441166,
+      "end": 9.808832,
+      "start_char": 31,
+      "end_char": 32
+    },
+    {
+      "text": "白发",
+      "start": 10.08825,
+      "end": 10.455916,
+      "start_char": 33,
+      "end_char": 35
+    },
+    {
+      "text": "谁",
+      "start": 10.485291,
+      "end": 10.691166,
+      "start_char": 35,
+      "end_char": 36
+    },
+    {
+      "text": "家",
+      "start": 10.691166,
+      "end": 10.897041,
+      "start_char": 36,
+      "end_char": 37
+    },
+    {
+      "text": "翁媪",
+      "start": 10.91175,
+      "end": 11.397041,
+      "start_char": 37,
+      "end_char": 39
+    },
+    {
+      "text": "大儿",
+      "start": 12.073541,
+      "end": 12.455874,
+      "start_char": 41,
+      "end_char": 43
+    },
+    {
+      "text": "锄豆",
+      "start": 12.485291,
+      "end": 12.867624,
+      "start_char": 43,
+      "end_char": 45
+    },
+    {
+      "text": "溪东",
+      "start": 12.882333,
+      "end": 13.470583,
+      "start_char": 45,
+      "end_char": 47
+    },
+    {
+      "text": "中儿",
+      "start": 13.75,
+      "end": 14.029416,
+      "start_char": 48,
+      "end_char": 50
+    },
+    {
+      "text": "正",
+      "start": 14.058833,
+      "end": 14.279416,
+      "start_char": 50,
+      "end_char": 51
+    },
+    {
+      "text": "织鸡笼",
+      "start": 14.279416,
+      "end": 15.058832,
+      "start_char": 51,
+      "end_char": 54
+    },
+    {
+      "text": "最",
+      "start": 15.735291,
+      "end": 16.029416,
+      "start_char": 56,
+      "end_char": 57
+    },
+    {
+      "text": "喜",
+      "start": 16.029416,
+      "end": 16.220582,
+      "start_char": 57,
+      "end_char": 58
+    },
+    {
+      "text": "小儿",
+      "start": 16.25,
+      "end": 16.602958,
+      "start_char": 58,
+      "end_char": 60
+    },
+    {
+      "text": "亡赖",
+      "start": 16.617666,
+      "end": 17.147082,
+      "start_char": 60,
+      "end_char": 62
+    },
+    {
+      "text": "溪头",
+      "start": 17.470583,
+      "end": 17.911749,
+      "start_char": 63,
+      "end_char": 65
+    },
+    {
+      "text": "卧剥",
+      "start": 17.941166,
+      "end": 18.279416,
+      "start_char": 65,
+      "end_char": 67
+    },
+    {
+      "text": "莲蓬",
+      "start": 18.294125,
+      "end": 18.926458,
+      "start_char": 67,
+      "end_char": 69
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "text": "早发白帝城\n唐，李白\n朝辞白帝彩云间，千里江陵一日还。\n两岸猿声啼不住，轻舟已过万重山。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-35.mp3",
+  "signature": "d4edb963e14a576490cf7106b133157a6948d807955742e5b6a1cbc7c28e97b4",
+  "words": [
+    {
+      "text": "早发白帝城",
+      "start": 0.108833,
+      "end": 1.461791,
+      "start_char": 0,
+      "end_char": 5
+    },
+    {
+      "text": "唐",
+      "start": 2.147041,
+      "end": 2.544082,
+      "start_char": 6,
+      "end_char": 7
+    },
+    {
+      "text": "李白",
+      "start": 2.867666,
+      "end": 3.382374,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "朝辞白帝彩云间",
+      "start": 4.044125,
+      "end": 5.735291,
+      "start_char": 11,
+      "end_char": 18
+    },
+    {
+      "text": "千里江陵一日还",
+      "start": 6.044125,
+      "end": 7.808833,
+      "start_char": 19,
+      "end_char": 26
+    },
+    {
+      "text": "两岸猿声啼不住",
+      "start": 8.485291,
+      "end": 10.117624,
+      "start_char": 28,
+      "end_char": 35
+    },
+    {
+      "text": "轻舟已过万重山",
+      "start": 10.470583,
+      "end": 12.308833,
+      "start_char": 36,
+      "end_char": 43
+    }
+  ]
+}

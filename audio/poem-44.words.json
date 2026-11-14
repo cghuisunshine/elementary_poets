@@ -1,0 +1,58 @@
+{
+  "text": "滁州西涧\n唐，韦应物\n独怜幽草涧边生，上有黄鹂深树鸣。\n春潮带雨晚来急，野渡无人舟自横。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-44.mp3",
+  "signature": "e3a67231c26bd558e6dbd5e0fec7eb843d6cf409556441122e8a0da1889d4e26",
+  "words": [
+    {
+      "text": "滁州西涧",
+      "start": 0.108833,
+      "end": 1.226499,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "唐",
+      "start": 1.882333,
+      "end": 2.294083,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "韦应物",
+      "start": 2.58825,
+      "end": 3.323541,
+      "start_char": 7,
+      "end_char": 10
+    },
+    {
+      "text": "独怜幽草涧边生",
+      "start": 3.985291,
+      "end": 5.691166,
+      "start_char": 11,
+      "end_char": 18
+    },
+    {
+      "text": "上有黄鹂深树鸣",
+      "start": 6.014708,
+      "end": 7.794124,
+      "start_char": 19,
+      "end_char": 26
+    },
+    {
+      "text": "春潮带雨晚来急",
+      "start": 8.470583,
+      "end": 10.249999,
+      "start_char": 28,
+      "end_char": 35
+    },
+    {
+      "text": "野渡无人舟自横",
+      "start": 10.529416,
+      "end": 12.205874,
+      "start_char": 36,
+      "end_char": 43
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "text": "寒食\n唐，韩翃\n春城无处不飞花，寒食东风御柳斜。\n日暮汉宫传蜡烛，轻烟散入五侯家。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-98.mp3",
+  "signature": "bd21fee79e978bca28703d197873bff8b01b3d6572ec97da73d2414b710807a2",
+  "words": [
+    {
+      "text": "寒食",
+      "start": 0.108833,
+      "end": 0.902958,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "唐",
+      "start": 1.558833,
+      "end": 1.970583,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "韩翃",
+      "start": 2.279416,
+      "end": 2.882374,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "春城无处不飞花",
+      "start": 3.544125,
+      "end": 5.323541,
+      "start_char": 8,
+      "end_char": 15
+    },
+    {
+      "text": "寒食东风御柳斜",
+      "start": 5.647041,
+      "end": 7.397041,
+      "start_char": 16,
+      "end_char": 23
+    },
+    {
+      "text": "日暮汉宫传蜡烛",
+      "start": 8.058833,
+      "end": 9.794124,
+      "start_char": 25,
+      "end_char": 32
+    },
+    {
+      "text": "轻烟散入五侯家",
+      "start": 10.08825,
+      "end": 11.808833,
+      "start_char": 33,
+      "end_char": 40
+    }
+  ]
+}

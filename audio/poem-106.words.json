@@ -1,0 +1,58 @@
+{
+  "text": "送元二使安西\n唐，王维\n渭城朝雨浥轻尘，客舍青青柳色新。\n劝君更尽一杯酒，西出阳关无故人。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-106.mp3",
+  "signature": "79bbb22dc1b996f912bab46b01513f13bb6fa6be594b4fc486f581a6afd5ba40",
+  "words": [
+    {
+      "text": "送元二使安西",
+      "start": 0.108833,
+      "end": 1.697083,
+      "start_char": 0,
+      "end_char": 6
+    },
+    {
+      "text": "唐",
+      "start": 2.382333,
+      "end": 2.794083,
+      "start_char": 7,
+      "end_char": 8
+    },
+    {
+      "text": "王维",
+      "start": 3.102958,
+      "end": 3.661791,
+      "start_char": 9,
+      "end_char": 11
+    },
+    {
+      "text": "渭城朝雨浥轻尘",
+      "start": 4.323541,
+      "end": 6.088249,
+      "start_char": 12,
+      "end_char": 19
+    },
+    {
+      "text": "客舍青青柳色新",
+      "start": 6.352958,
+      "end": 8.220624,
+      "start_char": 20,
+      "end_char": 27
+    },
+    {
+      "text": "劝君更尽一杯酒",
+      "start": 8.882333,
+      "end": 10.676458,
+      "start_char": 29,
+      "end_char": 36
+    },
+    {
+      "text": "西出阳关无故人",
+      "start": 10.985291,
+      "end": 12.588249,
+      "start_char": 37,
+      "end_char": 44
+    }
+  ]
+}

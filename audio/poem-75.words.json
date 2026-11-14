@@ -1,0 +1,149 @@
+{
+  "text": "观书有感·其二\n宋，朱熹\n昨夜江边春水生，蒙冲巨舰一毛轻。\n向来枉费推移力，此日中流自在行。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-75.mp3",
+  "signature": "887551baf1d7a4c3a36bfee1a35f775e9aeb5bd0b22038b4eb3d9414843052ec",
+  "words": [
+    {
+      "text": "观书有感",
+      "start": 0.108833,
+      "end": 1.138249,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "其二",
+      "start": 1.447041,
+      "end": 2.005874,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "宋",
+      "start": 2.676458,
+      "end": 3.117624,
+      "start_char": 8,
+      "end_char": 9
+    },
+    {
+      "text": "朱熹",
+      "start": 3.426458,
+      "end": 4.058791,
+      "start_char": 10,
+      "end_char": 12
+    },
+    {
+      "text": "昨夜",
+      "start": 4.705875,
+      "end": 5.147041,
+      "start_char": 13,
+      "end_char": 15
+    },
+    {
+      "text": "江边",
+      "start": 5.16175,
+      "end": 5.632333,
+      "start_char": 15,
+      "end_char": 17
+    },
+    {
+      "text": "春水",
+      "start": 5.66175,
+      "end": 6.147041,
+      "start_char": 17,
+      "end_char": 19
+    },
+    {
+      "text": "生",
+      "start": 6.147041,
+      "end": 6.499999,
+      "start_char": 19,
+      "end_char": 20
+    },
+    {
+      "text": "蒙冲",
+      "start": 6.794125,
+      "end": 7.279416,
+      "start_char": 21,
+      "end_char": 23
+    },
+    {
+      "text": "巨舰",
+      "start": 7.279416,
+      "end": 7.705874,
+      "start_char": 23,
+      "end_char": 25
+    },
+    {
+      "text": "一",
+      "start": 7.735291,
+      "end": 7.852957,
+      "start_char": 25,
+      "end_char": 26
+    },
+    {
+      "text": "毛",
+      "start": 7.852958,
+      "end": 8.088249,
+      "start_char": 26,
+      "end_char": 27
+    },
+    {
+      "text": "轻",
+      "start": 8.08825,
+      "end": 8.485291,
+      "start_char": 27,
+      "end_char": 28
+    },
+    {
+      "text": "向来",
+      "start": 9.147041,
+      "end": 9.588207,
+      "start_char": 30,
+      "end_char": 32
+    },
+    {
+      "text": "枉费",
+      "start": 9.617666,
+      "end": 10.014707,
+      "start_char": 32,
+      "end_char": 34
+    },
+    {
+      "text": "推移力",
+      "start": 10.029416,
+      "end": 10.720582,
+      "start_char": 34,
+      "end_char": 37
+    },
+    {
+      "text": "此日",
+      "start": 11.029416,
+      "end": 11.455874,
+      "start_char": 38,
+      "end_char": 40
+    },
+    {
+      "text": "中",
+      "start": 11.455875,
+      "end": 11.838208,
+      "start_char": 40,
+      "end_char": 41
+    },
+    {
+      "text": "流自",
+      "start": 11.941166,
+      "end": 12.367624,
+      "start_char": 41,
+      "end_char": 43
+    },
+    {
+      "text": "在行",
+      "start": 12.382333,
+      "end": 13.029374,
+      "start_char": 43,
+      "end_char": 45
+    }
+  ]
+}

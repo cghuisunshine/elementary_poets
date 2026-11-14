@@ -1,0 +1,58 @@
+{
+  "text": "黄鹤楼送孟浩然之广陵\n唐，李白\n故人西辞黄鹤楼，烟花三月下扬州。\n孤帆远影碧空尽，唯见长江天际流。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-85.mp3",
+  "signature": "7c343c6a4cb699989a1cea03042583a825537c40c02b616fcf6961fbf742ace6",
+  "words": [
+    {
+      "text": "黄鹤楼送孟浩然之广陵",
+      "start": 0.108833,
+      "end": 2.652958,
+      "start_char": 0,
+      "end_char": 10
+    },
+    {
+      "text": "唐",
+      "start": 3.33825,
+      "end": 3.735291,
+      "start_char": 11,
+      "end_char": 12
+    },
+    {
+      "text": "李白",
+      "start": 4.058833,
+      "end": 4.573541,
+      "start_char": 13,
+      "end_char": 15
+    },
+    {
+      "text": "故人西辞黄鹤楼",
+      "start": 5.235291,
+      "end": 6.941166,
+      "start_char": 16,
+      "end_char": 23
+    },
+    {
+      "text": "烟花三月下扬州",
+      "start": 7.235291,
+      "end": 9.029416,
+      "start_char": 24,
+      "end_char": 31
+    },
+    {
+      "text": "孤帆远影碧空尽",
+      "start": 9.691166,
+      "end": 11.441166,
+      "start_char": 33,
+      "end_char": 40
+    },
+    {
+      "text": "唯见长江天际流",
+      "start": 11.823541,
+      "end": 13.735291,
+      "start_char": 41,
+      "end_char": 48
+    }
+  ]
+}

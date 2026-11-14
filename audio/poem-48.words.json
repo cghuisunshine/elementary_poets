@@ -1,0 +1,58 @@
+{
+  "text": "题西林壁\n宋，苏轼\n横看成岭侧成峰，远近高低各不同。\n不识庐山真面目，只缘身在此山中。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-48.mp3",
+  "signature": "1a304e98d8533f7592a32713811a3fd7bfc47e8b4a6087798c7599a0204b2781",
+  "words": [
+    {
+      "text": "题西林壁",
+      "start": 0.108833,
+      "end": 1.241166,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "宋",
+      "start": 1.91175,
+      "end": 2.352916,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "苏轼",
+      "start": 2.705875,
+      "end": 3.352916,
+      "start_char": 7,
+      "end_char": 9
+    },
+    {
+      "text": "横看成岭侧成峰",
+      "start": 4.014708,
+      "end": 5.808833,
+      "start_char": 10,
+      "end_char": 17
+    },
+    {
+      "text": "远近高低各不同",
+      "start": 6.132333,
+      "end": 7.779374,
+      "start_char": 18,
+      "end_char": 25
+    },
+    {
+      "text": "不识庐山真面目",
+      "start": 8.455875,
+      "end": 10.16175,
+      "start_char": 27,
+      "end_char": 34
+    },
+    {
+      "text": "只缘身在此山中",
+      "start": 10.5,
+      "end": 12.323541,
+      "start_char": 35,
+      "end_char": 42
+    }
+  ]
+}

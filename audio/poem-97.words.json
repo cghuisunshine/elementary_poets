@@ -1,0 +1,44 @@
+{
+  "text": "菩萨蛮·大柏地\n现代，毛泽东",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-97.mp3",
+  "signature": "753ef55d2dfd34f633059fd72bdef8a8f076bb735bb457fefcfed15ce8f8ed03",
+  "words": [
+    {
+      "text": "菩萨",
+      "start": 0.108833,
+      "end": 0.594124,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "蛮",
+      "start": 0.594125,
+      "end": 0.991166,
+      "start_char": 2,
+      "end_char": 3
+    },
+    {
+      "text": "大柏地",
+      "start": 1.241166,
+      "end": 2.005874,
+      "start_char": 4,
+      "end_char": 7
+    },
+    {
+      "text": "现代",
+      "start": 2.691166,
+      "end": 3.352916,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "毛泽东",
+      "start": 3.676458,
+      "end": 4.397041,
+      "start_char": 11,
+      "end_char": 14
+    }
+  ]
+}

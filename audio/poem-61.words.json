@@ -1,0 +1,58 @@
+{
+  "text": "芙蓉楼送辛渐\n唐，王昌龄\n寒雨连江夜入吴，平明送客楚山孤。\n洛阳亲友如相问，一片冰心在玉壶。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-61.mp3",
+  "signature": "39fa2bb3475c9fdbb6045dd8d8d875fd9b1b183cb2db53e2c0af1fe8a04bb729",
+  "words": [
+    {
+      "text": "芙蓉楼送辛渐",
+      "start": 0.108833,
+      "end": 1.711791,
+      "start_char": 0,
+      "end_char": 6
+    },
+    {
+      "text": "唐",
+      "start": 2.397041,
+      "end": 2.823499,
+      "start_char": 7,
+      "end_char": 8
+    },
+    {
+      "text": "王昌龄",
+      "start": 3.132333,
+      "end": 3.970583,
+      "start_char": 9,
+      "end_char": 12
+    },
+    {
+      "text": "寒雨连江夜入吴",
+      "start": 4.632333,
+      "end": 6.382333,
+      "start_char": 13,
+      "end_char": 20
+    },
+    {
+      "text": "平明送客楚山孤",
+      "start": 6.676458,
+      "end": 8.470583,
+      "start_char": 21,
+      "end_char": 28
+    },
+    {
+      "text": "洛阳亲友如相问",
+      "start": 9.132333,
+      "end": 10.808791,
+      "start_char": 30,
+      "end_char": 37
+    },
+    {
+      "text": "一片冰心在玉壶",
+      "start": 11.16175,
+      "end": 13.029416,
+      "start_char": 38,
+      "end_char": 45
+    }
+  ]
+}

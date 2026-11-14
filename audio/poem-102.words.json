@@ -1,0 +1,135 @@
+{
+  "text": "马诗\n唐，李贺\n大漠沙如雪，燕山月似钩。\n何当金络脑，快走踏清秋。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-102.mp3",
+  "signature": "15a0f4a827cc488898e4fef424db141db42c8f336fced161b154efd36ba314a2",
+  "words": [
+    {
+      "text": "马诗",
+      "start": 0.108833,
+      "end": 0.844124,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "唐",
+      "start": 1.5,
+      "end": 1.91175,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "李贺",
+      "start": 2.25,
+      "end": 2.808833,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "大漠",
+      "start": 3.470583,
+      "end": 3.911749,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "沙",
+      "start": 3.941166,
+      "end": 4.205874,
+      "start_char": 10,
+      "end_char": 11
+    },
+    {
+      "text": "如",
+      "start": 4.205875,
+      "end": 4.397041,
+      "start_char": 11,
+      "end_char": 12
+    },
+    {
+      "text": "雪",
+      "start": 4.397041,
+      "end": 4.808791,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "燕山",
+      "start": 5.08825,
+      "end": 5.558833,
+      "start_char": 14,
+      "end_char": 16
+    },
+    {
+      "text": "月",
+      "start": 5.558833,
+      "end": 5.720583,
+      "start_char": 16,
+      "end_char": 17
+    },
+    {
+      "text": "似",
+      "start": 5.735291,
+      "end": 6.029416,
+      "start_char": 17,
+      "end_char": 18
+    },
+    {
+      "text": "钩",
+      "start": 6.029416,
+      "end": 6.352957,
+      "start_char": 18,
+      "end_char": 19
+    },
+    {
+      "text": "何",
+      "start": 7.014708,
+      "end": 7.264708,
+      "start_char": 21,
+      "end_char": 22
+    },
+    {
+      "text": "当",
+      "start": 7.264708,
+      "end": 7.485291,
+      "start_char": 22,
+      "end_char": 23
+    },
+    {
+      "text": "金络脑",
+      "start": 7.514708,
+      "end": 8.279416,
+      "start_char": 23,
+      "end_char": 26
+    },
+    {
+      "text": "快",
+      "start": 8.544125,
+      "end": 8.764708,
+      "start_char": 27,
+      "end_char": 28
+    },
+    {
+      "text": "走",
+      "start": 8.764708,
+      "end": 8.941166,
+      "start_char": 28,
+      "end_char": 29
+    },
+    {
+      "text": "踏",
+      "start": 8.970583,
+      "end": 9.147041,
+      "start_char": 29,
+      "end_char": 30
+    },
+    {
+      "text": "清秋",
+      "start": 9.147041,
+      "end": 9.779374,
+      "start_char": 30,
+      "end_char": 32
+    }
+  ]
+}

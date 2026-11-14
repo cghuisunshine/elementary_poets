@@ -1,0 +1,58 @@
+{
+  "text": "所见\n清，袁枚\n牧童骑黄牛，歌声振林樾。\n意欲捕鸣蝉，忽然闭口立。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-28.mp3",
+  "signature": "55437c5853b7a3a57c2a4b44ee283a5c3fa319836a9e78ceaacd4fb7e560ebb9",
+  "words": [
+    {
+      "text": "所见",
+      "start": 0.108833,
+      "end": 0.873541,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "清",
+      "start": 1.529416,
+      "end": 1.911749,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "袁枚",
+      "start": 2.235291,
+      "end": 2.852957,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "牧童骑黄牛",
+      "start": 3.5,
+      "end": 4.794125,
+      "start_char": 8,
+      "end_char": 13
+    },
+    {
+      "text": "歌声振林樾",
+      "start": 5.044125,
+      "end": 6.308833,
+      "start_char": 14,
+      "end_char": 19
+    },
+    {
+      "text": "意欲捕鸣蝉",
+      "start": 6.985291,
+      "end": 8.205874,
+      "start_char": 21,
+      "end_char": 26
+    },
+    {
+      "text": "忽然闭口立",
+      "start": 8.455875,
+      "end": 9.647041,
+      "start_char": 27,
+      "end_char": 32
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "text": "舟夜书所见\n清，查慎行\n月黑见渔灯，孤光一点萤。\n微微风簇浪，散作满河星。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-27.mp3",
+  "signature": "5ce75374b3eb31412d594b8ff76c81c53eb7fa763254ae766193e2c1aab67d4d",
+  "words": [
+    {
+      "text": "舟夜书",
+      "start": 0.108833,
+      "end": 0.799999,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "所",
+      "start": 0.814708,
+      "end": 1.079416,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "见",
+      "start": 1.079416,
+      "end": 1.476457,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "清",
+      "start": 2.132333,
+      "end": 2.499999,
+      "start_char": 6,
+      "end_char": 7
+    },
+    {
+      "text": "查慎行",
+      "start": 2.808833,
+      "end": 3.705874,
+      "start_char": 8,
+      "end_char": 11
+    },
+    {
+      "text": "月",
+      "start": 4.382333,
+      "end": 4.602916,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "黑见",
+      "start": 4.602958,
+      "end": 5.088249,
+      "start_char": 13,
+      "end_char": 15
+    },
+    {
+      "text": "渔灯",
+      "start": 5.08825,
+      "end": 5.558833,
+      "start_char": 15,
+      "end_char": 17
+    },
+    {
+      "text": "孤光",
+      "start": 5.83825,
+      "end": 6.235291,
+      "start_char": 18,
+      "end_char": 20
+    },
+    {
+      "text": "一点",
+      "start": 6.264708,
+      "end": 6.676458,
+      "start_char": 20,
+      "end_char": 22
+    },
+    {
+      "text": "萤",
+      "start": 6.676458,
+      "end": 7.058791,
+      "start_char": 22,
+      "end_char": 23
+    },
+    {
+      "text": "微微",
+      "start": 7.720583,
+      "end": 8.176458,
+      "start_char": 25,
+      "end_char": 27
+    },
+    {
+      "text": "风",
+      "start": 8.205875,
+      "end": 8.426458,
+      "start_char": 27,
+      "end_char": 28
+    },
+    {
+      "text": "簇",
+      "start": 8.426458,
+      "end": 8.632333,
+      "start_char": 28,
+      "end_char": 29
+    },
+    {
+      "text": "浪",
+      "start": 8.632333,
+      "end": 8.911749,
+      "start_char": 29,
+      "end_char": 30
+    },
+    {
+      "text": "散作",
+      "start": 9.235291,
+      "end": 9.676457,
+      "start_char": 31,
+      "end_char": 33
+    },
+    {
+      "text": "满",
+      "start": 9.705875,
+      "end": 9.926458,
+      "start_char": 33,
+      "end_char": 34
+    },
+    {
+      "text": "河星",
+      "start": 9.926458,
+      "end": 10.529416,
+      "start_char": 34,
+      "end_char": 36
+    }
+  ]
+}

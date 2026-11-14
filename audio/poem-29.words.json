@@ -1,0 +1,58 @@
+{
+  "text": "山行\n唐，杜牧\n远上寒山石径斜，白云生处有人家。\n停车坐爱枫林晚，霜叶红于二月花。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-29.mp3",
+  "signature": "cf045276a59604244bc0233a9b1259afaa0fb3d871ead9aa543c25d5dca8bb76",
+  "words": [
+    {
+      "text": "山行",
+      "start": 0.108833,
+      "end": 0.961791,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "唐",
+      "start": 1.632333,
+      "end": 2.044083,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "杜牧",
+      "start": 2.352958,
+      "end": 2.882374,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "远上寒山石径斜",
+      "start": 3.544125,
+      "end": 5.382375,
+      "start_char": 8,
+      "end_char": 15
+    },
+    {
+      "text": "白云生处有人家",
+      "start": 5.691166,
+      "end": 7.367624,
+      "start_char": 16,
+      "end_char": 23
+    },
+    {
+      "text": "停车坐爱枫林晚",
+      "start": 8.044125,
+      "end": 9.83825,
+      "start_char": 25,
+      "end_char": 32
+    },
+    {
+      "text": "霜叶红于二月花",
+      "start": 10.176458,
+      "end": 11.882333,
+      "start_char": 33,
+      "end_char": 40
+    }
+  ]
+}

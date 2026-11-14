@@ -1,0 +1,128 @@
+{
+  "text": "独坐敬亭山\n唐，李白\n众鸟高飞尽，孤云独去闲。\n相看两不厌，只有敬亭山。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-60.mp3",
+  "signature": "10648c8dbd4ff0da29c5bbc577221011f1b19ca7a54658dee2e58a5d8802ae7d",
+  "words": [
+    {
+      "text": "独",
+      "start": 0.108833,
+      "end": 0.344124,
+      "start_char": 0,
+      "end_char": 1
+    },
+    {
+      "text": "坐",
+      "start": 0.344125,
+      "end": 0.579416,
+      "start_char": 1,
+      "end_char": 2
+    },
+    {
+      "text": "敬亭",
+      "start": 0.608833,
+      "end": 1.064708,
+      "start_char": 2,
+      "end_char": 4
+    },
+    {
+      "text": "山",
+      "start": 1.064708,
+      "end": 1.461749,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "唐",
+      "start": 2.117666,
+      "end": 2.514707,
+      "start_char": 6,
+      "end_char": 7
+    },
+    {
+      "text": "李白",
+      "start": 2.83825,
+      "end": 3.352958,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "众",
+      "start": 4.014708,
+      "end": 4.264708,
+      "start_char": 11,
+      "end_char": 12
+    },
+    {
+      "text": "鸟",
+      "start": 4.264708,
+      "end": 4.485291,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "高飞",
+      "start": 4.514708,
+      "end": 4.955874,
+      "start_char": 13,
+      "end_char": 15
+    },
+    {
+      "text": "尽",
+      "start": 4.955875,
+      "end": 5.264708,
+      "start_char": 15,
+      "end_char": 16
+    },
+    {
+      "text": "孤云",
+      "start": 5.529416,
+      "end": 5.941166,
+      "start_char": 17,
+      "end_char": 19
+    },
+    {
+      "text": "独",
+      "start": 5.941166,
+      "end": 6.117624,
+      "start_char": 19,
+      "end_char": 20
+    },
+    {
+      "text": "去",
+      "start": 6.132333,
+      "end": 6.352916,
+      "start_char": 20,
+      "end_char": 21
+    },
+    {
+      "text": "闲",
+      "start": 6.352958,
+      "end": 6.808833,
+      "start_char": 21,
+      "end_char": 22
+    },
+    {
+      "text": "相看两不厌",
+      "start": 7.470583,
+      "end": 8.691166,
+      "start_char": 24,
+      "end_char": 29
+    },
+    {
+      "text": "只有",
+      "start": 8.970583,
+      "end": 9.338249,
+      "start_char": 30,
+      "end_char": 32
+    },
+    {
+      "text": "敬亭山",
+      "start": 9.367666,
+      "end": 10.191207,
+      "start_char": 32,
+      "end_char": 35
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "text": "赠汪伦\n唐，李白\n李白乘舟将欲行，忽闻岸上踏歌声。\n桃花潭水深千尺，不及汪伦送我情。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-8.mp3",
+  "signature": "c0066143e22e0e9b29d9f74832dfb7d202f43f1c723b14d722b63a04ef72d7f6",
+  "words": [
+    {
+      "text": "赠汪伦",
+      "start": 0.108833,
+      "end": 1.005874,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "唐",
+      "start": 1.676458,
+      "end": 2.073499,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "李白",
+      "start": 2.397041,
+      "end": 2.911749,
+      "start_char": 6,
+      "end_char": 8
+    },
+    {
+      "text": "李白乘舟将欲行",
+      "start": 3.573541,
+      "end": 5.352957,
+      "start_char": 9,
+      "end_char": 16
+    },
+    {
+      "text": "忽闻岸上踏歌声",
+      "start": 5.691166,
+      "end": 7.426457,
+      "start_char": 17,
+      "end_char": 24
+    },
+    {
+      "text": "桃花潭水深千尺",
+      "start": 8.08825,
+      "end": 9.985291,
+      "start_char": 26,
+      "end_char": 33
+    },
+    {
+      "text": "不及汪伦送我情",
+      "start": 10.294125,
+      "end": 11.985291,
+      "start_char": 34,
+      "end_char": 41
+    }
+  ]
+}

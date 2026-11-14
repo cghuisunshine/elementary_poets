@@ -1,0 +1,72 @@
+{
+  "text": "凉州词（葡萄美酒夜光杯）\n唐，王翰\n葡萄美酒夜光杯，欲饮琵琶马上催。\n醉卧沙场君莫笑，古来征战几人回？",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-52.mp3",
+  "signature": "ffce507f256311311e7fab76c4d119bf5d1f512aafbb609e56a23307c31af37c",
+  "words": [
+    {
+      "text": "凉州",
+      "start": 0.108833,
+      "end": 0.594124,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "词",
+      "start": 0.594125,
+      "end": 1.035291,
+      "start_char": 2,
+      "end_char": 3
+    },
+    {
+      "text": "葡萄美酒夜光杯",
+      "start": 1.152958,
+      "end": 2.829416,
+      "start_char": 4,
+      "end_char": 11
+    },
+    {
+      "text": "唐",
+      "start": 3.5,
+      "end": 3.91175,
+      "start_char": 13,
+      "end_char": 14
+    },
+    {
+      "text": "王翰",
+      "start": 4.220583,
+      "end": 4.779416,
+      "start_char": 15,
+      "end_char": 17
+    },
+    {
+      "text": "葡萄美酒夜光杯",
+      "start": 5.441166,
+      "end": 7.102916,
+      "start_char": 18,
+      "end_char": 25
+    },
+    {
+      "text": "欲饮琵琶马上催",
+      "start": 7.455875,
+      "end": 9.16175,
+      "start_char": 26,
+      "end_char": 33
+    },
+    {
+      "text": "醉卧沙场君莫笑",
+      "start": 9.823541,
+      "end": 11.632374,
+      "start_char": 35,
+      "end_char": 42
+    },
+    {
+      "text": "古来征战几人回",
+      "start": 11.955875,
+      "end": 13.676458,
+      "start_char": 43,
+      "end_char": 50
+    }
+  ]
+}

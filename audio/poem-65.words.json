@@ -1,0 +1,128 @@
+{
+  "text": "蝉\n唐，虞世南\n垂緌饮清露，流响出疏桐。\n居高声自远，非是藉秋风。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-65.mp3",
+  "signature": "a2af055ddf0295d197c1fc6dc5c5dc41728c2221d5b41f19dd5053592dedb670",
+  "words": [
+    {
+      "text": "蝉",
+      "start": 0.108833,
+      "end": 0.579416,
+      "start_char": 0,
+      "end_char": 1
+    },
+    {
+      "text": "唐",
+      "start": 1.235291,
+      "end": 1.661749,
+      "start_char": 2,
+      "end_char": 3
+    },
+    {
+      "text": "虞",
+      "start": 1.941166,
+      "end": 2.102916,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "世南",
+      "start": 2.102958,
+      "end": 2.749999,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "垂緌",
+      "start": 3.41175,
+      "end": 3.882333,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "饮",
+      "start": 3.91175,
+      "end": 4.132333,
+      "start_char": 10,
+      "end_char": 11
+    },
+    {
+      "text": "清",
+      "start": 4.132333,
+      "end": 4.441166,
+      "start_char": 11,
+      "end_char": 12
+    },
+    {
+      "text": "露",
+      "start": 4.441166,
+      "end": 4.705874,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "流响",
+      "start": 4.985291,
+      "end": 5.411749,
+      "start_char": 14,
+      "end_char": 16
+    },
+    {
+      "text": "出",
+      "start": 5.41175,
+      "end": 5.5735,
+      "start_char": 16,
+      "end_char": 17
+    },
+    {
+      "text": "疏桐",
+      "start": 5.58825,
+      "end": 6.220583,
+      "start_char": 17,
+      "end_char": 19
+    },
+    {
+      "text": "居",
+      "start": 6.897041,
+      "end": 7.176457,
+      "start_char": 21,
+      "end_char": 22
+    },
+    {
+      "text": "高声",
+      "start": 7.176458,
+      "end": 7.647041,
+      "start_char": 22,
+      "end_char": 24
+    },
+    {
+      "text": "自",
+      "start": 7.66175,
+      "end": 7.852916,
+      "start_char": 24,
+      "end_char": 25
+    },
+    {
+      "text": "远",
+      "start": 7.852958,
+      "end": 8.220624,
+      "start_char": 25,
+      "end_char": 26
+    },
+    {
+      "text": "非是",
+      "start": 8.544125,
+      "end": 9.0,
+      "start_char": 27,
+      "end_char": 29
+    },
+    {
+      "text": "藉秋风",
+      "start": 9.0,
+      "end": 9.808833,
+      "start_char": 29,
+      "end_char": 32
+    }
+  ]
+}

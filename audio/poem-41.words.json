@@ -1,0 +1,58 @@
+{
+  "text": "元日\n宋，王安石\n爆竹声中一岁除，春风送暖入屠苏。\n千门万户曈曈日，总把新桃换旧符。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-41.mp3",
+  "signature": "8b1bce9503c564d427d36f667af62207ea763a6a71f4a46cb1275b605e3130b8",
+  "words": [
+    {
+      "text": "元日",
+      "start": 0.108833,
+      "end": 0.799999,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "宋",
+      "start": 1.470583,
+      "end": 1.897041,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "王安石",
+      "start": 2.220583,
+      "end": 3.102916,
+      "start_char": 5,
+      "end_char": 8
+    },
+    {
+      "text": "爆竹声中一岁除",
+      "start": 3.764708,
+      "end": 5.544124,
+      "start_char": 9,
+      "end_char": 16
+    },
+    {
+      "text": "春风送暖入屠苏",
+      "start": 5.808833,
+      "end": 7.676499,
+      "start_char": 17,
+      "end_char": 24
+    },
+    {
+      "text": "千门万户曈曈日",
+      "start": 8.33825,
+      "end": 10.073541,
+      "start_char": 26,
+      "end_char": 33
+    },
+    {
+      "text": "总把新桃换旧符",
+      "start": 10.41175,
+      "end": 12.338208,
+      "start_char": 34,
+      "end_char": 41
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "text": "咏鹅\n唐，骆宾王\n鹅，鹅，鹅，曲项向天歌。\n白毛浮绿水，红掌拨清波。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-1.mp3",
+  "signature": "0a37226004fd5b67c31c78f66780b14c29e04bab77136062875ab17367b43bc9",
+  "words": [
+    {
+      "text": "咏",
+      "start": 0.108833,
+      "end": 0.388249,
+      "start_char": 0,
+      "end_char": 1
+    },
+    {
+      "text": "鹅",
+      "start": 0.38825,
+      "end": 0.770583,
+      "start_char": 1,
+      "end_char": 2
+    },
+    {
+      "text": "唐",
+      "start": 1.441166,
+      "end": 1.867624,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "骆宾王",
+      "start": 2.191166,
+      "end": 2.955874,
+      "start_char": 5,
+      "end_char": 8
+    },
+    {
+      "text": "鹅",
+      "start": 3.617666,
+      "end": 4.014707,
+      "start_char": 9,
+      "end_char": 10
+    },
+    {
+      "text": "鹅",
+      "start": 4.352958,
+      "end": 4.779416,
+      "start_char": 11,
+      "end_char": 12
+    },
+    {
+      "text": "鹅",
+      "start": 5.102958,
+      "end": 5.470624,
+      "start_char": 13,
+      "end_char": 14
+    },
+    {
+      "text": "曲项向天歌",
+      "start": 5.75,
+      "end": 7.014708,
+      "start_char": 15,
+      "end_char": 20
+    },
+    {
+      "text": "白毛浮绿水",
+      "start": 7.691166,
+      "end": 8.970582,
+      "start_char": 22,
+      "end_char": 27
+    },
+    {
+      "text": "红掌拨清波",
+      "start": 9.264708,
+      "end": 10.558833,
+      "start_char": 28,
+      "end_char": 33
+    }
+  ]
+}

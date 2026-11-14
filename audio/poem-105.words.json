@@ -1,0 +1,191 @@
+{
+  "text": "采薇（节选）\n先秦，《诗经·小雅》\n昔我往矣，杨柳依依。\n今我来思，雨雪霏霏。\n行道迟迟，载渴载饥。\n我心伤悲，莫知我哀！",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-105.mp3",
+  "signature": "59e06089df04d902bd538d81e7166585c7897dcbffe7df79a4c26820a2c163c4",
+  "words": [
+    {
+      "text": "采薇",
+      "start": 0.108833,
+      "end": 0.726499,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "节选",
+      "start": 0.829416,
+      "end": 1.505874,
+      "start_char": 3,
+      "end_char": 5
+    },
+    {
+      "text": "先秦",
+      "start": 2.191166,
+      "end": 2.897041,
+      "start_char": 7,
+      "end_char": 9
+    },
+    {
+      "text": "诗经",
+      "start": 3.16175,
+      "end": 3.705875,
+      "start_char": 11,
+      "end_char": 13
+    },
+    {
+      "text": "小雅",
+      "start": 4.014708,
+      "end": 4.632374,
+      "start_char": 14,
+      "end_char": 16
+    },
+    {
+      "text": "昔",
+      "start": 5.294125,
+      "end": 5.58825,
+      "start_char": 18,
+      "end_char": 19
+    },
+    {
+      "text": "我",
+      "start": 5.58825,
+      "end": 5.735291,
+      "start_char": 19,
+      "end_char": 20
+    },
+    {
+      "text": "往",
+      "start": 5.75,
+      "end": 6.014708,
+      "start_char": 20,
+      "end_char": 21
+    },
+    {
+      "text": "矣",
+      "start": 6.014708,
+      "end": 6.323541,
+      "start_char": 21,
+      "end_char": 22
+    },
+    {
+      "text": "杨柳依依",
+      "start": 6.602958,
+      "end": 7.544124,
+      "start_char": 23,
+      "end_char": 27
+    },
+    {
+      "text": "今",
+      "start": 8.220583,
+      "end": 8.470583,
+      "start_char": 29,
+      "end_char": 30
+    },
+    {
+      "text": "我",
+      "start": 8.470583,
+      "end": 8.602916,
+      "start_char": 30,
+      "end_char": 31
+    },
+    {
+      "text": "来",
+      "start": 8.617666,
+      "end": 8.852957,
+      "start_char": 31,
+      "end_char": 32
+    },
+    {
+      "text": "思",
+      "start": 8.852958,
+      "end": 9.264708,
+      "start_char": 32,
+      "end_char": 33
+    },
+    {
+      "text": "雨雪",
+      "start": 9.544125,
+      "end": 9.985291,
+      "start_char": 34,
+      "end_char": 36
+    },
+    {
+      "text": "霏霏",
+      "start": 10.0,
+      "end": 10.573541,
+      "start_char": 36,
+      "end_char": 38
+    },
+    {
+      "text": "行道",
+      "start": 11.235291,
+      "end": 11.691166,
+      "start_char": 40,
+      "end_char": 42
+    },
+    {
+      "text": "迟迟",
+      "start": 11.705875,
+      "end": 12.382333,
+      "start_char": 42,
+      "end_char": 44
+    },
+    {
+      "text": "载渴",
+      "start": 12.617666,
+      "end": 13.014707,
+      "start_char": 45,
+      "end_char": 47
+    },
+    {
+      "text": "载饥",
+      "start": 13.014708,
+      "end": 13.617666,
+      "start_char": 47,
+      "end_char": 49
+    },
+    {
+      "text": "我",
+      "start": 14.279416,
+      "end": 14.441166,
+      "start_char": 51,
+      "end_char": 52
+    },
+    {
+      "text": "心",
+      "start": 14.441166,
+      "end": 14.661749,
+      "start_char": 52,
+      "end_char": 53
+    },
+    {
+      "text": "伤悲",
+      "start": 14.676458,
+      "end": 15.235291,
+      "start_char": 53,
+      "end_char": 55
+    },
+    {
+      "text": "莫知",
+      "start": 15.58825,
+      "end": 15.955916,
+      "start_char": 56,
+      "end_char": 58
+    },
+    {
+      "text": "我",
+      "start": 15.970583,
+      "end": 16.191166,
+      "start_char": 58,
+      "end_char": 59
+    },
+    {
+      "text": "哀",
+      "start": 16.191166,
+      "end": 16.514707,
+      "start_char": 59,
+      "end_char": 60
+    }
+  ]
+}

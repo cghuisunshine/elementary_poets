@@ -1,0 +1,58 @@
+{
+  "text": "泊船瓜洲\n宋，王安石\n京口瓜洲一水间，钟山只隔数重山。\n春风又绿江南岸，明月何时照我还。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-110.mp3",
+  "signature": "54859c88db65df5735260c1ea9b3b6331acef7b61d6d59f57c3fe692168a8010",
+  "words": [
+    {
+      "text": "泊船瓜洲",
+      "start": 0.108833,
+      "end": 1.314708,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "宋",
+      "start": 1.985291,
+      "end": 2.411749,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "王安石",
+      "start": 2.735291,
+      "end": 3.617624,
+      "start_char": 7,
+      "end_char": 10
+    },
+    {
+      "text": "京口瓜洲一水间",
+      "start": 4.279416,
+      "end": 6.073541,
+      "start_char": 11,
+      "end_char": 18
+    },
+    {
+      "text": "钟山只隔数重山",
+      "start": 6.367666,
+      "end": 8.205916,
+      "start_char": 19,
+      "end_char": 26
+    },
+    {
+      "text": "春风又绿江南岸",
+      "start": 8.882333,
+      "end": 10.588208,
+      "start_char": 28,
+      "end_char": 35
+    },
+    {
+      "text": "明月何时照我还",
+      "start": 10.970583,
+      "end": 12.661749,
+      "start_char": 36,
+      "end_char": 43
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "text": "江南\n汉，汉乐府\n江南可采莲，莲叶何田田。\n鱼戏莲叶间。\n鱼戏莲叶东，鱼戏莲叶西，\n鱼戏莲叶南，鱼戏莲叶北。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-2.mp3",
+  "signature": "116da6dfeab40519f899e6b44b8e7ec51d83260be1ba7b6bb4223cd41dfa390c",
+  "words": [
+    {
+      "text": "江南",
+      "start": 0.108833,
+      "end": 0.814708,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "汉",
+      "start": 1.485291,
+      "end": 1.897041,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "汉乐府",
+      "start": 2.235291,
+      "end": 3.102957,
+      "start_char": 5,
+      "end_char": 8
+    },
+    {
+      "text": "江南可采莲",
+      "start": 3.764708,
+      "end": 5.161749,
+      "start_char": 9,
+      "end_char": 14
+    },
+    {
+      "text": "莲叶何田田",
+      "start": 5.441166,
+      "end": 6.852916,
+      "start_char": 15,
+      "end_char": 20
+    },
+    {
+      "text": "鱼戏莲叶间",
+      "start": 7.529416,
+      "end": 8.897082,
+      "start_char": 22,
+      "end_char": 27
+    },
+    {
+      "text": "鱼戏莲叶东",
+      "start": 9.558833,
+      "end": 10.794124,
+      "start_char": 29,
+      "end_char": 34
+    },
+    {
+      "text": "鱼戏莲叶西",
+      "start": 11.08825,
+      "end": 12.397083,
+      "start_char": 35,
+      "end_char": 40
+    },
+    {
+      "text": "鱼戏莲叶南",
+      "start": 13.058833,
+      "end": 14.367666,
+      "start_char": 42,
+      "end_char": 47
+    },
+    {
+      "text": "鱼戏莲叶北",
+      "start": 14.632333,
+      "end": 15.852916,
+      "start_char": 48,
+      "end_char": 53
+    }
+  ]
+}

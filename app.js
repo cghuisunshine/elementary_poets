@@ -89,7 +89,7 @@ function renderFlashcards(){
  $('flashcards').hidden=view!=='flashcards'||!p;
  document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));
  $('view-hint').textContent=view==='flashcards'?'一次一首，先想一想，再翻开诗句。':'选择一首诗，慢慢读。';
- if(!p)return;
+ if(!p){PoemSpeech.stop('flashcard');return;}
  $('flashcard-position').textContent=`第 ${flashIndex+1} / ${visibleList.length} 首`;
  $('flashcard-location').textContent=`${gradeName(p.grade)} · ${p.term}册`;
  $('flashcard-tag').textContent=p.modern?'现代诗词 · 补充篇目':'古诗词';
@@ -103,6 +103,7 @@ function renderFlashcards(){
  if($('flashcard-study'))$('flashcard-study').hidden=!flashRevealed;
  $('flashcard-lines').innerHTML=p.lines.map(line=>`<p class="poem-line">${esc(line)}</p>`).join('');
  $('flashcard-note').textContent=p.modern?'本页保留标题与作者，正文请参阅课本。':'诗文存在异文，背诵与默写请以所用课本为准。';
+ PoemSpeech.prepare('flashcard',p,view==='flashcards'&&flashRevealed&&!$('reader').open);
  renderStudy('flashcard-study',p);
  $('flip-card').textContent=flashRevealed?'合上 · 再想一想':p.modern?'翻开 · 看篇目说明':'翻开 · 看诗句';
  $('flip-card').setAttribute('aria-expanded',String(flashRevealed));
@@ -120,6 +121,7 @@ function moveCard(offset){
 function toggleRead(id){if(learned.has(id)){learned.delete(id);toast('已取消已读标记');}else{learned.add(id);toast('又读完一首，诗意慢慢积累。');}save();render();if(current)updateReadButton();}
 function updateReadButton(){if(current)$('read-button').textContent=learned.has(current.id)?'已读 ✓ · 点击取消':'标为已读 ✓';}
 function showPoem(id, list=visibleList){
+ PoemSpeech.stop('flashcard');
  current=POEMS.find(p=>p.id===id);if(!current)return;
  readerList=[...list];reciting=false;
  $('reader-title').textContent=current.title;
@@ -140,6 +142,7 @@ function renderBody(){
  $('recite-button').disabled=!p.lines.length;
  $('recite-button').textContent=reciting?'显示全文':'背诵模式';
  $('reader-body').innerHTML=p.lines.length?p.lines.map((l,i)=>reciting?`<button class="poem-line recall masked" data-line="${i}" aria-label="揭示第${i+1}行诗句">点击揭示 · 第${i+1}行</button>`:`<p class="poem-line">${esc(l)}</p>`).join(''):'<p class="modern-preview">现代诗词补充篇目<br>请结合所用课本阅读。</p>';
+ PoemSpeech.prepare('reader',p,!reciting);
  renderStudy('reader-study',p);if($('reader-study'))$('reader-study').hidden=reciting;
 }
 function closeReader(){ $('reader').close(); }
@@ -169,11 +172,11 @@ document.addEventListener('click',e=>{
  button.closest('.poem-study').querySelectorAll('.study-group').forEach(group=>{group.open=expanded;});
 });
 $('collection').addEventListener('keydown',e=>{
- if(view!=='flashcards'||!visibleList.length||e.altKey||e.ctrlKey||e.metaKey||e.shiftKey||['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)||e.target.isContentEditable)return;
+ if(view!=='flashcards'||!visibleList.length||e.altKey||e.ctrlKey||e.metaKey||e.shiftKey||['INPUT','TEXTAREA','SELECT','AUDIO'].includes(e.target.tagName)||e.target.isContentEditable)return;
  if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();moveCard(e.key==='ArrowLeft'?-1:1);}
 });
 $('close-reader').addEventListener('click',closeReader);
-$('reader').addEventListener('close',()=>{document.body.style.overflow='';current=null;});
+$('reader').addEventListener('close',()=>{PoemSpeech.stop('reader');document.body.style.overflow='';current=null;renderFlashcards();});
 $('reader').addEventListener('click',e=>{if(e.target===$('reader')){const rect=$('reader').getBoundingClientRect();if(e.clientX<rect.left||e.clientX>rect.right||e.clientY<rect.top||e.clientY>rect.bottom)closeReader();}});
 $('recite-button').addEventListener('click',()=>{reciting=!reciting;renderBody();});
 $('reader-body').addEventListener('click',e=>{const line=e.target.closest('[data-line]');if(!line)return;const n=Number(line.dataset.line),masked=line.classList.toggle('masked');line.textContent=masked?`点击揭示 · 第${n+1}行`:current.lines[n];line.setAttribute('aria-label',masked?`揭示第${n+1}行诗句`:`隐藏第${n+1}行诗句：${current.lines[n]}`);});
@@ -182,6 +185,6 @@ function adjacent(offset){const i=readerList.findIndex(p=>p.id===current.id);if(
 $('prev-poem').addEventListener('click',()=>adjacent(-1));$('next-poem').addEventListener('click',()=>adjacent(1));
 function about(){ $('about').showModal();document.body.style.overflow='hidden'; }
 $('about-button').addEventListener('click',about);$('footer-about').addEventListener('click',about);$('close-about').addEventListener('click',()=>$('about').close());$('about').addEventListener('close',()=>{document.body.style.overflow='';});
-document.addEventListener('keydown',e=>{if(e.key==='/'&&!$('reader').open&&!$('about').open&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){e.preventDefault();$('search').focus();}if($('reader').open&&!['INPUT','TEXTAREA','BUTTON'].includes(document.activeElement.tagName)){if(e.key==='ArrowLeft')adjacent(-1);if(e.key==='ArrowRight')adjacent(1);}});
+document.addEventListener('keydown',e=>{if(e.key==='/'&&!$('reader').open&&!$('about').open&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){e.preventDefault();$('search').focus();}if($('reader').open&&!['INPUT','TEXTAREA','BUTTON','AUDIO'].includes(document.activeElement.tagName)){if(e.key==='ArrowLeft')adjacent(-1);if(e.key==='ArrowRight')adjacent(1);}});
 render();
 })();

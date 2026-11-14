@@ -1,0 +1,58 @@
+{
+  "text": "乡村四月\n宋，翁卷\n绿遍山原白满川，子规声里雨如烟。\n乡村四月闲人少，才了蚕桑又插田。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-86.mp3",
+  "signature": "415ed029b5e7b4c6634f5ef0ccf1eece0644f2db48e8236d30ef75def3f89730",
+  "words": [
+    {
+      "text": "乡村四月",
+      "start": 0.108833,
+      "end": 1.314708,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "宋",
+      "start": 1.970583,
+      "end": 2.426458,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "翁卷",
+      "start": 2.735291,
+      "end": 3.323541,
+      "start_char": 7,
+      "end_char": 9
+    },
+    {
+      "text": "绿遍山原白满川",
+      "start": 3.985291,
+      "end": 5.794124,
+      "start_char": 10,
+      "end_char": 17
+    },
+    {
+      "text": "子规声里雨如烟",
+      "start": 6.117666,
+      "end": 7.823541,
+      "start_char": 18,
+      "end_char": 25
+    },
+    {
+      "text": "乡村四月闲人少",
+      "start": 8.5,
+      "end": 10.352958,
+      "start_char": 27,
+      "end_char": 34
+    },
+    {
+      "text": "才了蚕桑又插田",
+      "start": 10.66175,
+      "end": 12.5735,
+      "start_char": 35,
+      "end_char": 42
+    }
+  ]
+}

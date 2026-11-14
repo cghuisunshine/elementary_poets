@@ -1,0 +1,156 @@
+{
+  "text": "采莲曲\n唐，王昌龄\n荷叶罗裙一色裁，芙蓉向脸两边开。\n乱入池中看不见，闻歌始觉有人来。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-36.mp3",
+  "signature": "1c69ad06102d8b4df28178d2d6d9ea3948aaa68e7a440172a174477907cbc06f",
+  "words": [
+    {
+      "text": "采",
+      "start": 0.108833,
+      "end": 0.402958,
+      "start_char": 0,
+      "end_char": 1
+    },
+    {
+      "text": "莲曲",
+      "start": 0.402958,
+      "end": 1.108833,
+      "start_char": 1,
+      "end_char": 3
+    },
+    {
+      "text": "唐",
+      "start": 1.779416,
+      "end": 2.205874,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "王昌龄",
+      "start": 2.514708,
+      "end": 3.352958,
+      "start_char": 6,
+      "end_char": 9
+    },
+    {
+      "text": "荷叶罗裙",
+      "start": 4.014708,
+      "end": 4.882374,
+      "start_char": 10,
+      "end_char": 14
+    },
+    {
+      "text": "一色",
+      "start": 4.91175,
+      "end": 5.367625,
+      "start_char": 14,
+      "end_char": 16
+    },
+    {
+      "text": "裁",
+      "start": 5.367666,
+      "end": 5.749999,
+      "start_char": 16,
+      "end_char": 17
+    },
+    {
+      "text": "芙蓉",
+      "start": 6.044125,
+      "end": 6.426458,
+      "start_char": 18,
+      "end_char": 20
+    },
+    {
+      "text": "向",
+      "start": 6.441166,
+      "end": 6.705874,
+      "start_char": 20,
+      "end_char": 21
+    },
+    {
+      "text": "脸",
+      "start": 6.705875,
+      "end": 6.91175,
+      "start_char": 21,
+      "end_char": 22
+    },
+    {
+      "text": "两边",
+      "start": 6.926458,
+      "end": 7.397041,
+      "start_char": 22,
+      "end_char": 24
+    },
+    {
+      "text": "开",
+      "start": 7.397041,
+      "end": 7.764707,
+      "start_char": 24,
+      "end_char": 25
+    },
+    {
+      "text": "乱入",
+      "start": 8.426458,
+      "end": 8.838208,
+      "start_char": 27,
+      "end_char": 29
+    },
+    {
+      "text": "池",
+      "start": 8.83825,
+      "end": 9.073541,
+      "start_char": 29,
+      "end_char": 30
+    },
+    {
+      "text": "中看",
+      "start": 9.073541,
+      "end": 9.529416,
+      "start_char": 30,
+      "end_char": 32
+    },
+    {
+      "text": "不见",
+      "start": 9.544125,
+      "end": 10.044125,
+      "start_char": 32,
+      "end_char": 34
+    },
+    {
+      "text": "闻歌",
+      "start": 10.367666,
+      "end": 10.794124,
+      "start_char": 35,
+      "end_char": 37
+    },
+    {
+      "text": "始",
+      "start": 10.808833,
+      "end": 11.088249,
+      "start_char": 37,
+      "end_char": 38
+    },
+    {
+      "text": "觉",
+      "start": 11.08825,
+      "end": 11.294125,
+      "start_char": 38,
+      "end_char": 39
+    },
+    {
+      "text": "有人",
+      "start": 11.323541,
+      "end": 11.749999,
+      "start_char": 39,
+      "end_char": 41
+    },
+    {
+      "text": "来",
+      "start": 11.75,
+      "end": 12.073541,
+      "start_char": 41,
+      "end_char": 42
+    }
+  ]
+}

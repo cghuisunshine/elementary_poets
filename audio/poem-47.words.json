@@ -1,0 +1,149 @@
+{
+  "text": "暮江吟\n唐，白居易\n一道残阳铺水中，半江瑟瑟半江红。\n可怜九月初三夜，露似真珠月似弓。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-47.mp3",
+  "signature": "2076e08c9415e8bcbf49ec88f6212a2267540d9037bfd880079d7e62d025955e",
+  "words": [
+    {
+      "text": "暮江吟",
+      "start": 0.108833,
+      "end": 1.049999,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "唐",
+      "start": 1.705875,
+      "end": 2.117625,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "白居易",
+      "start": 2.382333,
+      "end": 3.176458,
+      "start_char": 6,
+      "end_char": 9
+    },
+    {
+      "text": "一道",
+      "start": 3.852958,
+      "end": 4.235291,
+      "start_char": 10,
+      "end_char": 12
+    },
+    {
+      "text": "残阳",
+      "start": 4.25,
+      "end": 4.705875,
+      "start_char": 12,
+      "end_char": 14
+    },
+    {
+      "text": "铺水",
+      "start": 4.735291,
+      "end": 5.191166,
+      "start_char": 14,
+      "end_char": 16
+    },
+    {
+      "text": "中",
+      "start": 5.191166,
+      "end": 5.514707,
+      "start_char": 16,
+      "end_char": 17
+    },
+    {
+      "text": "半江",
+      "start": 5.764708,
+      "end": 6.235291,
+      "start_char": 18,
+      "end_char": 20
+    },
+    {
+      "text": "瑟瑟",
+      "start": 6.25,
+      "end": 6.764708,
+      "start_char": 20,
+      "end_char": 22
+    },
+    {
+      "text": "半江",
+      "start": 6.794125,
+      "end": 7.264708,
+      "start_char": 22,
+      "end_char": 24
+    },
+    {
+      "text": "红",
+      "start": 7.264708,
+      "end": 7.691166,
+      "start_char": 24,
+      "end_char": 25
+    },
+    {
+      "text": "可怜",
+      "start": 8.352958,
+      "end": 8.823541,
+      "start_char": 27,
+      "end_char": 29
+    },
+    {
+      "text": "九月",
+      "start": 8.852958,
+      "end": 9.205916,
+      "start_char": 29,
+      "end_char": 31
+    },
+    {
+      "text": "初三",
+      "start": 9.220583,
+      "end": 9.720583,
+      "start_char": 31,
+      "end_char": 33
+    },
+    {
+      "text": "夜",
+      "start": 9.720583,
+      "end": 9.985291,
+      "start_char": 33,
+      "end_char": 34
+    },
+    {
+      "text": "露似",
+      "start": 10.352958,
+      "end": 10.867666,
+      "start_char": 35,
+      "end_char": 37
+    },
+    {
+      "text": "真",
+      "start": 10.882333,
+      "end": 11.147041,
+      "start_char": 37,
+      "end_char": 38
+    },
+    {
+      "text": "珠月",
+      "start": 11.147041,
+      "end": 11.470582,
+      "start_char": 38,
+      "end_char": 40
+    },
+    {
+      "text": "似",
+      "start": 11.485291,
+      "end": 11.794124,
+      "start_char": 40,
+      "end_char": 41
+    },
+    {
+      "text": "弓",
+      "start": 11.794125,
+      "end": 12.08825,
+      "start_char": 41,
+      "end_char": 42
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "text": "回乡偶书\n唐，贺知章\n少小离家老大回，乡音无改鬓毛衰。\n儿童相见不相识，笑问客从何处来。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-92.mp3",
+  "signature": "06e8936bdc81d599123d79c78e58f17a6a0c250a6a544f8ead0203d36ebf4f43",
+  "words": [
+    {
+      "text": "回乡偶书",
+      "start": 0.108833,
+      "end": 1.241166,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "唐",
+      "start": 1.91175,
+      "end": 2.338208,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "贺知章",
+      "start": 2.66175,
+      "end": 3.426458,
+      "start_char": 7,
+      "end_char": 10
+    },
+    {
+      "text": "少小离家老大回",
+      "start": 4.08825,
+      "end": 5.852958,
+      "start_char": 11,
+      "end_char": 18
+    },
+    {
+      "text": "乡音无改鬓毛衰",
+      "start": 6.16175,
+      "end": 7.867625,
+      "start_char": 19,
+      "end_char": 26
+    },
+    {
+      "text": "儿童相见不相识",
+      "start": 8.544125,
+      "end": 10.33825,
+      "start_char": 28,
+      "end_char": 35
+    },
+    {
+      "text": "笑问客从何处来",
+      "start": 10.632333,
+      "end": 12.514666,
+      "start_char": 36,
+      "end_char": 43
+    }
+  ]
+}

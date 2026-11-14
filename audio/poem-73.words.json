@@ -1,0 +1,72 @@
+{
+  "text": "渔歌子\n唐，张志和\n西塞山前白鹭飞，桃花流水鳜鱼肥。\n青箬笠，绿蓑衣，斜风细雨不须归。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-73.mp3",
+  "signature": "bfdd10747b94f55e6533fa602adbece62263592ec3f6a727d1b22fc9d95dba91",
+  "words": [
+    {
+      "text": "渔歌子",
+      "start": 0.108833,
+      "end": 1.035291,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "唐",
+      "start": 1.705875,
+      "end": 2.102916,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "张志和",
+      "start": 2.382333,
+      "end": 3.264666,
+      "start_char": 6,
+      "end_char": 9
+    },
+    {
+      "text": "西塞山前白鹭飞",
+      "start": 3.926458,
+      "end": 5.779416,
+      "start_char": 10,
+      "end_char": 17
+    },
+    {
+      "text": "桃花流水鳜鱼肥",
+      "start": 6.073541,
+      "end": 7.911791,
+      "start_char": 18,
+      "end_char": 25
+    },
+    {
+      "text": "青箬笠",
+      "start": 8.58825,
+      "end": 9.397083,
+      "start_char": 27,
+      "end_char": 30
+    },
+    {
+      "text": "绿",
+      "start": 9.705875,
+      "end": 9.897041,
+      "start_char": 31,
+      "end_char": 32
+    },
+    {
+      "text": "蓑衣",
+      "start": 9.897041,
+      "end": 10.470582,
+      "start_char": 32,
+      "end_char": 34
+    },
+    {
+      "text": "斜风细雨不须归",
+      "start": 10.794125,
+      "end": 12.470583,
+      "start_char": 35,
+      "end_char": 42
+    }
+  ]
+}

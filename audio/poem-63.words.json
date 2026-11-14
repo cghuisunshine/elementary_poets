@@ -1,0 +1,58 @@
+{
+  "text": "墨梅\n元，王冕\n我家洗砚池头树，朵朵花开淡墨痕。\n不要人夸好颜色，只留清气满乾坤。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-63.mp3",
+  "signature": "99e16c011b5e508155f1c7110af13a47300a04f59b95cce372b1f0e8dcc65403",
+  "words": [
+    {
+      "text": "墨梅",
+      "start": 0.108833,
+      "end": 0.755874,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "元",
+      "start": 1.426458,
+      "end": 1.838208,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "王冕",
+      "start": 2.147041,
+      "end": 2.779374,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "我家洗砚池头树",
+      "start": 3.441166,
+      "end": 5.073499,
+      "start_char": 8,
+      "end_char": 15
+    },
+    {
+      "text": "朵朵花开淡墨痕",
+      "start": 5.367666,
+      "end": 7.088249,
+      "start_char": 16,
+      "end_char": 23
+    },
+    {
+      "text": "不要人夸好颜色",
+      "start": 7.764708,
+      "end": 9.338249,
+      "start_char": 25,
+      "end_char": 32
+    },
+    {
+      "text": "只留清气满乾坤",
+      "start": 9.632333,
+      "end": 11.352916,
+      "start_char": 33,
+      "end_char": 40
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "text": "嫦娥\n唐，李商隐\n云母屏风烛影深，长河渐落晓星沉。\n嫦娥应悔偷灵药，碧海青天夜夜心。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-50.mp3",
+  "signature": "a5bdf90adf240280a333aa69e451f523934e8f430377964b4dcb04bbc60b0186",
+  "words": [
+    {
+      "text": "嫦娥",
+      "start": 0.108833,
+      "end": 0.799999,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "唐",
+      "start": 1.470583,
+      "end": 1.867624,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "李商隐",
+      "start": 2.176458,
+      "end": 2.985291,
+      "start_char": 5,
+      "end_char": 8
+    },
+    {
+      "text": "云母屏风烛影深",
+      "start": 3.66175,
+      "end": 5.455875,
+      "start_char": 9,
+      "end_char": 16
+    },
+    {
+      "text": "长河渐落晓星沉",
+      "start": 5.735291,
+      "end": 7.661749,
+      "start_char": 17,
+      "end_char": 24
+    },
+    {
+      "text": "嫦娥应悔偷灵药",
+      "start": 8.33825,
+      "end": 10.132375,
+      "start_char": 26,
+      "end_char": 33
+    },
+    {
+      "text": "碧海青天夜夜心",
+      "start": 10.5,
+      "end": 12.235291,
+      "start_char": 34,
+      "end_char": 41
+    }
+  ]
+}

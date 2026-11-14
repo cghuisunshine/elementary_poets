@@ -1,0 +1,65 @@
+{
+  "text": "绝句（两个黄鹂鸣翠柳）\n唐，杜甫\n两个黄鹂鸣翠柳，一行白鹭上青天。\n窗含西岭千秋雪，门泊东吴万里船。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-25.mp3",
+  "signature": "90c79ba7e7e0c0c8fa71496188688fe2f1f2fd1c11f1e46abc3c0279bc5434ef",
+  "words": [
+    {
+      "text": "绝句",
+      "start": 0.108833,
+      "end": 0.799999,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "两个黄鹂鸣翠柳",
+      "start": 0.917666,
+      "end": 2.579416,
+      "start_char": 3,
+      "end_char": 10
+    },
+    {
+      "text": "唐",
+      "start": 3.264708,
+      "end": 3.661749,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "杜甫",
+      "start": 3.955875,
+      "end": 4.632333,
+      "start_char": 14,
+      "end_char": 16
+    },
+    {
+      "text": "两个黄鹂鸣翠柳",
+      "start": 5.294125,
+      "end": 6.911791,
+      "start_char": 17,
+      "end_char": 24
+    },
+    {
+      "text": "一行白鹭上青天",
+      "start": 7.235291,
+      "end": 8.941166,
+      "start_char": 25,
+      "end_char": 32
+    },
+    {
+      "text": "窗含西岭千秋雪",
+      "start": 9.602958,
+      "end": 11.514708,
+      "start_char": 34,
+      "end_char": 41
+    },
+    {
+      "text": "门泊东吴万里船",
+      "start": 11.83825,
+      "end": 13.529416,
+      "start_char": 42,
+      "end_char": 49
+    }
+  ]
+}

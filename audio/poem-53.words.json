@@ -1,0 +1,58 @@
+{
+  "text": "夏日绝句\n宋，李清照\n生当作人杰，死亦为鬼雄。\n至今思项羽，不肯过江东。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-53.mp3",
+  "signature": "ff99074ecdb576b3b1b0c0266862903cd02e12058676b7cfdf128c3ed11e5cbf",
+  "words": [
+    {
+      "text": "夏日绝句",
+      "start": 0.108833,
+      "end": 1.285291,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "宋",
+      "start": 1.955875,
+      "end": 2.397041,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "李清照",
+      "start": 2.735291,
+      "end": 3.499999,
+      "start_char": 7,
+      "end_char": 10
+    },
+    {
+      "text": "生当作人杰",
+      "start": 4.176458,
+      "end": 5.514708,
+      "start_char": 11,
+      "end_char": 16
+    },
+    {
+      "text": "死亦为鬼雄",
+      "start": 5.83825,
+      "end": 7.1765,
+      "start_char": 17,
+      "end_char": 22
+    },
+    {
+      "text": "至今思项羽",
+      "start": 7.852958,
+      "end": 9.191208,
+      "start_char": 24,
+      "end_char": 29
+    },
+    {
+      "text": "不肯过江东",
+      "start": 9.441166,
+      "end": 10.632332,
+      "start_char": 30,
+      "end_char": 35
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "text": "题临安邸\n宋，林升\n山外青山楼外楼，西湖歌舞几时休？\n暖风熏得游人醉，直把杭州作汴州。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-68.mp3",
+  "signature": "4a32f6665ca1eec641531c4e5b6498beac303065decfbd8b4adc11a3565d1d49",
+  "words": [
+    {
+      "text": "题临安邸",
+      "start": 0.108833,
+      "end": 1.241166,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "宋",
+      "start": 1.91175,
+      "end": 2.367625,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "林升",
+      "start": 2.705875,
+      "end": 3.294125,
+      "start_char": 7,
+      "end_char": 9
+    },
+    {
+      "text": "山外青山楼外楼",
+      "start": 3.955875,
+      "end": 5.779416,
+      "start_char": 10,
+      "end_char": 17
+    },
+    {
+      "text": "西湖歌舞几时休",
+      "start": 6.08825,
+      "end": 7.735291,
+      "start_char": 18,
+      "end_char": 25
+    },
+    {
+      "text": "暖风熏得游人醉",
+      "start": 8.41175,
+      "end": 10.205875,
+      "start_char": 27,
+      "end_char": 34
+    },
+    {
+      "text": "直把杭州作汴州",
+      "start": 10.544125,
+      "end": 12.264708,
+      "start_char": 35,
+      "end_char": 42
+    }
+  ]
+}

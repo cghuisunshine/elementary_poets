@@ -1,0 +1,72 @@
+{
+  "text": "浪淘沙·其一\n唐，刘禹锡\n九曲黄河万里沙，浪淘风簸自天涯。\n如今直上银河去，同到牵牛织女家。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-93.mp3",
+  "signature": "32bd38deb84f3fa35680dc48b44cf0a628f49d40595d7f9b6f8b31dd15f310fc",
+  "words": [
+    {
+      "text": "浪淘",
+      "start": 0.108833,
+      "end": 0.608833,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "沙",
+      "start": 0.608833,
+      "end": 0.917666,
+      "start_char": 2,
+      "end_char": 3
+    },
+    {
+      "text": "其一",
+      "start": 1.226458,
+      "end": 1.814708,
+      "start_char": 4,
+      "end_char": 6
+    },
+    {
+      "text": "唐",
+      "start": 2.485291,
+      "end": 2.897041,
+      "start_char": 7,
+      "end_char": 8
+    },
+    {
+      "text": "刘禹锡",
+      "start": 3.205875,
+      "end": 3.985291,
+      "start_char": 9,
+      "end_char": 12
+    },
+    {
+      "text": "九曲黄河万里沙",
+      "start": 4.66175,
+      "end": 6.352916,
+      "start_char": 13,
+      "end_char": 20
+    },
+    {
+      "text": "浪淘风簸自天涯",
+      "start": 6.705875,
+      "end": 8.558833,
+      "start_char": 21,
+      "end_char": 28
+    },
+    {
+      "text": "如今直上银河去",
+      "start": 9.235291,
+      "end": 11.058832,
+      "start_char": 30,
+      "end_char": 37
+    },
+    {
+      "text": "同到牵牛织女家",
+      "start": 11.323541,
+      "end": 13.102957,
+      "start_char": 38,
+      "end_char": 45
+    }
+  ]
+}

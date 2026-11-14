@@ -1,0 +1,107 @@
+{
+  "text": "长歌行\n汉，汉乐府\n青青园中葵，朝露待日晞。\n阳春布德泽，万物生光辉。\n常恐秋节至，焜黄华叶衰。\n百川东到海，何时复西归？\n少壮不努力，老大徒伤悲！",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-101.mp3",
+  "signature": "3d6fd2024b3eb00f456a6f253792b1839c5ec701c59c6eb7c50cde6ec1f1b420",
+  "words": [
+    {
+      "text": "长",
+      "start": 0.108833,
+      "end": 0.432333,
+      "start_char": 0,
+      "end_char": 1
+    },
+    {
+      "text": "歌行",
+      "start": 0.432333,
+      "end": 1.123499,
+      "start_char": 1,
+      "end_char": 3
+    },
+    {
+      "text": "汉",
+      "start": 1.794125,
+      "end": 2.205875,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "汉乐府",
+      "start": 2.544125,
+      "end": 3.411791,
+      "start_char": 6,
+      "end_char": 9
+    },
+    {
+      "text": "青青园中葵",
+      "start": 4.073541,
+      "end": 5.470582,
+      "start_char": 10,
+      "end_char": 15
+    },
+    {
+      "text": "朝露待日晞",
+      "start": 5.705875,
+      "end": 6.91175,
+      "start_char": 16,
+      "end_char": 21
+    },
+    {
+      "text": "阳春布德泽",
+      "start": 7.58825,
+      "end": 8.867666,
+      "start_char": 23,
+      "end_char": 28
+    },
+    {
+      "text": "万物生光辉",
+      "start": 9.176458,
+      "end": 10.426458,
+      "start_char": 29,
+      "end_char": 34
+    },
+    {
+      "text": "常恐秋节至",
+      "start": 11.08825,
+      "end": 12.470583,
+      "start_char": 36,
+      "end_char": 41
+    },
+    {
+      "text": "焜黄华叶衰",
+      "start": 12.75,
+      "end": 14.08825,
+      "start_char": 42,
+      "end_char": 47
+    },
+    {
+      "text": "百川东到海",
+      "start": 14.764708,
+      "end": 16.102958,
+      "start_char": 49,
+      "end_char": 54
+    },
+    {
+      "text": "何时复西归",
+      "start": 16.397041,
+      "end": 17.647041,
+      "start_char": 55,
+      "end_char": 60
+    },
+    {
+      "text": "少壮不努力",
+      "start": 18.308833,
+      "end": 19.558833,
+      "start_char": 62,
+      "end_char": 67
+    },
+    {
+      "text": "老大徒伤悲",
+      "start": 19.852958,
+      "end": 21.044124,
+      "start_char": 68,
+      "end_char": 73
+    }
+  ]
+}

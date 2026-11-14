@@ -1,0 +1,107 @@
+{
+  "text": "梅花\n宋，王安石\n墙角数枝梅，凌寒独自开。\n遥知不是雪，为有暗香来。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-14.mp3",
+  "signature": "62101abfc36634e46d566454fd754bf7f6ab0e982cea47e7ae59e70035c41cfe",
+  "words": [
+    {
+      "text": "梅花",
+      "start": 0.108833,
+      "end": 0.799999,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "宋",
+      "start": 1.470583,
+      "end": 1.897041,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "王安石",
+      "start": 2.220583,
+      "end": 3.102916,
+      "start_char": 5,
+      "end_char": 8
+    },
+    {
+      "text": "墙角",
+      "start": 3.764708,
+      "end": 4.264708,
+      "start_char": 9,
+      "end_char": 11
+    },
+    {
+      "text": "数",
+      "start": 4.294125,
+      "end": 4.5,
+      "start_char": 11,
+      "end_char": 12
+    },
+    {
+      "text": "枝",
+      "start": 4.5,
+      "end": 4.676458,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "梅",
+      "start": 4.676458,
+      "end": 5.029416,
+      "start_char": 13,
+      "end_char": 14
+    },
+    {
+      "text": "凌寒",
+      "start": 5.308833,
+      "end": 5.823541,
+      "start_char": 15,
+      "end_char": 17
+    },
+    {
+      "text": "独自",
+      "start": 5.852958,
+      "end": 6.264708,
+      "start_char": 17,
+      "end_char": 19
+    },
+    {
+      "text": "开",
+      "start": 6.264708,
+      "end": 6.632374,
+      "start_char": 19,
+      "end_char": 20
+    },
+    {
+      "text": "遥知",
+      "start": 7.294125,
+      "end": 7.75,
+      "start_char": 22,
+      "end_char": 24
+    },
+    {
+      "text": "不是",
+      "start": 7.779416,
+      "end": 8.117666,
+      "start_char": 24,
+      "end_char": 26
+    },
+    {
+      "text": "雪",
+      "start": 8.117666,
+      "end": 8.529416,
+      "start_char": 26,
+      "end_char": 27
+    },
+    {
+      "text": "为有暗香来",
+      "start": 8.823541,
+      "end": 10.058832,
+      "start_char": 28,
+      "end_char": 33
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "text": "雪梅\n宋，卢钺\n梅雪争春未肯降，骚人搁笔费评章。\n梅须逊雪三分白，雪却输梅一段香。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-49.mp3",
+  "signature": "33ceb6774aecb7faa1ca443d75e6aa58e753f49f36ad4de7578b3ce8a0e2b468",
+  "words": [
+    {
+      "text": "雪梅",
+      "start": 0.108833,
+      "end": 0.844124,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "宋",
+      "start": 1.5,
+      "end": 1.955875,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "卢",
+      "start": 2.294125,
+      "end": 2.485291,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "钺",
+      "start": 2.485291,
+      "end": 2.867624,
+      "start_char": 6,
+      "end_char": 7
+    },
+    {
+      "text": "梅雪",
+      "start": 3.529416,
+      "end": 3.985291,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "争",
+      "start": 4.0,
+      "end": 4.235291,
+      "start_char": 10,
+      "end_char": 11
+    },
+    {
+      "text": "春",
+      "start": 4.235291,
+      "end": 4.485291,
+      "start_char": 11,
+      "end_char": 12
+    },
+    {
+      "text": "未",
+      "start": 4.514708,
+      "end": 4.720583,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "肯",
+      "start": 4.720583,
+      "end": 4.985291,
+      "start_char": 13,
+      "end_char": 14
+    },
+    {
+      "text": "降",
+      "start": 4.985291,
+      "end": 5.411749,
+      "start_char": 14,
+      "end_char": 15
+    },
+    {
+      "text": "骚人",
+      "start": 5.720583,
+      "end": 6.205874,
+      "start_char": 16,
+      "end_char": 18
+    },
+    {
+      "text": "搁笔费",
+      "start": 6.220583,
+      "end": 6.808833,
+      "start_char": 18,
+      "end_char": 21
+    },
+    {
+      "text": "评章",
+      "start": 6.808833,
+      "end": 7.382374,
+      "start_char": 21,
+      "end_char": 23
+    },
+    {
+      "text": "梅须逊",
+      "start": 8.044125,
+      "end": 8.764708,
+      "start_char": 25,
+      "end_char": 28
+    },
+    {
+      "text": "雪",
+      "start": 8.764708,
+      "end": 8.970583,
+      "start_char": 28,
+      "end_char": 29
+    },
+    {
+      "text": "三",
+      "start": 8.985291,
+      "end": 9.249999,
+      "start_char": 29,
+      "end_char": 30
+    },
+    {
+      "text": "分",
+      "start": 9.25,
+      "end": 9.455875,
+      "start_char": 30,
+      "end_char": 31
+    },
+    {
+      "text": "白",
+      "start": 9.470583,
+      "end": 9.794124,
+      "start_char": 31,
+      "end_char": 32
+    },
+    {
+      "text": "雪",
+      "start": 10.117666,
+      "end": 10.352957,
+      "start_char": 33,
+      "end_char": 34
+    },
+    {
+      "text": "却",
+      "start": 10.367666,
+      "end": 10.544124,
+      "start_char": 34,
+      "end_char": 35
+    },
+    {
+      "text": "输",
+      "start": 10.558833,
+      "end": 10.808833,
+      "start_char": 35,
+      "end_char": 36
+    },
+    {
+      "text": "梅",
+      "start": 10.808833,
+      "end": 10.985291,
+      "start_char": 36,
+      "end_char": 37
+    },
+    {
+      "text": "一段",
+      "start": 11.0,
+      "end": 11.352958,
+      "start_char": 37,
+      "end_char": 39
+    },
+    {
+      "text": "香",
+      "start": 11.352958,
+      "end": 11.735291,
+      "start_char": 39,
+      "end_char": 40
+    }
+  ]
+}

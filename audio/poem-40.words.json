@@ -1,0 +1,72 @@
+{
+  "text": "忆江南\n唐，白居易\n江南好，风景旧曾谙。\n日出江花红胜火，春来江水绿如蓝。\n能不忆江南？",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-40.mp3",
+  "signature": "cabe4a32d1c7e9e7378979d0711a18ec383a50c18052f0d7b1e70bdf083144a4",
+  "words": [
+    {
+      "text": "忆江南",
+      "start": 0.108833,
+      "end": 1.005874,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "唐",
+      "start": 1.691166,
+      "end": 2.102916,
+      "start_char": 4,
+      "end_char": 5
+    },
+    {
+      "text": "白居易",
+      "start": 2.367666,
+      "end": 3.161791,
+      "start_char": 6,
+      "end_char": 9
+    },
+    {
+      "text": "江南",
+      "start": 3.83825,
+      "end": 4.308833,
+      "start_char": 10,
+      "end_char": 12
+    },
+    {
+      "text": "好",
+      "start": 4.308833,
+      "end": 4.720583,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "风景旧曾谙",
+      "start": 5.014708,
+      "end": 6.235291,
+      "start_char": 14,
+      "end_char": 19
+    },
+    {
+      "text": "日出江花红胜火",
+      "start": 6.897041,
+      "end": 8.735291,
+      "start_char": 21,
+      "end_char": 28
+    },
+    {
+      "text": "春来江水绿如蓝",
+      "start": 9.014708,
+      "end": 10.764708,
+      "start_char": 29,
+      "end_char": 36
+    },
+    {
+      "text": "能不忆江南",
+      "start": 11.441166,
+      "end": 12.602916,
+      "start_char": 38,
+      "end_char": 43
+    }
+  ]
+}

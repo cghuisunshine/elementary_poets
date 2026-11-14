@@ -1,0 +1,72 @@
+{
+  "text": "己亥杂诗\n清，龚自珍\n九州生气恃风雷，万马齐喑究可哀。\n我劝天公重抖擞，不拘一格降人才。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-69.mp3",
+  "signature": "b0730587f3d5b03019f1c4b44ccc642017d901e71515acc284f7efa41fa6f67d",
+  "words": [
+    {
+      "text": "己亥杂诗",
+      "start": 0.108833,
+      "end": 1.299999,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "清",
+      "start": 1.970583,
+      "end": 2.338249,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "龚自珍",
+      "start": 2.66175,
+      "end": 3.426458,
+      "start_char": 7,
+      "end_char": 10
+    },
+    {
+      "text": "九州生气恃风雷",
+      "start": 4.102958,
+      "end": 5.926499,
+      "start_char": 11,
+      "end_char": 18
+    },
+    {
+      "text": "万马齐喑究可哀",
+      "start": 6.25,
+      "end": 7.955875,
+      "start_char": 19,
+      "end_char": 26
+    },
+    {
+      "text": "我劝天公重抖擞",
+      "start": 8.632333,
+      "end": 10.411749,
+      "start_char": 28,
+      "end_char": 35
+    },
+    {
+      "text": "不拘一格",
+      "start": 10.705875,
+      "end": 11.514708,
+      "start_char": 36,
+      "end_char": 40
+    },
+    {
+      "text": "降",
+      "start": 11.514708,
+      "end": 11.764708,
+      "start_char": 40,
+      "end_char": 41
+    },
+    {
+      "text": "人才",
+      "start": 11.779416,
+      "end": 12.367666,
+      "start_char": 41,
+      "end_char": 43
+    }
+  ]
+}

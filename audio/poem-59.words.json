@@ -1,0 +1,58 @@
+{
+  "text": "蜂\n唐，罗隐\n不论平地与山尖，无限风光尽被占。\n采得百花成蜜后，为谁辛苦为谁甜？",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-59.mp3",
+  "signature": "638d1263b99da10053a430fc806d973ec0400592a577a3686d6a3ddf76a5c3f5",
+  "words": [
+    {
+      "text": "蜂",
+      "start": 0.108833,
+      "end": 0.608833,
+      "start_char": 0,
+      "end_char": 1
+    },
+    {
+      "text": "唐",
+      "start": 1.279416,
+      "end": 1.691166,
+      "start_char": 2,
+      "end_char": 3
+    },
+    {
+      "text": "罗隐",
+      "start": 2.029416,
+      "end": 2.647082,
+      "start_char": 4,
+      "end_char": 6
+    },
+    {
+      "text": "不论平地与山尖",
+      "start": 3.308833,
+      "end": 4.941166,
+      "start_char": 7,
+      "end_char": 14
+    },
+    {
+      "text": "无限风光尽被占",
+      "start": 5.279416,
+      "end": 7.029416,
+      "start_char": 15,
+      "end_char": 22
+    },
+    {
+      "text": "采得百花成蜜后",
+      "start": 7.705875,
+      "end": 9.397041,
+      "start_char": 24,
+      "end_char": 31
+    },
+    {
+      "text": "为谁辛苦为谁甜",
+      "start": 9.720583,
+      "end": 11.661749,
+      "start_char": 32,
+      "end_char": 39
+    }
+  ]
+}

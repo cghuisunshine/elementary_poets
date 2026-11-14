@@ -1,0 +1,65 @@
+{
+  "text": "古朗月行（节选）\n唐，李白\n小时不识月，呼作白玉盘。\n又疑瑶台镜，飞在青云端。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-5.mp3",
+  "signature": "98b582b05111cd1a4e74ae1f6776c12f0f7d58ce2302978dd92244e50c4cc832",
+  "words": [
+    {
+      "text": "古朗月行",
+      "start": 0.108833,
+      "end": 1.123541,
+      "start_char": 0,
+      "end_char": 4
+    },
+    {
+      "text": "节选",
+      "start": 1.226458,
+      "end": 1.902916,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "唐",
+      "start": 2.58825,
+      "end": 2.985291,
+      "start_char": 9,
+      "end_char": 10
+    },
+    {
+      "text": "李白",
+      "start": 3.308833,
+      "end": 3.823541,
+      "start_char": 11,
+      "end_char": 13
+    },
+    {
+      "text": "小时不识月",
+      "start": 4.485291,
+      "end": 5.749999,
+      "start_char": 14,
+      "end_char": 19
+    },
+    {
+      "text": "呼作白玉盘",
+      "start": 6.044125,
+      "end": 7.264708,
+      "start_char": 20,
+      "end_char": 25
+    },
+    {
+      "text": "又疑瑶台镜",
+      "start": 7.941166,
+      "end": 9.176457,
+      "start_char": 27,
+      "end_char": 32
+    },
+    {
+      "text": "飞在青云端",
+      "start": 9.485291,
+      "end": 10.749999,
+      "start_char": 33,
+      "end_char": 38
+    }
+  ]
+}

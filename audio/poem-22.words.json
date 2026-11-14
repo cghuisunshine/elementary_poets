@@ -1,0 +1,65 @@
+{
+  "text": "咏柳\n唐，贺知章\n碧玉妆成一树高，万条垂下绿丝绦。\n不知细叶谁裁出，二月春风似剪刀。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-22.mp3",
+  "signature": "369cbbe421859d9e5ccb2da52c011c4beaf74a4626d4c19dbb05f8ce04a00e02",
+  "words": [
+    {
+      "text": "咏",
+      "start": 0.108833,
+      "end": 0.417666,
+      "start_char": 0,
+      "end_char": 1
+    },
+    {
+      "text": "柳",
+      "start": 0.417666,
+      "end": 0.829416,
+      "start_char": 1,
+      "end_char": 2
+    },
+    {
+      "text": "唐",
+      "start": 1.485291,
+      "end": 1.911749,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "贺知章",
+      "start": 2.235291,
+      "end": 2.999999,
+      "start_char": 5,
+      "end_char": 8
+    },
+    {
+      "text": "碧玉妆成一树高",
+      "start": 3.66175,
+      "end": 5.279416,
+      "start_char": 9,
+      "end_char": 16
+    },
+    {
+      "text": "万条垂下绿丝绦",
+      "start": 5.632333,
+      "end": 7.485291,
+      "start_char": 17,
+      "end_char": 24
+    },
+    {
+      "text": "不知细叶谁裁出",
+      "start": 8.147041,
+      "end": 9.897041,
+      "start_char": 26,
+      "end_char": 33
+    },
+    {
+      "text": "二月春风似剪刀",
+      "start": 10.220583,
+      "end": 12.014708,
+      "start_char": 34,
+      "end_char": 41
+    }
+  ]
+}

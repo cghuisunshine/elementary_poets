@@ -1,0 +1,79 @@
+{
+  "text": "早春呈水部张十八员外\n唐，韩愈\n天街小雨润如酥，草色遥看近却无。\n最是一年春好处，绝胜烟柳满皇都。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-108.mp3",
+  "signature": "9fd15b223c4d4e2498316574093f7823998fe66790d973d208d2253c4ef0c909",
+  "words": [
+    {
+      "text": "早春呈水部张十",
+      "start": 0.108833,
+      "end": 1.917666,
+      "start_char": 0,
+      "end_char": 7
+    },
+    {
+      "text": "八",
+      "start": 2.035291,
+      "end": 2.285291,
+      "start_char": 7,
+      "end_char": 8
+    },
+    {
+      "text": "员",
+      "start": 2.285291,
+      "end": 2.564707,
+      "start_char": 8,
+      "end_char": 9
+    },
+    {
+      "text": "外",
+      "start": 2.564708,
+      "end": 2.902958,
+      "start_char": 9,
+      "end_char": 10
+    },
+    {
+      "text": "唐",
+      "start": 3.573541,
+      "end": 3.999999,
+      "start_char": 11,
+      "end_char": 12
+    },
+    {
+      "text": "韩愈",
+      "start": 4.308833,
+      "end": 4.882374,
+      "start_char": 13,
+      "end_char": 15
+    },
+    {
+      "text": "天街小雨润如酥",
+      "start": 5.544125,
+      "end": 7.279416,
+      "start_char": 16,
+      "end_char": 23
+    },
+    {
+      "text": "草色遥看近却无",
+      "start": 7.602958,
+      "end": 9.455916,
+      "start_char": 24,
+      "end_char": 31
+    },
+    {
+      "text": "最是一年春好处",
+      "start": 10.132333,
+      "end": 11.867624,
+      "start_char": 33,
+      "end_char": 40
+    },
+    {
+      "text": "绝胜烟柳满皇都",
+      "start": 12.16175,
+      "end": 13.970583,
+      "start_char": 41,
+      "end_char": 48
+    }
+  ]
+}

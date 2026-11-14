@@ -1,0 +1,149 @@
+{
+  "text": "画\n佚名\n远看山有色，近听水无声。\n春去花还在，人来鸟不惊。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-3.mp3",
+  "signature": "bfe724164c9f77a9d0e049783a12407bce6054d36b156d69e41a351e29b3585e",
+  "words": [
+    {
+      "text": "画",
+      "start": 0.108833,
+      "end": 0.594124,
+      "start_char": 0,
+      "end_char": 1
+    },
+    {
+      "text": "佚名",
+      "start": 1.264708,
+      "end": 1.941166,
+      "start_char": 2,
+      "end_char": 4
+    },
+    {
+      "text": "远",
+      "start": 2.58825,
+      "end": 2.852958,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "看",
+      "start": 2.852958,
+      "end": 3.088249,
+      "start_char": 6,
+      "end_char": 7
+    },
+    {
+      "text": "山",
+      "start": 3.08825,
+      "end": 3.323541,
+      "start_char": 7,
+      "end_char": 8
+    },
+    {
+      "text": "有色",
+      "start": 3.33825,
+      "end": 3.9265,
+      "start_char": 8,
+      "end_char": 10
+    },
+    {
+      "text": "近",
+      "start": 4.205875,
+      "end": 4.441166,
+      "start_char": 11,
+      "end_char": 12
+    },
+    {
+      "text": "听",
+      "start": 4.441166,
+      "end": 4.661749,
+      "start_char": 12,
+      "end_char": 13
+    },
+    {
+      "text": "水",
+      "start": 4.66175,
+      "end": 4.882333,
+      "start_char": 13,
+      "end_char": 14
+    },
+    {
+      "text": "无声",
+      "start": 4.897041,
+      "end": 5.485291,
+      "start_char": 14,
+      "end_char": 16
+    },
+    {
+      "text": "春",
+      "start": 6.16175,
+      "end": 6.455875,
+      "start_char": 18,
+      "end_char": 19
+    },
+    {
+      "text": "去",
+      "start": 6.455875,
+      "end": 6.617625,
+      "start_char": 19,
+      "end_char": 20
+    },
+    {
+      "text": "花",
+      "start": 6.617666,
+      "end": 6.808832,
+      "start_char": 20,
+      "end_char": 21
+    },
+    {
+      "text": "还",
+      "start": 6.823541,
+      "end": 7.102957,
+      "start_char": 21,
+      "end_char": 22
+    },
+    {
+      "text": "在",
+      "start": 7.102958,
+      "end": 7.426499,
+      "start_char": 22,
+      "end_char": 23
+    },
+    {
+      "text": "人",
+      "start": 7.735291,
+      "end": 7.897041,
+      "start_char": 24,
+      "end_char": 25
+    },
+    {
+      "text": "来",
+      "start": 7.91175,
+      "end": 8.102916,
+      "start_char": 25,
+      "end_char": 26
+    },
+    {
+      "text": "鸟",
+      "start": 8.102958,
+      "end": 8.323541,
+      "start_char": 26,
+      "end_char": 27
+    },
+    {
+      "text": "不",
+      "start": 8.33825,
+      "end": 8.470583,
+      "start_char": 27,
+      "end_char": 28
+    },
+    {
+      "text": "惊",
+      "start": 8.470583,
+      "end": 8.823541,
+      "start_char": 28,
+      "end_char": 29
+    }
+  ]
+}

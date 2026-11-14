@@ -1,0 +1,72 @@
+{
+  "text": "鹿柴\n唐，王维\n空山不见人，但闻人语响。\n返景入深林，复照青苔上。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-46.mp3",
+  "signature": "f83a48ebfc483325e7861a586a67345ea6188672fb7b223c254eb7e00559fdb5",
+  "words": [
+    {
+      "text": "鹿柴",
+      "start": 0.108833,
+      "end": 0.785291,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "唐",
+      "start": 1.441166,
+      "end": 1.852916,
+      "start_char": 3,
+      "end_char": 4
+    },
+    {
+      "text": "王维",
+      "start": 2.16175,
+      "end": 2.720583,
+      "start_char": 5,
+      "end_char": 7
+    },
+    {
+      "text": "空山不见人",
+      "start": 3.382333,
+      "end": 4.676458,
+      "start_char": 8,
+      "end_char": 13
+    },
+    {
+      "text": "但闻人语响",
+      "start": 4.941166,
+      "end": 6.117624,
+      "start_char": 14,
+      "end_char": 19
+    },
+    {
+      "text": "返景",
+      "start": 6.794125,
+      "end": 7.308833,
+      "start_char": 21,
+      "end_char": 23
+    },
+    {
+      "text": "入",
+      "start": 7.33825,
+      "end": 7.485291,
+      "start_char": 23,
+      "end_char": 24
+    },
+    {
+      "text": "深林",
+      "start": 7.485291,
+      "end": 8.132332,
+      "start_char": 24,
+      "end_char": 26
+    },
+    {
+      "text": "复照青苔上",
+      "start": 8.41175,
+      "end": 9.66175,
+      "start_char": 27,
+      "end_char": 32
+    }
+  ]
+}

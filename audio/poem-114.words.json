@@ -1,0 +1,233 @@
+{
+  "text": "清平乐（春归何处）\n宋，黄庭坚\n春归何处？寂寞无行路。\n若有人知春去处，唤取归来同住。\n春无踪迹谁知？除非问取黄鹂。\n百啭无人能解，因风飞过蔷薇。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-114.mp3",
+  "signature": "bb449d474293b79f170c9ed359d95997fac890b14d9abc79cf573996c886ac3b",
+  "words": [
+    {
+      "text": "清平乐",
+      "start": 0.108833,
+      "end": 0.991166,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "春归何处",
+      "start": 1.108833,
+      "end": 2.270583,
+      "start_char": 4,
+      "end_char": 8
+    },
+    {
+      "text": "宋",
+      "start": 2.941166,
+      "end": 3.382332,
+      "start_char": 10,
+      "end_char": 11
+    },
+    {
+      "text": "黄庭坚",
+      "start": 3.705875,
+      "end": 4.514708,
+      "start_char": 12,
+      "end_char": 15
+    },
+    {
+      "text": "春归何处",
+      "start": 5.176458,
+      "end": 6.352916,
+      "start_char": 16,
+      "end_char": 20
+    },
+    {
+      "text": "寂寞",
+      "start": 7.029416,
+      "end": 7.514707,
+      "start_char": 21,
+      "end_char": 23
+    },
+    {
+      "text": "无",
+      "start": 7.544125,
+      "end": 7.720583,
+      "start_char": 23,
+      "end_char": 24
+    },
+    {
+      "text": "行路",
+      "start": 7.720583,
+      "end": 8.323541,
+      "start_char": 24,
+      "end_char": 26
+    },
+    {
+      "text": "若",
+      "start": 8.985291,
+      "end": 9.205874,
+      "start_char": 28,
+      "end_char": 29
+    },
+    {
+      "text": "有人",
+      "start": 9.205875,
+      "end": 9.573541,
+      "start_char": 29,
+      "end_char": 31
+    },
+    {
+      "text": "知",
+      "start": 9.602958,
+      "end": 9.749999,
+      "start_char": 31,
+      "end_char": 32
+    },
+    {
+      "text": "春",
+      "start": 9.75,
+      "end": 10.0,
+      "start_char": 32,
+      "end_char": 33
+    },
+    {
+      "text": "去处",
+      "start": 10.014708,
+      "end": 10.632374,
+      "start_char": 33,
+      "end_char": 35
+    },
+    {
+      "text": "唤取",
+      "start": 10.926458,
+      "end": 11.411749,
+      "start_char": 36,
+      "end_char": 38
+    },
+    {
+      "text": "归来",
+      "start": 11.441166,
+      "end": 11.779416,
+      "start_char": 38,
+      "end_char": 40
+    },
+    {
+      "text": "同",
+      "start": 11.794125,
+      "end": 12.117666,
+      "start_char": 40,
+      "end_char": 41
+    },
+    {
+      "text": "住",
+      "start": 12.117666,
+      "end": 12.441207,
+      "start_char": 41,
+      "end_char": 42
+    },
+    {
+      "text": "春",
+      "start": 13.102958,
+      "end": 13.411749,
+      "start_char": 44,
+      "end_char": 45
+    },
+    {
+      "text": "无",
+      "start": 13.41175,
+      "end": 13.588208,
+      "start_char": 45,
+      "end_char": 46
+    },
+    {
+      "text": "踪迹",
+      "start": 13.58825,
+      "end": 14.014708,
+      "start_char": 46,
+      "end_char": 48
+    },
+    {
+      "text": "谁知",
+      "start": 14.029416,
+      "end": 14.705874,
+      "start_char": 48,
+      "end_char": 50
+    },
+    {
+      "text": "除非",
+      "start": 15.382333,
+      "end": 15.911749,
+      "start_char": 51,
+      "end_char": 53
+    },
+    {
+      "text": "问取",
+      "start": 15.941166,
+      "end": 16.308832,
+      "start_char": 53,
+      "end_char": 55
+    },
+    {
+      "text": "黄鹂",
+      "start": 16.323541,
+      "end": 16.985291,
+      "start_char": 55,
+      "end_char": 57
+    },
+    {
+      "text": "百啭",
+      "start": 17.647041,
+      "end": 18.132332,
+      "start_char": 59,
+      "end_char": 61
+    },
+    {
+      "text": "无人",
+      "start": 18.16175,
+      "end": 18.485291,
+      "start_char": 61,
+      "end_char": 63
+    },
+    {
+      "text": "能",
+      "start": 18.5,
+      "end": 18.75,
+      "start_char": 63,
+      "end_char": 64
+    },
+    {
+      "text": "解",
+      "start": 18.75,
+      "end": 19.058833,
+      "start_char": 64,
+      "end_char": 65
+    },
+    {
+      "text": "因",
+      "start": 19.367666,
+      "end": 19.617666,
+      "start_char": 66,
+      "end_char": 67
+    },
+    {
+      "text": "风",
+      "start": 19.617666,
+      "end": 19.867666,
+      "start_char": 67,
+      "end_char": 68
+    },
+    {
+      "text": "飞过",
+      "start": 19.897041,
+      "end": 20.235291,
+      "start_char": 68,
+      "end_char": 70
+    },
+    {
+      "text": "蔷薇",
+      "start": 20.25,
+      "end": 20.882333,
+      "start_char": 70,
+      "end_char": 72
+    }
+  ]
+}

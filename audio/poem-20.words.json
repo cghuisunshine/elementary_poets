@@ -1,0 +1,100 @@
+{
+  "text": "敕勒歌\n北朝，北朝民歌\n敕勒川，阴山下，\n天似穹庐，笼盖四野。\n天苍苍，野茫茫，\n风吹草低见牛羊。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-20.mp3",
+  "signature": "5f4a64837912d0611560a2e70cdf9008a91b60340a805d041bffe6a509a7ed27",
+  "words": [
+    {
+      "text": "敕勒歌",
+      "start": 0.108833,
+      "end": 0.991166,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "北朝",
+      "start": 1.647041,
+      "end": 2.294082,
+      "start_char": 4,
+      "end_char": 6
+    },
+    {
+      "text": "北朝民歌",
+      "start": 2.544125,
+      "end": 3.544125,
+      "start_char": 7,
+      "end_char": 11
+    },
+    {
+      "text": "敕勒川",
+      "start": 4.205875,
+      "end": 5.058833,
+      "start_char": 12,
+      "end_char": 15
+    },
+    {
+      "text": "阴山",
+      "start": 5.33825,
+      "end": 5.808833,
+      "start_char": 16,
+      "end_char": 18
+    },
+    {
+      "text": "下",
+      "start": 5.808833,
+      "end": 6.147083,
+      "start_char": 18,
+      "end_char": 19
+    },
+    {
+      "text": "天似穹庐",
+      "start": 6.808833,
+      "end": 7.985291,
+      "start_char": 21,
+      "end_char": 25
+    },
+    {
+      "text": "笼盖四野",
+      "start": 8.264708,
+      "end": 9.367666,
+      "start_char": 26,
+      "end_char": 30
+    },
+    {
+      "text": "天",
+      "start": 10.029416,
+      "end": 10.308832,
+      "start_char": 32,
+      "end_char": 33
+    },
+    {
+      "text": "苍苍",
+      "start": 10.308833,
+      "end": 10.911791,
+      "start_char": 33,
+      "end_char": 35
+    },
+    {
+      "text": "野",
+      "start": 11.176458,
+      "end": 11.352916,
+      "start_char": 36,
+      "end_char": 37
+    },
+    {
+      "text": "茫茫",
+      "start": 11.352958,
+      "end": 11.970624,
+      "start_char": 37,
+      "end_char": 39
+    },
+    {
+      "text": "风吹草低见牛羊",
+      "start": 12.632333,
+      "end": 14.529374,
+      "start_char": 41,
+      "end_char": 48
+    }
+  ]
+}

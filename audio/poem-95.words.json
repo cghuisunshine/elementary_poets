@@ -1,0 +1,58 @@
+{
+  "text": "书湖阴先生壁\n宋，王安石\n茅檐长扫净无苔，花木成畦手自栽。\n一水护田将绿绕，两山排闼送青来。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-95.mp3",
+  "signature": "7a3790e989db4b55c5b02b52c809011d3f2ae1d9627aeffa7067d60fbfaadf72",
+  "words": [
+    {
+      "text": "书湖阴先生壁",
+      "start": 0.108833,
+      "end": 1.785291,
+      "start_char": 0,
+      "end_char": 6
+    },
+    {
+      "text": "宋",
+      "start": 2.455875,
+      "end": 2.882333,
+      "start_char": 7,
+      "end_char": 8
+    },
+    {
+      "text": "王安石",
+      "start": 3.205875,
+      "end": 4.088208,
+      "start_char": 9,
+      "end_char": 12
+    },
+    {
+      "text": "茅檐长扫净无苔",
+      "start": 4.75,
+      "end": 6.602958,
+      "start_char": 13,
+      "end_char": 20
+    },
+    {
+      "text": "花木成畦手自栽",
+      "start": 6.926458,
+      "end": 8.632333,
+      "start_char": 21,
+      "end_char": 28
+    },
+    {
+      "text": "一水护田将绿绕",
+      "start": 9.308833,
+      "end": 10.985291,
+      "start_char": 30,
+      "end_char": 37
+    },
+    {
+      "text": "两山排闼送青来",
+      "start": 11.33825,
+      "end": 13.220583,
+      "start_char": 38,
+      "end_char": 45
+    }
+  ]
+}

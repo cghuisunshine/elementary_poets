@@ -1,0 +1,65 @@
+{
+  "text": "绝句（迟日江山丽）\n唐，杜甫\n迟日江山丽，春风花草香。\n泥融飞燕子，沙暖睡鸳鸯。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-37.mp3",
+  "signature": "0f3f2189c41f2d7aa1251c17b65919e2d8fa9e7db734e57a68b9c6b24e848cee",
+  "words": [
+    {
+      "text": "绝句",
+      "start": 0.108833,
+      "end": 0.799999,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "迟日江山丽",
+      "start": 0.917666,
+      "end": 2.241207,
+      "start_char": 3,
+      "end_char": 8
+    },
+    {
+      "text": "唐",
+      "start": 2.926458,
+      "end": 3.323499,
+      "start_char": 10,
+      "end_char": 11
+    },
+    {
+      "text": "杜甫",
+      "start": 3.617666,
+      "end": 4.294124,
+      "start_char": 12,
+      "end_char": 14
+    },
+    {
+      "text": "迟日江山丽",
+      "start": 4.955875,
+      "end": 6.279416,
+      "start_char": 15,
+      "end_char": 20
+    },
+    {
+      "text": "春风花草香",
+      "start": 6.529416,
+      "end": 7.955874,
+      "start_char": 21,
+      "end_char": 26
+    },
+    {
+      "text": "泥融飞燕子",
+      "start": 8.632333,
+      "end": 9.852916,
+      "start_char": 28,
+      "end_char": 33
+    },
+    {
+      "text": "沙暖睡鸳鸯",
+      "start": 10.16175,
+      "end": 11.5,
+      "start_char": 34,
+      "end_char": 39
+    }
+  ]
+}

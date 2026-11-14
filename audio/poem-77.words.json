@@ -1,0 +1,170 @@
+{
+  "text": "稚子弄冰\n宋，杨万里\n稚子金盆脱晓冰，彩丝穿取当银钲。\n敲成玉磬穿林响，忽作玻璃碎地声。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-77.mp3",
+  "signature": "70386ce25f89811b73591d5d17a95ad5971f1b7c5427e0baf9a0c5d955ab7a6f",
+  "words": [
+    {
+      "text": "稚子",
+      "start": 0.108833,
+      "end": 0.579416,
+      "start_char": 0,
+      "end_char": 2
+    },
+    {
+      "text": "弄冰",
+      "start": 0.594125,
+      "end": 1.167666,
+      "start_char": 2,
+      "end_char": 4
+    },
+    {
+      "text": "宋",
+      "start": 1.852958,
+      "end": 2.308833,
+      "start_char": 5,
+      "end_char": 6
+    },
+    {
+      "text": "杨万里",
+      "start": 2.602958,
+      "end": 3.411791,
+      "start_char": 7,
+      "end_char": 10
+    },
+    {
+      "text": "稚子",
+      "start": 4.08825,
+      "end": 4.514708,
+      "start_char": 11,
+      "end_char": 13
+    },
+    {
+      "text": "金盆",
+      "start": 4.529416,
+      "end": 4.999999,
+      "start_char": 13,
+      "end_char": 15
+    },
+    {
+      "text": "脱晓冰",
+      "start": 5.029416,
+      "end": 5.779416,
+      "start_char": 15,
+      "end_char": 18
+    },
+    {
+      "text": "彩丝",
+      "start": 6.08825,
+      "end": 6.632375,
+      "start_char": 19,
+      "end_char": 21
+    },
+    {
+      "text": "穿",
+      "start": 6.647041,
+      "end": 6.955874,
+      "start_char": 21,
+      "end_char": 22
+    },
+    {
+      "text": "取当",
+      "start": 6.955875,
+      "end": 7.338208,
+      "start_char": 22,
+      "end_char": 24
+    },
+    {
+      "text": "银钲",
+      "start": 7.33825,
+      "end": 7.911791,
+      "start_char": 24,
+      "end_char": 26
+    },
+    {
+      "text": "敲成",
+      "start": 8.573541,
+      "end": 9.117666,
+      "start_char": 28,
+      "end_char": 30
+    },
+    {
+      "text": "玉",
+      "start": 9.117666,
+      "end": 9.397082,
+      "start_char": 30,
+      "end_char": 31
+    },
+    {
+      "text": "磬",
+      "start": 9.41175,
+      "end": 9.66175,
+      "start_char": 31,
+      "end_char": 32
+    },
+    {
+      "text": "穿",
+      "start": 9.66175,
+      "end": 9.897041,
+      "start_char": 32,
+      "end_char": 33
+    },
+    {
+      "text": "林",
+      "start": 9.91175,
+      "end": 10.147041,
+      "start_char": 33,
+      "end_char": 34
+    },
+    {
+      "text": "响",
+      "start": 10.147041,
+      "end": 10.529374,
+      "start_char": 34,
+      "end_char": 35
+    },
+    {
+      "text": "忽",
+      "start": 10.83825,
+      "end": 11.029416,
+      "start_char": 36,
+      "end_char": 37
+    },
+    {
+      "text": "作",
+      "start": 11.029416,
+      "end": 11.235291,
+      "start_char": 37,
+      "end_char": 38
+    },
+    {
+      "text": "玻璃",
+      "start": 11.264708,
+      "end": 11.632333,
+      "start_char": 38,
+      "end_char": 40
+    },
+    {
+      "text": "碎",
+      "start": 11.632333,
+      "end": 11.882333,
+      "start_char": 40,
+      "end_char": 41
+    },
+    {
+      "text": "地",
+      "start": 11.882333,
+      "end": 11.999999,
+      "start_char": 41,
+      "end_char": 42
+    },
+    {
+      "text": "声",
+      "start": 12.0,
+      "end": 12.33825,
+      "start_char": 42,
+      "end_char": 43
+    }
+  ]
+}

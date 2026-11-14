@@ -1,0 +1,58 @@
+{
+  "text": "九月九日忆山东兄弟\n唐，王维\n独在异乡为异客，每逢佳节倍思亲。\n遥知兄弟登高处，遍插茱萸少一人。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-43.mp3",
+  "signature": "2332992a6e9941924aba625d5a1c2c2e73d7d3beaea30dfcad616739aa9a7aab",
+  "words": [
+    {
+      "text": "九月九日忆山东兄弟",
+      "start": 0.108833,
+      "end": 2.461791,
+      "start_char": 0,
+      "end_char": 9
+    },
+    {
+      "text": "唐",
+      "start": 3.147041,
+      "end": 3.558791,
+      "start_char": 10,
+      "end_char": 11
+    },
+    {
+      "text": "王维",
+      "start": 3.867666,
+      "end": 4.426499,
+      "start_char": 12,
+      "end_char": 14
+    },
+    {
+      "text": "独在异乡为异客",
+      "start": 5.08825,
+      "end": 6.764708,
+      "start_char": 15,
+      "end_char": 22
+    },
+    {
+      "text": "每逢佳节倍思亲",
+      "start": 7.102958,
+      "end": 8.911791,
+      "start_char": 23,
+      "end_char": 30
+    },
+    {
+      "text": "遥知兄弟登高处",
+      "start": 9.573541,
+      "end": 11.308832,
+      "start_char": 32,
+      "end_char": 39
+    },
+    {
+      "text": "遍插茱萸少一人",
+      "start": 11.602958,
+      "end": 13.367666,
+      "start_char": 40,
+      "end_char": 47
+    }
+  ]
+}

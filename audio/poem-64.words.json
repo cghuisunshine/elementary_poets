@@ -1,0 +1,37 @@
+{
+  "text": "卜算子·咏梅\n现代，毛泽东",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "audio": "audio/poem-64.mp3",
+  "signature": "eb4a237b9322e4f0b9cb68bd17236e1fcac8091655f600e9d0f1543348f24de6",
+  "words": [
+    {
+      "text": "卜算子",
+      "start": 0.108833,
+      "end": 0.961791,
+      "start_char": 0,
+      "end_char": 3
+    },
+    {
+      "text": "咏梅",
+      "start": 1.255875,
+      "end": 1.844125,
+      "start_char": 4,
+      "end_char": 6
+    },
+    {
+      "text": "现代",
+      "start": 2.514708,
+      "end": 3.176458,
+      "start_char": 7,
+      "end_char": 9
+    },
+    {
+      "text": "毛泽东",
+      "start": 3.5,
+      "end": 4.220583,
+      "start_char": 10,
+      "end_char": 13
+    }
+  ]
+}
