@@ -128,6 +128,12 @@ const poemImages = {
   width: 1254,
   height: 1254
  },
+ '静夜思': {
+  src: 'jingyesi.png',
+  alt: '《静夜思》四格诗意图：床前洒满月光，地面如霜，李白举头望月，低头思念故乡。',
+  width: 1254,
+  height: 1254
+ },
  '寻隐者不遇': {
   src: 'xunyinzhebuyu.png',
   alt: '《寻隐者不遇》诗意图：诗人在松下询问童子，童子指向云雾深处的山中，师父正在采药。',
